@@ -16,6 +16,7 @@ Dynamic rebalancing core (main objective)
 
 
 
+
 ## Done
 
 - [x] funds-hub-workflow-checklist-v0 :: Funds hub checklist v0：DAA Workflow 面板（Checklist + Jump actions） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/102)
@@ -73,6 +74,10 @@ Dynamic rebalancing core (main objective)
 - [x] funds-hub-rebalance-preview :: Funds hub: show per-fund pre/post target weights for dynamic rebalancing preview (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/127)
 
 - [x] funds-hub-rebalance-drift-badges :: Funds hub: add drift badges + quick filters (over/under target) for rebalancing (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/128)
+
+- [x] funds-hub-rebalance-live-drift-alerts-v0 :: Funds hub: show live drift alerts during dynamic rebalance run (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/129)
+
+- [x] funds-hub-rebalance-run-retry-ux-v0 :: Funds hub: add retry UX for failed dynamic rebalance run (keep context) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/130)
 ## Log
 
 - 2026-02-12 11:11 activated funds-hub-integrate-steps-v0
@@ -195,3 +200,15 @@ Dynamic rebalancing core (main objective)
 - 2026-02-13 00:40 activated funds-hub-rebalance-drift-badges
 
 - 2026-02-13 00:50 DONE: funds-hub-rebalance-drift-badges merged → https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/128
+
+- 2026-02-13 02:12 autofill added funds-hub-rebalance-live-drift-alerts-v0
+
+- 2026-02-13 02:12 autofill added funds-hub-rebalance-run-retry-ux-v0
+
+- 2026-02-13 02:15 activated funds-hub-rebalance-live-drift-alerts-v0
+
+- 2026-02-13 02:27 DONE: funds-hub-rebalance-live-drift-alerts-v0 :: merged PR #129 (live drift alerts during paper rebalance run). currentMilestoneKey cleared (no next queued).
+
+- 2026-02-13 02:30 activated funds-hub-rebalance-run-retry-ux-v0
+
+- 2026-02-13 02:41 DONE: funds-hub-rebalance-run-retry-ux-v0 :: Funds hub: add retry UX for failed dynamic rebalance run (keep context) :: merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/130
