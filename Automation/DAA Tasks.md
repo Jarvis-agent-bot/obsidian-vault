@@ -15,6 +15,7 @@ Dynamic rebalancing core (main objective)
 
 
 
+
 ## Done
 
 - [x] funds-hub-workflow-checklist-v0 :: Funds hub checklist v0：DAA Workflow 面板（Checklist + Jump actions） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/102)
@@ -68,6 +69,10 @@ Dynamic rebalancing core (main objective)
 - [x] funds-hub-rebalance-whatif-preview-v0 :: Funds hub: rebalance what-if preview (fees/slippage + expected drift) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/125)
 
 - [x] funds-hub-rebalance-e2e-smoke-v0 :: Funds hub: one-click rebalance E2E smoke (generate orders, review, export) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/126)
+
+- [x] funds-hub-rebalance-preview :: Funds hub: show per-fund pre/post target weights for dynamic rebalancing preview (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/127)
+
+- [x] funds-hub-rebalance-drift-badges :: Funds hub: add drift badges + quick filters (over/under target) for rebalancing (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/128)
 ## Log
 
 - 2026-02-12 11:11 activated funds-hub-integrate-steps-v0
@@ -178,3 +183,15 @@ Dynamic rebalancing core (main objective)
 - 2026-02-12 22:40 activated funds-hub-rebalance-e2e-smoke-v0
 
 - 2026-02-12 22:49 DONE: funds-hub-rebalance-e2e-smoke-v0 merged (#126) https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/126
+
+- 2026-02-13 00:14 autofill added funds-hub-rebalance-preview
+
+- 2026-02-13 00:14 autofill added funds-hub-rebalance-drift-badges
+
+- 2026-02-13 00:20 activated funds-hub-rebalance-preview
+
+- 2026-02-13 00:34 DONE: funds-hub-rebalance-preview :: merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/127
+
+- 2026-02-13 00:40 activated funds-hub-rebalance-drift-badges
+
+- 2026-02-13 00:50 DONE: funds-hub-rebalance-drift-badges merged → https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/128
