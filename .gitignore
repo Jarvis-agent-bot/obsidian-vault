@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Obsidian device-specific UI state (avoid merge conflicts)
+.obsidian/workspace*
+
+# Optional caches
+.obsidian/cache/
+
+# Trash
+.trash/
