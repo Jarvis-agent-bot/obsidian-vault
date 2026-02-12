@@ -1,7 +1,7 @@
 # DAA Tasks
 
 ## Now
-- [ ] (auto) NOW: funds-hub-portfolio-editor-v0 :: Funds hub portfolio editor v0：编辑 cash/positions（schemaVersioned），并能一键 copy JSON
+- [ ] (auto) NOW: funds-hub-price-input-v0 :: Funds hub price input v0：为 symbols 提供手动输入/粘贴价格快照，并持久化
 
 ## Backlog
 
@@ -12,7 +12,6 @@ Funds hub epic (human note): make `/daa/market/funds` the primary hub and expose
 
 Dynamic rebalancing core (main objective)
 
-- [ ] funds-hub-portfolio-editor-v0 :: Funds hub portfolio editor v0：编辑 cash/positions（schemaVersioned），并能一键 copy JSON
 - [ ] funds-hub-price-input-v0 :: Funds hub price input v0：为 symbols 提供手动输入/粘贴价格快照，并持久化
 - [ ] funds-hub-rebalance-run-paper-v0 :: Funds hub rebalance run (paper) v0：trigger policy→orders→record execution log→更新 portfolioState.lastRebalance
 
@@ -40,6 +39,8 @@ Dynamic rebalancing core (main objective)
 - [x] observability-rebalance-log-v0 :: 可观测性 v0：rebalancing log + 导出 bundle（用于复盘/追溯） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/110)
 
 - [x] backtest-drift-sim-v0 :: 漂移+再平衡回测 v0：给定历史价格→模拟执行→输出指标 (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/111)
+
+- [x] funds-hub-portfolio-editor-v0 :: Funds hub portfolio editor v0：编辑 cash/positions（schemaVersioned），并能一键 copy JSON (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/112)
 ## Log
 
 - 2026-02-12 11:11 activated funds-hub-integrate-steps-v0
@@ -88,3 +89,7 @@ Dynamic rebalancing core (main objective)
 - 2026-02-12 16:02 DONE: backtest-drift-sim-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/111
 
 - 2026-02-12 16:23 activated funds-hub-portfolio-editor-v0
+
+- 2026-02-12 16:36 DONE: funds-hub-portfolio-editor-v0 merged → https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/112
+
+- 2026-02-12 16:40 activated funds-hub-price-input-v0
