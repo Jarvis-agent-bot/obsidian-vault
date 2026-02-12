@@ -1,7 +1,7 @@
 # DAA Tasks
 
 ## Now
-- [ ] (auto) Nothing active
+- [ ] (auto) NOW: funds-hub-shortest-path-v1 :: Funds hub 最短路径 v1：默认展开 DAA Workflow；顶部给出“下一步”+一键跳转；错误提示一致
 
 ## Backlog
 
@@ -12,6 +12,12 @@ Funds hub epic (human note): make `/daa/market/funds` the primary hub and expose
 
 Dynamic rebalancing core (main objective)
 
+- [ ] funds-hub-shortest-path-v1 :: Funds hub 最短路径 v1：默认展开 DAA Workflow；顶部给出“下一步”+一键跳转；错误提示一致
+- [ ] funds-hub-sample-scenario-v0 :: Funds hub demo v0：一键填充 sample portfolio/weights/prices（用于演示+回归）
+- [ ] rebalance-orders-review-v0 :: Orders review v0：把 orders 展成表格（side/notional/reason）+ 风险提示（cash不足/minTrade）
+- [ ] rebalance-report-export-v0 :: Rebalance report export v0：导出最近一次 run 的 request/response/logs 为可下载 JSON（带 schemaVersion）
+- [ ] backtest-policy-sweep-v0 :: Policy sweep v0：对 threshold/minTrade/cooldown 做参数扫描，输出指标对比（用于调参）
+- [ ] execution-adapter-interface-v0 :: Execution adapter interface v0：抽象 paper vs real 执行接口；paper 作为默认实现
 
 
 ## Done
@@ -125,3 +131,5 @@ Dynamic rebalancing core (main objective)
 - 2026-02-12 18:40 activated backtest-drift-ui-v0
 
 - 2026-02-12 18:51 DONE: backtest-drift-ui-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/118
+
+- 2026-02-12 20:10 activated funds-hub-shortest-path-v1
