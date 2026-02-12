@@ -1,7 +1,7 @@
 # DAA Tasks
 
 ## Now
-- [ ] (auto) NOW: funds-hub-price-input-v0 :: Funds hub price input v0：为 symbols 提供手动输入/粘贴价格快照，并持久化
+- [ ] (auto) NOW: funds-hub-target-weights-editor-v0 :: Funds hub 目标权重编辑 v0：手工编辑/粘贴 targetWeights 并持久化；paper rebalance 优先使用该输入
 
 ## Backlog
 
@@ -12,8 +12,10 @@ Funds hub epic (human note): make `/daa/market/funds` the primary hub and expose
 
 Dynamic rebalancing core (main objective)
 
-- [ ] funds-hub-price-input-v0 :: Funds hub price input v0：为 symbols 提供手动输入/粘贴价格快照，并持久化
-- [ ] funds-hub-rebalance-run-paper-v0 :: Funds hub rebalance run (paper) v0：trigger policy→orders→record execution log→更新 portfolioState.lastRebalance
+- [ ] funds-hub-target-weights-editor-v0 :: Funds hub 目标权重编辑 v0：手工编辑/粘贴 targetWeights 并持久化；paper rebalance 优先使用该输入
+- [ ] funds-hub-rebalance-policy-editor-v0 :: Funds hub policy 编辑 v0：阈值/最小交易额/冷却时间（防抖）可配置，并写入 core request
+- [ ] funds-hub-rebalance-log-view-v0 :: Funds hub log view v0：展示最近 N 次 paper rebalance（trigger/weights/orders）并支持 copy/export
+- [ ] backtest-drift-ui-v0 :: 回测 UI v0：粘贴价格序列/价格快照 → drift+rebalance simulator → 输出指标摘要（用于复盘/调参）
 
 
 ## Done
@@ -41,6 +43,10 @@ Dynamic rebalancing core (main objective)
 - [x] backtest-drift-sim-v0 :: 漂移+再平衡回测 v0：给定历史价格→模拟执行→输出指标 (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/111)
 
 - [x] funds-hub-portfolio-editor-v0 :: Funds hub portfolio editor v0：编辑 cash/positions（schemaVersioned），并能一键 copy JSON (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/112)
+
+- [x] funds-hub-price-input-v0 :: Funds hub price input v0：为 symbols 提供手动输入/粘贴价格快照，并持久化 (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/113)
+
+- [x] funds-hub-rebalance-run-paper-v0 :: Funds hub rebalance run (paper) v0：trigger policy→orders→record execution log→更新 portfolioState.lastRebalance (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/114)
 ## Log
 
 - 2026-02-12 11:11 activated funds-hub-integrate-steps-v0
@@ -93,3 +99,11 @@ Dynamic rebalancing core (main objective)
 - 2026-02-12 16:36 DONE: funds-hub-portfolio-editor-v0 merged → https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/112
 
 - 2026-02-12 16:40 activated funds-hub-price-input-v0
+
+- 2026-02-12 16:51 DONE: funds-hub-price-input-v0 merged via https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/113
+
+- 2026-02-12 16:55 activated funds-hub-rebalance-run-paper-v0
+
+- 2026-02-12 17:08 DONE funds-hub-rebalance-run-paper-v0: merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/114 (Market/Funds DAA Workflow → Rebalance v0 adds paper run button: core request→core endpoint→paper execution log + portfolioState.lastRebalance).
+
+- 2026-02-12 17:56 activated funds-hub-target-weights-editor-v0
