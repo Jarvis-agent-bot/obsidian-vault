@@ -18,6 +18,7 @@ Dynamic rebalancing core (main objective)
 
 
 
+
 ## Done
 
 - [x] funds-hub-workflow-checklist-v0 :: Funds hub checklist v0：DAA Workflow 面板（Checklist + Jump actions） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/102)
@@ -83,6 +84,10 @@ Dynamic rebalancing core (main objective)
 - [x] funds-hub-rebalance-run-summary-v0 :: Funds Hub: add post-run summary banner (filled vs target + next-step CTA) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/131)
 
 - [x] funds-hub-rebalance-preview-turnover-v0 :: Funds Hub: show estimated turnover + fees/slippage in rebalance preview (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/132)
+
+- [x] funds-hub-rebalance-run-cancel-ux-v0 :: Funds Hub: add cancel/abort flow for an in-progress rebalance run (UI + API) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/133)
+
+- [x] funds-hub-rebalance-postrun-healthcheck-v0 :: Funds Hub: show post-run healthcheck (expected vs actual drift/turnover) with clear pass/fail (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/134)
 ## Log
 
 - 2026-02-12 11:11 activated funds-hub-integrate-steps-v0
@@ -229,3 +234,15 @@ Dynamic rebalancing core (main objective)
 - 2026-02-13 04:30 activated funds-hub-rebalance-preview-turnover-v0
 
 - 2026-02-13 04:39 DONE: funds-hub-rebalance-preview-turnover-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/132
+
+- 2026-02-13 06:12 autofill added funds-hub-rebalance-run-cancel-ux-v0
+
+- 2026-02-13 06:12 autofill added funds-hub-rebalance-postrun-healthcheck-v0
+
+- 2026-02-13 06:15 activated funds-hub-rebalance-run-cancel-ux-v0
+
+- 2026-02-13 06:28 DONE: funds-hub-rebalance-run-cancel-ux-v0 :: merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/133
+
+- 2026-02-13 06:30 activated funds-hub-rebalance-postrun-healthcheck-v0
+
+- 2026-02-13 06:44 DONE: funds-hub-rebalance-postrun-healthcheck-v0 :: merged PR #134 (post-run healthcheck: expected vs actual drift/turnover)
