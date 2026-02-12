@@ -17,6 +17,7 @@ Dynamic rebalancing core (main objective)
 
 
 
+
 ## Done
 
 - [x] funds-hub-workflow-checklist-v0 :: Funds hub checklist v0：DAA Workflow 面板（Checklist + Jump actions） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/102)
@@ -78,6 +79,10 @@ Dynamic rebalancing core (main objective)
 - [x] funds-hub-rebalance-live-drift-alerts-v0 :: Funds hub: show live drift alerts during dynamic rebalance run (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/129)
 
 - [x] funds-hub-rebalance-run-retry-ux-v0 :: Funds hub: add retry UX for failed dynamic rebalance run (keep context) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/130)
+
+- [x] funds-hub-rebalance-run-summary-v0 :: Funds Hub: add post-run summary banner (filled vs target + next-step CTA) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/131)
+
+- [x] funds-hub-rebalance-preview-turnover-v0 :: Funds Hub: show estimated turnover + fees/slippage in rebalance preview (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/132)
 ## Log
 
 - 2026-02-12 11:11 activated funds-hub-integrate-steps-v0
@@ -212,3 +217,15 @@ Dynamic rebalancing core (main objective)
 - 2026-02-13 02:30 activated funds-hub-rebalance-run-retry-ux-v0
 
 - 2026-02-13 02:41 DONE: funds-hub-rebalance-run-retry-ux-v0 :: Funds hub: add retry UX for failed dynamic rebalance run (keep context) :: merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/130
+
+- 2026-02-13 04:12 autofill added funds-hub-rebalance-run-summary-v0
+
+- 2026-02-13 04:12 autofill added funds-hub-rebalance-preview-turnover-v0
+
+- 2026-02-13 04:15 activated funds-hub-rebalance-run-summary-v0
+
+- 2026-02-13 04:28 DONE funds-hub-rebalance-run-summary-v0: merged PR #131 (post-run summary banner). SoT advanced; no next milestone queued.
+
+- 2026-02-13 04:30 activated funds-hub-rebalance-preview-turnover-v0
+
+- 2026-02-13 04:39 DONE: funds-hub-rebalance-preview-turnover-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/132
