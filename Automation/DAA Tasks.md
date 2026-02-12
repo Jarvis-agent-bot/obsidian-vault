@@ -1,7 +1,7 @@
 # DAA Tasks
 
 ## Now
-- [ ] (auto) NOW: funds-hub-shortest-path-v1 :: Funds hub 最短路径 v1：默认展开 DAA Workflow；顶部给出“下一步”+一键跳转；错误提示一致
+- [ ] (auto) Nothing active
 
 ## Backlog
 
@@ -12,12 +12,7 @@ Funds hub epic (human note): make `/daa/market/funds` the primary hub and expose
 
 Dynamic rebalancing core (main objective)
 
-- [ ] funds-hub-shortest-path-v1 :: Funds hub 最短路径 v1：默认展开 DAA Workflow；顶部给出“下一步”+一键跳转；错误提示一致
-- [ ] funds-hub-sample-scenario-v0 :: Funds hub demo v0：一键填充 sample portfolio/weights/prices（用于演示+回归）
-- [ ] rebalance-orders-review-v0 :: Orders review v0：把 orders 展成表格（side/notional/reason）+ 风险提示（cash不足/minTrade）
-- [ ] rebalance-report-export-v0 :: Rebalance report export v0：导出最近一次 run 的 request/response/logs 为可下载 JSON（带 schemaVersion）
-- [ ] backtest-policy-sweep-v0 :: Policy sweep v0：对 threshold/minTrade/cooldown 做参数扫描，输出指标对比（用于调参）
-- [ ] execution-adapter-interface-v0 :: Execution adapter interface v0：抽象 paper vs real 执行接口；paper 作为默认实现
+
 
 
 ## Done
@@ -57,6 +52,22 @@ Dynamic rebalancing core (main objective)
 - [x] funds-hub-rebalance-log-view-v0 :: Funds hub log view v0：展示最近 N 次 paper rebalance（trigger/weights/orders）并支持 copy/export (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/117)
 
 - [x] backtest-drift-ui-v0 :: 回测 UI v0：粘贴价格序列/价格快照 → drift+rebalance simulator → 输出指标摘要（用于复盘/调参） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/118)
+
+- [x] funds-hub-shortest-path-v1 :: Funds hub 最短路径 v1：默认展开 DAA Workflow；顶部给出“下一步”+一键跳转；错误提示一致 (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/119)
+
+- [x] funds-hub-sample-scenario-v0 :: Funds hub demo v0：一键填充 sample portfolio/weights/prices（用于演示+回归） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/120)
+
+- [x] rebalance-orders-review-v0 :: Orders review v0：把 orders 展成表格（side/notional/reason）+ 风险提示（cash不足/minTrade） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/121)
+
+- [x] rebalance-report-export-v0 :: Rebalance report export v0：导出最近一次 run 的 request/response/logs 为可下载 JSON（带 schemaVersion） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/122)
+
+- [x] backtest-policy-sweep-v0 :: Policy sweep v0：对 threshold/minTrade/cooldown 做参数扫描，输出指标对比（用于调参） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/123)
+
+- [x] execution-adapter-interface-v0 :: Execution adapter interface v0：抽象 paper vs real 执行接口；paper 作为默认实现 (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/124)
+
+- [x] funds-hub-rebalance-whatif-preview-v0 :: Funds hub: rebalance what-if preview (fees/slippage + expected drift) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/125)
+
+- [x] funds-hub-rebalance-e2e-smoke-v0 :: Funds hub: one-click rebalance E2E smoke (generate orders, review, export) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/126)
 ## Log
 
 - 2026-02-12 11:11 activated funds-hub-integrate-steps-v0
@@ -133,3 +144,37 @@ Dynamic rebalancing core (main objective)
 - 2026-02-12 18:51 DONE: backtest-drift-ui-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/118
 
 - 2026-02-12 20:10 activated funds-hub-shortest-path-v1
+
+- 2026-02-12 20:25 DONE: funds-hub-shortest-path-v1 merged: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/119
+
+- 2026-02-12 20:30 activated funds-hub-sample-scenario-v0
+
+- 2026-02-12 20:42 DONE: funds-hub-sample-scenario-v0 merged via https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/120
+
+- 2026-02-12 20:45 activated rebalance-orders-review-v0
+
+- 2026-02-12 20:57 DONE: rebalance-orders-review-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/121
+
+- 2026-02-12 21:00 activated rebalance-report-export-v0
+
+- 2026-02-12 21:13 DONE: rebalance-report-export-v0 -> merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/122
+
+- 2026-02-12 21:20 activated backtest-policy-sweep-v0
+
+- 2026-02-12 21:53 DONE: backtest-policy-sweep-v0 :: Policy sweep v0（threshold/minTrade/cooldown 参数扫描） merged: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/123
+
+- 2026-02-12 21:55 activated execution-adapter-interface-v0
+
+- 2026-02-12 22:07 DONE execution-adapter-interface-v0 -> merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/124
+
+- 2026-02-12 22:13 autofill added funds-hub-rebalance-whatif-preview-v0
+
+- 2026-02-12 22:13 autofill added funds-hub-rebalance-e2e-smoke-v0
+
+- 2026-02-12 22:15 activated funds-hub-rebalance-whatif-preview-v0
+
+- 2026-02-12 22:36 DONE: funds-hub-rebalance-whatif-preview-v0 merged -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/125
+
+- 2026-02-12 22:40 activated funds-hub-rebalance-e2e-smoke-v0
+
+- 2026-02-12 22:49 DONE: funds-hub-rebalance-e2e-smoke-v0 merged (#126) https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/126
