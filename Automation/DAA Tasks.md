@@ -1,7 +1,7 @@
 # DAA Tasks
 
 ## Now
-- [ ] (auto) NOW: funds-hub-target-weights-editor-v0 :: Funds hub 目标权重编辑 v0：手工编辑/粘贴 targetWeights 并持久化；paper rebalance 优先使用该输入
+- [ ] (auto) Nothing active
 
 ## Backlog
 
@@ -12,10 +12,6 @@ Funds hub epic (human note): make `/daa/market/funds` the primary hub and expose
 
 Dynamic rebalancing core (main objective)
 
-- [ ] funds-hub-target-weights-editor-v0 :: Funds hub 目标权重编辑 v0：手工编辑/粘贴 targetWeights 并持久化；paper rebalance 优先使用该输入
-- [ ] funds-hub-rebalance-policy-editor-v0 :: Funds hub policy 编辑 v0：阈值/最小交易额/冷却时间（防抖）可配置，并写入 core request
-- [ ] funds-hub-rebalance-log-view-v0 :: Funds hub log view v0：展示最近 N 次 paper rebalance（trigger/weights/orders）并支持 copy/export
-- [ ] backtest-drift-ui-v0 :: 回测 UI v0：粘贴价格序列/价格快照 → drift+rebalance simulator → 输出指标摘要（用于复盘/调参）
 
 
 ## Done
@@ -47,6 +43,14 @@ Dynamic rebalancing core (main objective)
 - [x] funds-hub-price-input-v0 :: Funds hub price input v0：为 symbols 提供手动输入/粘贴价格快照，并持久化 (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/113)
 
 - [x] funds-hub-rebalance-run-paper-v0 :: Funds hub rebalance run (paper) v0：trigger policy→orders→record execution log→更新 portfolioState.lastRebalance (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/114)
+
+- [x] funds-hub-target-weights-editor-v0 :: Funds hub 目标权重编辑 v0：手工编辑/粘贴 targetWeights 并持久化；paper rebalance 优先使用该输入 (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/115)
+
+- [x] funds-hub-rebalance-policy-editor-v0 :: Funds hub policy 编辑 v0：阈值/最小交易额/冷却时间（防抖）可配置，并写入 core request (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/116)
+
+- [x] funds-hub-rebalance-log-view-v0 :: Funds hub log view v0：展示最近 N 次 paper rebalance（trigger/weights/orders）并支持 copy/export (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/117)
+
+- [x] backtest-drift-ui-v0 :: 回测 UI v0：粘贴价格序列/价格快照 → drift+rebalance simulator → 输出指标摘要（用于复盘/调参） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/118)
 ## Log
 
 - 2026-02-12 11:11 activated funds-hub-integrate-steps-v0
@@ -107,3 +111,17 @@ Dynamic rebalancing core (main objective)
 - 2026-02-12 17:08 DONE funds-hub-rebalance-run-paper-v0: merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/114 (Market/Funds DAA Workflow → Rebalance v0 adds paper run button: core request→core endpoint→paper execution log + portfolioState.lastRebalance).
 
 - 2026-02-12 17:56 activated funds-hub-target-weights-editor-v0
+
+- 2026-02-12 18:08 DONE funds-hub-target-weights-editor-v0 merged: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/115
+
+- 2026-02-12 18:15 activated funds-hub-rebalance-policy-editor-v0
+
+- 2026-02-12 18:23 DONE: funds-hub-rebalance-policy-editor-v0 :: Funds hub policy 编辑 v0（threshold/minTradeNotional/cooldownSeconds 可配置并写入 core request） — merged PR #116 https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/116
+
+- 2026-02-12 18:25 activated funds-hub-rebalance-log-view-v0
+
+- 2026-02-12 18:34 DONE: funds-hub-rebalance-log-view-v0 merged → https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/117
+
+- 2026-02-12 18:40 activated backtest-drift-ui-v0
+
+- 2026-02-12 18:51 DONE: backtest-drift-ui-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/118
