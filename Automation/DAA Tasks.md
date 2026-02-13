@@ -1,60 +1,26 @@
 # DAA Tasks
 
 ## Now
-- [ ] (auto) NOW: <none> :: (idle)
+- [ ] (auto) Nothing active
 
 ## Backlog
+
 
 Planning note: priority = top to bottom. Keep each task ~1 PR.
 
 Funds hub epic (human note): make `/daa/market/funds` the primary hub and expose the shortest workflow path.
 
-
 Dynamic rebalancing core (main objective)
 
+Real data + UI refactor (top priority)
+
+
+
+Funds hub / dynamic rebalance (ops & E2E)
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-- [ ] funds-hub-rebalance-e2e-dynamic-rebalance-preview-timeline-v0 :: Funds Hub: Dynamic rebalance preview timeline (drift over time + trigger points)
-
-- [ ] funds-hub-rebalance-e2e-target-allocation-import-json-v0 :: Funds hub: import target allocation (JSON) into rebalance E2E
-
-- [ ] funds-hub-rebalance-e2e-rebalance-plan-compare-scenarios-v0 :: Funds hub: compare two rebalance plan scenarios (dynamic rebalancing)
 ## Done
 
 - [x] rebalance-orders-review-v0 :: Orders review v0：把 orders 展成表格（side/notional/reason）+ 风险提示（cash不足/minTrade） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/121)
@@ -115,7 +81,7 @@ Dynamic rebalancing core (main objective)
 
 - [x] funds-hub-rebalance-e2e-sell-blocker-warnings-v0 :: Funds hub: surface sell-blocker warnings in rebalance plan (E2E, v0) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/149)
 
-- [x] data-price-series-provider-yfinance-v0 :: Data layer: add yfinance price-series provider (US/HK ETFs/stocks) to replace mock (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/150)
+- [x] data-price-series-provider-yfinance-v0 :: Data layer: add yfinance price-series provider (US/HK ETFs/stocks) to replace mock (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/173)
 
 - [x] data-step1-backtest-default-real-provider-v0 :: Step1 backtest: default to real price-series provider (yfinance for non-crypto; OKX for crypto), keep mock only as debug option (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/151)
 
@@ -150,6 +116,36 @@ Dynamic rebalancing core (main objective)
 - [x] funds-hub-rebalance-e2e-rebalance-run-share-link-v0 :: Funds hub: add share/copy link for a rebalance run summary (E2E) so results can be reviewed across sessions/devices (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/166)
 
 - [x] funds-hub-rebalance-e2e-rebalance-plan-export-csv-v0 :: Funds Hub: Export rebalance plan to CSV (orders + allocations) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/167)
+
+- [x] funds-hub-rebalance-e2e-dynamic-rebalance-preview-timeline-v0 :: Funds Hub: Dynamic rebalance preview timeline (drift over time + trigger points) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/168)
+
+- [x] funds-hub-rebalance-e2e-target-allocation-import-json-v0 :: Funds hub: import target allocation (JSON) into rebalance E2E (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/169)
+
+- [x] funds-hub-rebalance-e2e-rebalance-plan-compare-scenarios-v0 :: Funds hub: compare two rebalance plan scenarios (dynamic rebalancing) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/170)
+
+- [x] funds-hub-rebalance-e2e-asset-blacklist-v0 :: Funds hub: rebalance E2E support asset blacklist (exclude holdings + targets) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/171)
+
+- [x] funds-hub-rebalance-e2e-sell-proceeds-routing-v0 :: Funds hub: rebalance E2E show & configure sell proceeds routing (cash vs target cash bucket) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/172)
+
+- [x] funds-hub-rebalance-e2e-missing-price-data-warnings-v0 :: Funds hub: rebalance E2E show missing price data warnings + per-asset fallback (last close) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/174)
+
+- [x] funds-hub-rebalance-e2e-cash-bucket-targets-v0 :: Funds hub: rebalance E2E add cash bucket targets (keep cash vs invest) with preview impact (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/175)
+
+- [x] funds-hub-dynamic-rebalance-schedule-ui-v0 :: Funds hub: add schedule UI for dynamic rebalancing runs (daily/weekly) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/176)
+
+- [x] funds-hub-dynamic-rebalance-guardrails-panel-v0 :: Funds hub: show dynamic rebalance guardrails panel (max turnover, min order, cash buffer) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/177)
+
+- [x] funds-hub-rebalance-e2e-preflight-checklist-v0 :: Funds hub: add preflight checklist before running dynamic rebalance (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/178)
+
+- [x] ui-market-data-client-v0 :: UI refactor: centralize market-data fetch (price series + market events) behind a client/hook layer (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/179)
+
+- [x] ui-step-pages-remove-sample-json-v0 :: UI cleanup: Step pages remove SAMPLE JSON blobs; keep demo via server-side fixtures/one-click ingest (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/180)
+
+- [x] funds-hub-rebalance-e2e-dynamic-rebalance-status-pill-v0 :: Funds hub: show dynamic rebalance status pill (last eval + next run) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/181)
+
+- [x] funds-hub-drift-rebalance-cta :: Funds hub: show allocation drift and a one-click "Rebalance" CTA from the overview (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/182)
+
+- [x] funds-hub-rebalance-preview-fees :: Funds hub: add a rebalance preview card (estimated trades + fees) before confirmation (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/183)
 ## Log
 
 - 2026-02-12 16:02 DONE: backtest-drift-sim-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/111
@@ -389,3 +385,87 @@ Dynamic rebalancing core (main objective)
 - 2026-02-13 21:55 activated funds-hub-rebalance-e2e-rebalance-plan-export-csv-v0
 
 - 2026-02-13 22:05 DONE: funds-hub-rebalance-e2e-rebalance-plan-export-csv-v0 :: Export rebalance plan to CSV (orders + allocations) — merged PR #167 https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/167
+
+- 2026-02-13 22:10 activated funds-hub-rebalance-e2e-dynamic-rebalance-preview-timeline-v0
+
+- 2026-02-13 22:20 DONE funds-hub-rebalance-e2e-dynamic-rebalance-preview-timeline-v0 (merged PR #168)
+
+- 2026-02-13 22:25 activated funds-hub-rebalance-e2e-target-allocation-import-json-v0
+
+- 2026-02-13 22:34 DONE: funds-hub-rebalance-e2e-target-allocation-import-json-v0 :: merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/169
+
+- 2026-02-13 22:40 activated funds-hub-rebalance-e2e-rebalance-plan-compare-scenarios-v0
+
+- 2026-02-13 22:57 DONE: funds-hub-rebalance-e2e-rebalance-plan-compare-scenarios-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/170
+
+- 2026-02-13 23:01 autofill added funds-hub-rebalance-e2e-asset-blacklist-v0
+
+- 2026-02-13 23:01 autofill added funds-hub-rebalance-e2e-sell-proceeds-routing-v0
+
+- 2026-02-13 23:05 activated funds-hub-rebalance-e2e-asset-blacklist-v0
+
+- 2026-02-13 23:27 DONE: funds-hub-rebalance-e2e-asset-blacklist-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/171
+
+- 2026-02-13 23:30 activated funds-hub-rebalance-e2e-sell-proceeds-routing-v0
+
+- 2026-02-13 23:43 DONE: funds-hub-rebalance-e2e-sell-proceeds-routing-v0 merged → https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/172
+
+- 2026-02-13 23:45 autofill added funds-hub-rebalance-e2e-missing-price-data-warnings-v0
+
+- 2026-02-13 23:45 autofill added funds-hub-rebalance-e2e-cash-bucket-targets-v0
+
+- 2026-02-13 23:50 PR#173 opened: yfinance history (engine) + Next proxy route
+
+- 2026-02-13 23:50 activated funds-hub-rebalance-e2e-missing-price-data-warnings-v0
+
+- 2026-02-14 00:03 DONE: funds-hub-rebalance-e2e-missing-price-data-warnings-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/174
+
+- 2026-02-14 00:05 activated funds-hub-rebalance-e2e-cash-bucket-targets-v0
+
+- 2026-02-14 00:19 DONE: funds-hub-rebalance-e2e-cash-bucket-targets-v0 merged -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/175
+
+- 2026-02-14 00:31 autofill added funds-hub-dynamic-rebalance-schedule-ui-v0
+
+- 2026-02-14 00:31 autofill added funds-hub-dynamic-rebalance-guardrails-panel-v0
+
+- 2026-02-14 00:35 activated funds-hub-dynamic-rebalance-schedule-ui-v0
+
+- 2026-02-14 00:48 DONE: funds-hub-dynamic-rebalance-schedule-ui-v0 :: Funds hub: add schedule UI for dynamic rebalancing runs (daily/weekly) — merged PR #176
+
+- 2026-02-14 00:50 activated funds-hub-dynamic-rebalance-guardrails-panel-v0
+
+- 2026-02-14 01:07 DONE: funds-hub-dynamic-rebalance-guardrails-panel-v0 merged via https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/177 (mergedAt=2026-02-13T17:02:21Z)
+
+- 2026-02-14 01:16 autofill added funds-hub-rebalance-e2e-preflight-checklist-v0
+
+- 2026-02-14 01:16 autofill added funds-hub-rebalance-e2e-dynamic-rebalance-status-pill-v0
+
+- 2026-02-14 01:20 activated funds-hub-rebalance-e2e-preflight-checklist-v0
+
+- 2026-02-14 01:28 Board cleanup: grouped Backlog into Real data/UI refactor vs Funds hub; collapsed excessive blank lines
+
+- 2026-02-14 01:30 DONE: funds-hub-rebalance-e2e-preflight-checklist-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/178
+
+- 2026-02-14 01:35 activated ui-market-data-client-v0
+
+- 2026-02-14 01:46 DONE: ui-market-data-client-v0 :: UI refactor: centralize market-data fetch (price series + market events) behind a client/hook layer — merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/179
+
+- 2026-02-14 01:50 activated ui-step-pages-remove-sample-json-v0
+
+- 2026-02-14 02:07 DONE: ui-step-pages-remove-sample-json-v0 merged (PR #180) — moved step-page SAMPLE JSON to server-side fixtures; Step2 one-click demo ingest
+
+- 2026-02-14 02:10 activated funds-hub-rebalance-e2e-dynamic-rebalance-status-pill-v0
+
+- 2026-02-14 02:18 DONE: funds-hub-rebalance-e2e-dynamic-rebalance-status-pill-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/181
+
+- 2026-02-14 02:33 autofill added funds-hub-drift-rebalance-cta
+
+- 2026-02-14 02:33 autofill added funds-hub-rebalance-preview-fees
+
+- 2026-02-14 02:35 activated funds-hub-drift-rebalance-cta
+
+- 2026-02-14 02:48 DONE: funds-hub-drift-rebalance-cta :: merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/182
+
+- 2026-02-14 02:50 activated funds-hub-rebalance-preview-fees
+
+- 2026-02-14 03:02 DONE: funds-hub-rebalance-preview-fees :: merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/183; advanced SoT (no next milestone queued)
