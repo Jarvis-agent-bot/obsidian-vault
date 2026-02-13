@@ -1,7 +1,7 @@
 # DAA Tasks
 
 ## Now
-- [ ] (auto) NOW: <none> :: waiting for next milestone
+- [ ] (auto) NOW: funds-hub-rebalance-preview-fee-estimate-v0 :: Funds Hub: show estimated total fees in Rebalance Preview (v0)
 
 ## Backlog
 
@@ -28,17 +28,22 @@ Dynamic rebalancing core (main objective)
 
 
 
-- [ ] funds-hub-rebalance-preview-cash-buffer-rounding-v0 :: Funds Hub: rebalance preview includes cash buffer + rounding/lot-size impacts in diff
 
-- [ ] funds-hub-rebalance-plan-min-trade-warnings-v0 :: Funds Hub: warn when rebalance plan produces trades below min size / precision (blockers + suggestions)
 
-- [ ] funds-hub-rebalance-preview-fee-estimate-v0 :: Funds Hub: show estimated total fees in Rebalance Preview (v0)
 
 - [ ] funds-hub-rebalance-e2e-sell-blocker-warnings-v0 :: Funds hub: surface sell-blocker warnings in rebalance plan (E2E, v0)
 
 - [ ] funds-hub-rebalance-e2e-okx-sandbox-connect-v0 :: Funds hub: E2E OKX sandbox connect + balances check for dynamic rebalancing
 
 - [ ] funds-hub-rebalance-e2e-order-rounding-cash-buffer-v0 :: Funds hub: E2E dynamic rebalance handles cash buffer + order rounding consistently (preview matches execution)
+
+- [ ] data-price-series-provider-yfinance-v0 :: Data layer: add yfinance price-series provider (US/HK ETFs/stocks) to replace mock
+
+- [ ] data-step4-signals-from-real-series-v0 :: Step4 signals: replace makeMockSeries with real price-series fetch (provider selectable)
+
+- [ ] data-step2-market-events-auto-ingest-v0 :: Step2 market events: add one-click auto-ingest from server routes (Twitter/Xueqiu/Yahoo) into MarketEvent store
+
+- [ ] data-step1-backtest-default-real-provider-v0 :: Step1 backtest: default to real price-series provider (yfinance for non-crypto; OKX for crypto), keep mock only as debug option
 ## Done
 
 - [x] rebalance-orders-review-v0 :: Orders review v0：把 orders 展成表格（side/notional/reason）+ 风险提示（cash不足/minTrade） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/121)
@@ -90,6 +95,12 @@ Dynamic rebalancing core (main objective)
 - [x] daa-fix-market-digest-fetch-failed :: Fix /api/daa/analysis/market-digest (500 fetch failed) + make cron-ready (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/144)
 
 - [x] daa-okx-crypto-data-ingest-v0 :: Crypto v0: integrate OKX market data (server-side) + normalize (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/145)
+
+- [x] funds-hub-rebalance-preview-cash-buffer-rounding-v0 :: Funds Hub: rebalance preview includes cash buffer + rounding/lot-size impacts in diff (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/146)
+
+- [x] funds-hub-rebalance-plan-min-trade-warnings-v0 :: Funds Hub: warn when rebalance plan produces trades below min size / precision (blockers + suggestions) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/147)
+
+- [x] funds-hub-rebalance-preview-fee-estimate-v0 :: Funds Hub: show estimated total fees in Rebalance Preview (v0) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/148)
 ## Log
 
 - 2026-02-12 16:02 DONE: backtest-drift-sim-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/111
@@ -207,3 +218,17 @@ Dynamic rebalancing core (main objective)
 - 2026-02-13 16:03 DONE: daa-okx-crypto-data-ingest-v0 merged (#145) — OKX candles route + normalize + Step1 provider selector
 
 - 2026-02-13 16:05 autofill added funds-hub-rebalance-e2e-order-rounding-cash-buffer-v0
+
+- 2026-02-13 16:10 activated funds-hub-rebalance-preview-cash-buffer-rounding-v0
+
+- 2026-02-13 16:22 ACK: yfinance approved by sheng cai; switched provider todo to data-price-series-provider-yfinance-v0; added Step1 default-real provider task
+
+- 2026-02-13 16:28 DONE funds-hub-rebalance-preview-cash-buffer-rounding-v0 merged: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/146
+
+- 2026-02-13 16:30 activated funds-hub-rebalance-plan-min-trade-warnings-v0
+
+- 2026-02-13 16:51 DONE: funds-hub-rebalance-plan-min-trade-warnings-v0 merged via auto-merge PR#147
+
+- 2026-02-13 16:55 activated funds-hub-rebalance-preview-fee-estimate-v0
+
+- 2026-02-13 17:06 DONE: funds-hub-rebalance-preview-fee-estimate-v0 :: Funds Hub: show estimated total fees in Rebalance Preview (v0) — merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/148
