@@ -19,6 +19,7 @@ Dynamic rebalancing core (main objective)
 
 
 
+
 ## Done
 
 - [x] funds-hub-workflow-checklist-v0 :: Funds hub checklist v0：DAA Workflow 面板（Checklist + Jump actions） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/102)
@@ -88,6 +89,10 @@ Dynamic rebalancing core (main objective)
 - [x] funds-hub-rebalance-run-cancel-ux-v0 :: Funds Hub: add cancel/abort flow for an in-progress rebalance run (UI + API) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/133)
 
 - [x] funds-hub-rebalance-postrun-healthcheck-v0 :: Funds Hub: show post-run healthcheck (expected vs actual drift/turnover) with clear pass/fail (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/134)
+
+- [x] funds-hub-rebalance-brokerage-fees-v0 :: Funds hub: show estimated brokerage fees + net impact in rebalance preview (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/135)
+
+- [x] funds-hub-rebalance-execution-mode-toggle-v0 :: Funds hub: add execution mode toggle (paper vs live) to rebalance run flow (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/136)
 ## Log
 
 - 2026-02-12 11:11 activated funds-hub-integrate-steps-v0
@@ -246,3 +251,15 @@ Dynamic rebalancing core (main objective)
 - 2026-02-13 06:30 activated funds-hub-rebalance-postrun-healthcheck-v0
 
 - 2026-02-13 06:44 DONE: funds-hub-rebalance-postrun-healthcheck-v0 :: merged PR #134 (post-run healthcheck: expected vs actual drift/turnover)
+
+- 2026-02-13 08:12 autofill added funds-hub-rebalance-brokerage-fees-v0
+
+- 2026-02-13 08:12 autofill added funds-hub-rebalance-execution-mode-toggle-v0
+
+- 2026-02-13 08:15 activated funds-hub-rebalance-brokerage-fees-v0
+
+- 2026-02-13 08:25 DONE: funds-hub-rebalance-brokerage-fees-v0 merged (#135) https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/135
+
+- 2026-02-13 08:30 activated funds-hub-rebalance-execution-mode-toggle-v0
+
+- 2026-02-13 08:40 DONE: funds-hub-rebalance-execution-mode-toggle-v0 merged via PR #136 https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/136
