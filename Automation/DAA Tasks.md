@@ -20,6 +20,7 @@ Dynamic rebalancing core (main objective)
 
 
 
+
 ## Done
 
 - [x] funds-hub-workflow-checklist-v0 :: Funds hub checklist v0：DAA Workflow 面板（Checklist + Jump actions） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/102)
@@ -93,6 +94,10 @@ Dynamic rebalancing core (main objective)
 - [x] funds-hub-rebalance-brokerage-fees-v0 :: Funds hub: show estimated brokerage fees + net impact in rebalance preview (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/135)
 
 - [x] funds-hub-rebalance-execution-mode-toggle-v0 :: Funds hub: add execution mode toggle (paper vs live) to rebalance run flow (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/136)
+
+- [x] funds-hub-rebalance-dry-run-mode-v0 :: Funds hub: add "Dry run" mode for rebalancing (no orders sent) with clear UI copy (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/137)
+
+- [x] funds-hub-rebalance-e2e-dynamic-drift-v0 :: Dynamic rebalancing E2E: simulate price drift across steps and verify suggested trade set updates (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/138)
 ## Log
 
 - 2026-02-12 11:11 activated funds-hub-integrate-steps-v0
@@ -263,3 +268,15 @@ Dynamic rebalancing core (main objective)
 - 2026-02-13 08:30 activated funds-hub-rebalance-execution-mode-toggle-v0
 
 - 2026-02-13 08:40 DONE: funds-hub-rebalance-execution-mode-toggle-v0 merged via PR #136 https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/136
+
+- 2026-02-13 10:12 autofill added funds-hub-rebalance-dry-run-mode-v0
+
+- 2026-02-13 10:12 autofill added funds-hub-rebalance-e2e-dynamic-drift-v0
+
+- 2026-02-13 10:15 activated funds-hub-rebalance-dry-run-mode-v0
+
+- 2026-02-13 10:31 DONE: funds-hub-rebalance-dry-run-mode-v0 merged via https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/137
+
+- 2026-02-13 10:35 activated funds-hub-rebalance-e2e-dynamic-drift-v0
+
+- 2026-02-13 10:41 DONE: funds-hub-rebalance-e2e-dynamic-drift-v0 :: Dynamic rebalancing E2E: simulate price drift across steps and verify suggested trade set updates (merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/138)
