@@ -1,7 +1,7 @@
 # DAA Tasks
 
 ## Now
-- [ ] (auto) NOW: <none> (no active milestone; queue next in automation-state.json)
+- [ ] (auto) NOW: <none> :: waiting for next milestone
 
 ## Backlog
 
@@ -25,15 +25,20 @@ Dynamic rebalancing core (main objective)
 
 
 
-- [ ] daa-fix-rebalance-core-route-404 :: Fix prod /api/daa/rebalance/core (currently 404)
 
-- [ ] daa-fix-market-digest-fetch-failed :: Fix /api/daa/analysis/market-digest (500 fetch failed) + make cron-ready
 
-- [ ] daa-okx-crypto-data-ingest-v0 :: Crypto v0: integrate OKX market data (server-side) + normalize
 
 - [ ] funds-hub-rebalance-preview-cash-buffer-rounding-v0 :: Funds Hub: rebalance preview includes cash buffer + rounding/lot-size impacts in diff
 
 - [ ] funds-hub-rebalance-plan-min-trade-warnings-v0 :: Funds Hub: warn when rebalance plan produces trades below min size / precision (blockers + suggestions)
+
+- [ ] funds-hub-rebalance-preview-fee-estimate-v0 :: Funds Hub: show estimated total fees in Rebalance Preview (v0)
+
+- [ ] funds-hub-rebalance-e2e-sell-blocker-warnings-v0 :: Funds hub: surface sell-blocker warnings in rebalance plan (E2E, v0)
+
+- [ ] funds-hub-rebalance-e2e-okx-sandbox-connect-v0 :: Funds hub: E2E OKX sandbox connect + balances check for dynamic rebalancing
+
+- [ ] funds-hub-rebalance-e2e-order-rounding-cash-buffer-v0 :: Funds hub: E2E dynamic rebalance handles cash buffer + order rounding consistently (preview matches execution)
 ## Done
 
 - [x] rebalance-orders-review-v0 :: Orders review v0：把 orders 展成表格（side/notional/reason）+ 风险提示（cash不足/minTrade） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/121)
@@ -79,6 +84,12 @@ Dynamic rebalancing core (main objective)
 - [x] funds-hub-rebalance-preview-slippage-sensitivity-v0 :: Funds Hub: add slippage/spread sensitivity toggle in rebalance preview (impact estimate) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/141)
 
 - [x] funds-hub-rebalance-whatif-threshold-slider-v0 :: Funds Hub: drift-threshold what-if slider + instant recompute of proposed trades (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/142)
+
+- [x] daa-fix-rebalance-core-route-404 :: Fix prod /api/daa/rebalance/core (currently 404) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/143)
+
+- [x] daa-fix-market-digest-fetch-failed :: Fix /api/daa/analysis/market-digest (500 fetch failed) + make cron-ready (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/144)
+
+- [x] daa-okx-crypto-data-ingest-v0 :: Crypto v0: integrate OKX market data (server-side) + normalize (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/145)
 ## Log
 
 - 2026-02-12 16:02 DONE: backtest-drift-sim-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/111
@@ -174,3 +185,25 @@ Dynamic rebalancing core (main objective)
 - 2026-02-13 15:09 hard-trimmed archive: kept last 10 Done + 12 Log (backup created).
 
 - 2026-02-13 15:21 DONE: funds-hub-rebalance-whatif-threshold-slider-v0 merged: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/142
+
+- 2026-02-13 15:23 autofill added funds-hub-rebalance-preview-fee-estimate-v0
+
+- 2026-02-13 15:25 activated daa-fix-rebalance-core-route-404
+
+- 2026-02-13 15:33 DONE: daa-fix-rebalance-core-route-404 :: merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/143
+
+- 2026-02-13 15:34 autofill added funds-hub-rebalance-e2e-sell-blocker-warnings-v0
+
+- 2026-02-13 15:35 activated daa-fix-market-digest-fetch-failed
+
+- 2026-02-13 15:45 DONE: daa-fix-market-digest-fetch-failed :: Fix /api/daa/analysis/market-digest (500 fetch failed) + make cron-ready :: merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/144
+
+- 2026-02-13 15:47 autofill added funds-hub-rebalance-e2e-okx-sandbox-connect-v0
+
+- 2026-02-13 15:47 prod verified after VPS deploy: POST /api/daa/rebalance/core returns 200 (was code/deploy mismatch, not nginx).
+
+- 2026-02-13 15:50 activated daa-okx-crypto-data-ingest-v0
+
+- 2026-02-13 16:03 DONE: daa-okx-crypto-data-ingest-v0 merged (#145) — OKX candles route + normalize + Step1 provider selector
+
+- 2026-02-13 16:05 autofill added funds-hub-rebalance-e2e-order-rounding-cash-buffer-v0
