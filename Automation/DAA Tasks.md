@@ -1,7 +1,7 @@
 # DAA Tasks
 
 ## Now
-- [ ] (auto) Nothing active
+- [ ] (auto) NOW: funds-hub-rebalance-e2e-cash-check-v0 :: Funds Hub: add pre-trade cash/settlement check + blocking warning in rebalance flow
 
 ## Backlog
 
@@ -21,7 +21,6 @@ Dynamic rebalancing core (main objective)
 
 
 
-- [ ] funds-hub-rebalance-e2e-cash-check-v0 :: Funds Hub: add pre-trade cash/settlement check + blocking warning in rebalance flow
 
 - [ ] funds-hub-rebalance-e2e-auto-plan-v0 :: Funds Hub: one-click generate dynamic rebalance plan (drift -> orders) with preview diff
 ## Done
@@ -101,6 +100,8 @@ Dynamic rebalancing core (main objective)
 - [x] funds-hub-rebalance-dry-run-mode-v0 :: Funds hub: add "Dry run" mode for rebalancing (no orders sent) with clear UI copy (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/137)
 
 - [x] funds-hub-rebalance-e2e-dynamic-drift-v0 :: Dynamic rebalancing E2E: simulate price drift across steps and verify suggested trade set updates (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/138)
+
+- [x] funds-hub-rebalance-e2e-cash-check-v0 :: Funds Hub: add pre-trade cash/settlement check + blocking warning in rebalance flow (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/139)
 ## Log
 
 - 2026-02-12 11:11 activated funds-hub-integrate-steps-v0
@@ -287,3 +288,7 @@ Dynamic rebalancing core (main objective)
 - 2026-02-13 12:01 autofill added funds-hub-rebalance-e2e-cash-check-v0
 
 - 2026-02-13 12:01 autofill added funds-hub-rebalance-e2e-auto-plan-v0
+
+- 2026-02-13 14:00 activated funds-hub-rebalance-e2e-cash-check-v0
+
+- 2026-02-13 14:13 DONE: funds-hub-rebalance-e2e-cash-check-v0 :: merged PR #139 https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/139
