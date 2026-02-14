@@ -1,114 +1,98 @@
 # DAA Tasks
 
 ## Now
-- [ ] (auto) NOW: backend-sqlite-daa-migrations-v0 :: SQLite: add schema_migrations table + boot-time migration runner w/ audit log
+- [ ] (auto) Nothing active
 
 ## Backlog
 
 Planning note: priority = top to bottom. Keep each task ~1 PR.
 
-Mainline (2026-02-14): Make /daa/dashboard the ONLY entry and turn it into a real admin console (no JSON-first UX).
+Mainline (2026-02-14): UI refactor first — adopt shadcn for /daa/login + /daa/dashboard, and simplify auth UX to “email login”.
+
+- [ ] auth-email-login-v0 :: Auth: treat username as email (UI labels, basic validation, normalize lower-case); keep server contract minimal
+- [ ] auth-bootstrap-first-admin-v0 :: Auth/Deploy: enable one-time bootstrap for first admin on fresh prod deploy without legacy bearer tokens (guarded)
 
 
+- [ ] ui-shadcn-daa-login-form-v0 :: shadcn: refactor /daa/login form + validation states (loading/error)
 
+- [ ] dashboard-ui-shadcn-session-banner-v0 :: dashboard UI: add shadcn session banner (who am I + logout)
 
+- [ ] dashboard-auth-email-login-ux-v0 :: Dashboard/Auth: polish email login UX (loading, inline errors, resend hint, better empty states)
 
-
-
-
-
-- [ ] backend-sqlite-daa-migrations-v0 :: SQLite: add schema_migrations table + boot-time migration runner w/ audit log
-
-- [ ] api-daa-admin-users-readonly-v0 :: Admin API: add read-only endpoint to list admin users + roles for dashboard
-
-- [ ] backend-sqlite-daa-audit-events-table-v0 :: SQLite: add audit_events table + write path for DAA admin actions
-
-- [ ] dashboard-daa-audit-log-export-csv-v0 :: Dashboard: add CSV export button for DAA audit log table
-
-- [ ] dashboard-daa-audit-log-row-details-modal-v0 :: DAA dashboard: audit log row details modal (expand payload + metadata)
-
-- [ ] dashboard-daa-admin-users-detail-drawer-v0 :: DAA admin dashboard: add user detail drawer (roles, status, last login)
+- [ ] dashboard-ui-shadcn-admin-users-v0-v4 :: Dashboard: refactor Admin Users table/drawer UI to shadcn (search/sort/status filters) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/244)
 ## Done
 
-- [x] funds-hub-rebalance-e2e-dynamic-rebalance-run-audit-log-download-csv-v0 :: Funds hub: add audit log download (CSV) for dynamic rebalance run (E2E) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/212)
+- [x] dashboard-daa-audit-log-pagination-v0 :: Dashboard: add pagination + page size controls to DAA audit log table (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/233)
 
-- [x] funds-hub-rebalance-e2e-dynamic-rebalance-run-notes-and-tags-v0 :: Funds hub: allow adding notes + tags to a dynamic rebalance run (E2E) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/213)
+- [x] api-daa-admin-users-activate-deactivate-v0 :: Admin API + dashboard: allow activating/deactivating users and show status badge (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/234)
 
-- [x] dashboard-route-redirect-cleanup-v0 :: Routes: redirect /daa,/daa?step=*,/daa/step/*,/daa/wizard,/daa/market/funds -> /daa/dashboard?tab=... (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/214)
+- [x] dashboard-daa-admin-users-copy-id-action-v0 :: DAA admin users: add Copy User ID action (toast + clipboard) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/235)
 
-- [x] backend-sqlite-daa-store-v0 :: Backend: add SQLite storage (runs/portfolio/confirm/executed/audit) + migrations (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/215)
+- [x] backend-sqlite-daa-audit-events-filter-by-actor-v0 :: SQLite audit: support filtering audit events by actor/user id (API + indexed query) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/236)
 
-- [x] api-daa-admin-auth-v0 :: API: add DAA_ADMIN_TOKEN auth (bearer) for write endpoints; keep read minimal (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/216)
+- [x] dashboard-daa-admin-users-status-filter-v0 :: DAA admin users: add status filter (active/inactive) + preserve in URL (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/237)
 
-- [x] dashboard-portfolio-confirm-executed-v0 :: Dashboard: Confirm/Executed flow + auto-update portfolio_state using latest price snapshot (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/217)
+- [x] dashboard-daa-audit-log-copy-json-action-v0 :: DAA audit log: add Copy JSON action in row details (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/238)
 
-- [x] dashboard-history-audit-v0 :: Dashboard: history/audit list (runs, AI text, confirmed/executed, before/after portfolio) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/218)
+- [x] api-daa-auth-accounts-v0 :: Auth: port 基估宝-style account/session module for DAA (no legacy token-only auth) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/239)
 
-- [x] dashboard-market-events-module-v0 :: Dashboard: Market Events module (twitter/yfinance/xueqiu fetch+filter) with non-JSON-first UI (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/219)
+- [x] dashboard-auth-login-v0 :: Dashboard: add /daa/login + session flow to replace token header usage (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/240)
 
-- [x] dashboard-daa-audit-log-filters-v0-v3 :: Dashboard: add audit log filters (date range + actor) for DAA activity (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/221)
+- [x] ui-shadcn-foundation-v0 :: UI: add Tailwind + shadcn base (Button/Input/Card/Tabs/Dialog/Toast) and align theme tokens with existing globals.css (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/241)
 
-- [x] dashboard-daa-audit-log-filters-v0 :: Dashboard: add audit log filters (date range + actor) for DAA activity (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/221)
+- [x] dashboard-ui-shadcn-layout-v0 :: Dashboard: refactor /daa/login + /daa/dashboard layout/shell to shadcn primitives (consistent spacing/typography) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/242)
 
-- [x] fix-build-dashboard-historyaudit-selected-v0 :: Fix build: DaaDashboardHistoryAudit selected must be boolean (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/223)
+- [x] dashboard-ui-shadcn-confirm-executed-v0 :: Dashboard: refactor Confirm/Executed module UI to shadcn (forms, error states, loading) and reduce inline styles (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/243)
 
-- [x] api-daa-admin-authz-roles-v0 :: Admin/API: enforce role-based access for DAA admin endpoints (viewer vs editor) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/222)
+- [x] dashboard-ui-shadcn-admin-users-v0 :: Dashboard: refactor Admin Users table/drawer UI to shadcn (search/sort/status filters) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/244)
 ## Log
 
-- 2026-02-14 13:40 activated dashboard-route-redirect-cleanup-v0
-- 2026-02-14 13:54 dashboard-route-redirect-cleanup-v0: Opened PR https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/214
-- 2026-02-14 13:55 dashboard-route-redirect-cleanup-v0: MERGED PR #214
-- 2026-02-14 14:00 activated backend-sqlite-daa-store-v0
-- 2026-02-14 14:13 PR opened for backend-sqlite-daa-store-v0: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/215
-- 2026-02-14 14:37 DONE: dashboard-route-redirect-cleanup-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/214
-- 2026-02-14 14:37 DONE: backend-sqlite-daa-store-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/215
-- 2026-02-14 14:39 DONE backend-sqlite-daa-store-v0 merged: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/215 (SQLite store + migrations). SoT advanced to currentMilestoneKey=null (no next queued).
-- 2026-02-14 14:48 activated api-daa-admin-auth-v0
-- 2026-02-14 15:00 activated dashboard-portfolio-confirm-executed-v0
-- 2026-02-14 15:35 activated dashboard-portfolio-confirm-executed-v0
-- 2026-02-14 15:38 DONE: dashboard-portfolio-confirm-executed-v0 (SoT key dashboard-portfolio-confirm-executed-v0-v2) merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/217; SoT advanced -> none
-- 2026-02-14 15:40 activated dashboard-history-audit-v0
-- 2026-02-14 15:53 merged dashboard-history-audit-v0: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/218
-- 2026-02-14 15:55 activated dashboard-market-events-module-v0
-- 2026-02-14 16:07 dashboard-market-events-module-v0: Opened PR https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/219
-- 2026-02-14 16:07 DONE: dashboard-market-events-module-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/219; SoT advanced -> none
-- 2026-02-14 16:28 autofill added dashboard-daa-audit-log-filters-v0
-- 2026-02-14 16:28 autofill added api-daa-admin-authz-roles-v0
-- 2026-02-14 16:29 activated dashboard-daa-audit-log-filters-v0
+- 2026-02-14 20:54 dashboard-daa-admin-users-table-search-sort-v0: Opened PR https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/231
+- 2026-02-14 20:58 DONE: dashboard-daa-admin-users-table-search-sort-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/232
+- 2026-02-14 21:00 autofill added dashboard-daa-audit-log-copy-json-action-v0
+- 2026-02-14 21:05 activated dashboard-daa-audit-log-pagination-v0
+- 2026-02-14 21:13 Merged: dashboard-daa-audit-log-pagination-v0 (#233) https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/233
+- 2026-02-14 21:20 activated api-daa-admin-users-activate-deactivate-v0
+- 2026-02-14 21:40 activated dashboard-daa-admin-users-copy-id-action-v0
+- 2026-02-14 21:48 [Merged] dashboard-daa-admin-users-copy-id-action-v0 :: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/235
+- 2026-02-14 21:50 activated backend-sqlite-daa-audit-events-filter-by-actor-v0
+- 2026-02-14 22:06 merged backend-sqlite-daa-audit-events-filter-by-actor-v0 → https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/236
+- 2026-02-14 22:10 activated dashboard-daa-admin-users-status-filter-v0
+- 2026-02-14 22:20 Merged PR #237 for dashboard-daa-admin-users-status-filter-v0 (Admin Users status filter; URL param adminUsersStatus)
+- 2026-02-14 22:25 activated dashboard-daa-audit-log-copy-json-action-v0
+- 2026-02-14 22:25 added auth system tasks: api-daa-auth-accounts-v0, dashboard-auth-login-v0 (per sheng cai request: 基估宝 approach, drop legacy)
+- 2026-02-14 22:38 2026-02-14 22:38 DONE: dashboard-daa-audit-log-copy-json-action-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/238
+- 2026-02-14 22:40 activated api-daa-auth-accounts-v0
+- 2026-02-14 22:51 api-daa-auth-accounts-v0: Opened PR https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/239
+- 2026-02-14 22:53 DONE: api-daa-auth-accounts-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/239; SoT advanced -> none
+- 2026-02-14 22:55 activated dashboard-auth-login-v0
+- 2026-02-14 23:16 DONE: dashboard-auth-login-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/240; SoT advanced -> none
 
 
-- 2026-02-14 17:14 autofill added backend-sqlite-daa-migrations-v0
+- 2026-02-14 23:25 activated ui-shadcn-foundation-v0
 
-- 2026-02-14 17:14 autofill added api-daa-admin-users-readonly-v0
+- 2026-02-14 23:40 activated dashboard-ui-shadcn-layout-v0
 
-- 2026-02-14 17:15 activated dashboard-daa-audit-log-filters-v0
+- 2026-02-14 23:48 2026-02-14 23:46 merged dashboard-ui-shadcn-layout-v0 via PR #242; SoT advanced (no next milestone queued)
 
-- 2026-02-14 17:29 autofill added backend-sqlite-daa-audit-events-table-v0
+- 2026-02-14 23:49 activated dashboard-ui-shadcn-confirm-executed-v0
 
-- 2026-02-14 17:29 autofill added dashboard-daa-audit-log-export-csv-v0
+- 2026-02-15 00:15 activated dashboard-ui-shadcn-confirm-executed-v0
 
-- 2026-02-14 17:30 activated dashboard-daa-audit-log-filters-v0
+- 2026-02-15 00:20 autofill added ui-shadcn-daa-login-form-v0
 
-- 2026-02-14 17:34 merged+advanced: dashboard-daa-audit-log-filters-v0-v3 -> done (PR #221)
+- 2026-02-15 00:20 autofill added dashboard-ui-shadcn-session-banner-v0
 
-- 2026-02-14 17:40 activated dashboard-daa-audit-log-filters-v0
+- 2026-02-15 00:25 activated dashboard-ui-shadcn-admin-users-v0
 
-- 2026-02-14 17:46 self-heal: dedup active milestone dashboard-daa-audit-log-filters-v0-v4 (already merged as #221); advanced SoT -> none
+- 2026-02-15 00:34 PR opened: dashboard-ui-shadcn-admin-users-v0 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/244
 
-- 2026-02-14 17:47 autofill added dashboard-daa-audit-log-row-details-modal-v0
+- 2026-02-15 00:45 activated dashboard-ui-shadcn-admin-users-v0
 
-- 2026-02-14 17:50 activated api-daa-admin-authz-roles-v0
+- 2026-02-15 00:47 autofill added dashboard-auth-email-login-ux-v0
 
-- 2026-02-14 17:57 pr opened api-daa-admin-authz-roles-v0: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/222
+- 2026-02-15 00:55 activated dashboard-ui-shadcn-admin-users-v0
 
-- 2026-02-14 18:00 activated fix-build-dashboard-historyaudit-selected-v0
+- 2026-02-15 01:00 activated dashboard-ui-shadcn-admin-users-v0
 
-- 2026-02-14 18:02 pr opened fix-build-dashboard-historyaudit-selected-v0: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/223
-
-- 2026-02-14 18:03 merged fix-build-dashboard-historyaudit-selected-v0
-
-- 2026-02-14 18:03 merged api-daa-admin-authz-roles-v0
-
-- 2026-02-14 18:04 autofill added dashboard-daa-admin-users-detail-drawer-v0
-
-- 2026-02-14 18:05 activated backend-sqlite-daa-migrations-v0
+- 2026-02-15 01:05 merged dashboard-ui-shadcn-admin-users-v0 :: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/244
