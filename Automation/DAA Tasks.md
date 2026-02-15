@@ -1,7 +1,7 @@
 # DAA Tasks
 
 ## Now
-- [ ] (auto) NOW: auth-email-login-magic-link-invalid-token-v0 :: Auth: email magic-link invalid/used token screen with retry + resend CTA
+- [ ] (auto) Nothing active
 
 ## Backlog
 
@@ -34,15 +34,10 @@ Mainline (2026-02-14): UI refactor first — adopt shadcn for /daa/login + /daa/
 
 
 
-- [ ] auth-email-login-magic-link-invalid-token-v0 :: Auth: email magic-link invalid/used token screen with retry + resend CTA
 
-- [ ] ui-shadcn-daa-login-help-links-v0 :: shadcn /daa/login: add helper links + copy (privacy/terms + support)
 
-- [ ] dashboard-ui-shadcn-dashboard-mobile-nav-v0 :: shadcn /daa/dashboard: mobile nav + responsive sidebar behavior
 
-- [ ] dashboard-ui-shadcn-dashboard-shell-component-v0 :: Dashboard UI (shadcn): extract reusable DashboardShell (sidebar + topbar + content) for /daa/dashboard
 
-- [ ] auth-email-login-preserve-email-v0 :: Auth UX: preserve entered email across resend/refresh during email login
 ## Done
 
 - [x] dashboard-ui-shadcn-admin-users-v0 :: Dashboard: refactor Admin Users table/drawer UI to shadcn (search/sort/status filters) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/244)
@@ -104,6 +99,16 @@ Mainline (2026-02-14): UI refactor first — adopt shadcn for /daa/login + /daa/
 - [x] dashboard-ui-shadcn-dashboard-account-menu-v0 :: Add shadcn account menu (profile + sign out) on /daa/dashboard (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/271)
 
 - [x] dashboard-ui-shadcn-dashboard-nav-icons-v0 :: Dashboard: shadcn nav icons + spacing polish (align with active state) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/272)
+
+- [x] auth-email-login-magic-link-invalid-token-v0-v2 :: Auth: email magic-link invalid/used token screen with retry + resend CTA (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/273)
+
+- [x] ui-shadcn-daa-login-help-links-v0 :: shadcn /daa/login: add helper links + copy (privacy/terms + support) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/274)
+
+- [x] dashboard-ui-shadcn-dashboard-mobile-nav-v0 :: shadcn /daa/dashboard: mobile nav + responsive sidebar behavior (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/275)
+
+- [x] dashboard-ui-shadcn-dashboard-shell-component-v0 :: Dashboard UI (shadcn): extract reusable DashboardShell (sidebar + topbar + content) for /daa/dashboard (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/276)
+
+- [x] auth-email-login-preserve-email-v0 :: Auth UX: preserve entered email across resend/refresh during email login (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/277)
 ## Log
 
 - 2026-02-15 03:29 PR opened: dashboard-ui-shadcn-audit-log-table-v0-v3 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/252
@@ -275,3 +280,25 @@ Mainline (2026-02-14): UI refactor first — adopt shadcn for /daa/login + /daa/
 - 2026-02-15 08:52 autofill added auth-email-login-preserve-email-v0
 
 - 2026-02-15 08:55 activated auth-email-login-magic-link-invalid-token-v0
+
+- 2026-02-15 09:10 activated auth-email-login-magic-link-invalid-token-v0
+
+- 2026-02-15 09:15 DONE: auth-email-login-magic-link-invalid-token-v0-v2 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/273
+
+- 2026-02-15 09:16 activated ui-shadcn-daa-login-help-links-v0
+
+- 2026-02-15 09:21 DONE: ui-shadcn-daa-login-help-links-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/274
+
+- 2026-02-15 09:21 activated dashboard-ui-shadcn-dashboard-mobile-nav-v0
+
+- 2026-02-15 09:34 PR created: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/275
+
+- 2026-02-15 09:35 merged: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/275
+
+- 2026-02-15 09:40 activated dashboard-ui-shadcn-dashboard-shell-component-v0
+
+- 2026-02-15 09:51 DONE: dashboard-ui-shadcn-dashboard-shell-component-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/276
+
+- 2026-02-15 09:55 activated auth-email-login-preserve-email-v0
+
+- 2026-02-15 10:04 opened PR #277
