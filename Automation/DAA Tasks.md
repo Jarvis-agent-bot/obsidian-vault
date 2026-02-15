@@ -1,7 +1,7 @@
 # DAA Tasks
 
 ## Now
-- [ ] (auto) NOW: dashboard-ui-shadcn-dashboard-toast-notifications-v0 :: DAA dashboard: shadcn toast notifications for auth/session events
+- [ ] (auto) NOW: ui-shadcn-daa-login-magic-link-sent-state-v0 :: Login: magic link sent screen/state (shadcn)
 
 ## Backlog
 
@@ -41,7 +41,43 @@ Mainline (2026-02-14): UI refactor first — adopt shadcn for /daa/login + /daa/
 
 
 
-- [ ] auth-email-login-spam-folder-tip-v0 :: Email login: pending state deliverability tip (check spam, allowlist sender)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- [ ] dashboard-ui-shadcn-dashboard-deploy-bootstrap-docs-link-v0 :: Dashboard: deploy bootstrap CTA links to docs + quickstart (shadcn)
+
+- [ ] dashboard-ui-shadcn-dashboard-deploy-bootstrap-command-copy-v0 :: Dashboard: Deploy bootstrap step card with copyable CLI command (shadcn)
+
+- [ ] auth-email-login-link-already-used-ux-v0 :: Auth: Email login shows friendly message for already-used/invalid magic link
+
+- [ ] dashboard-ui-shadcn-dashboard-deploy-bootstrap-prereqs-checklist-v0 :: Dashboard: deploy bootstrap card shows prerequisites checklist
+
+- [ ] auth-email-login-open-mail-app-cta-v0 :: Auth: email login sent state adds Open Mail CTA + helper copy
 ## Done
 
 - [x] dashboard-ui-shadcn-admin-users-v0 :: Dashboard: refactor Admin Users table/drawer UI to shadcn (search/sort/status filters) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/244)
@@ -119,6 +155,84 @@ Mainline (2026-02-14): UI refactor first — adopt shadcn for /daa/login + /daa/
 - [x] auth-email-login-a11y-autofocus-v0 :: Email login: improve accessibility + autofocus + Enter-to-submit (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/279)
 
 - [x] dashboard-ui-shadcn-dashboard-toast-notifications-v0 :: DAA dashboard: shadcn toast notifications for auth/session events (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/280)
+
+- [x] auth-email-login-spam-folder-tip-v0 :: Email login: pending state deliverability tip (check spam, allowlist sender) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/281)
+
+- [x] dashboard-auth-logout-button-v0 :: Dashboard: add Logout button in account menu (clear session + redirect to /daa/login) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/282)
+
+- [x] dashboard-ui-shadcn-dashboard-refresh-indicator-v0 :: Dashboard: show subtle data refresh indicator (skeleton/last-updated) in shadcn shell (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/283)
+
+- [x] auth-email-login-link-sent-shadcn-ui-v0 :: Auth: restyle magic-link "Check your email" screen with shadcn + clearer next steps (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/284)
+
+- [x] dashboard-ui-shadcn-daa-dashboard-layout-v0 :: DAA dashboard: shadcn page shell + header layout for /daa/dashboard (responsive) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/266)
+
+- [x] auth-email-login-redirect-if-authed-v0 :: On /daa/login, redirect to /daa/dashboard when session exists (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/285)
+
+- [x] dashboard-ui-shadcn-dashboard-account-menu-copy-userid-v0 :: Dashboard account menu: add Copy User ID / Email action (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/286)
+
+- [x] ui-shadcn-daa-login-email-autocomplete-v0 :: DAA login (shadcn): set email input autocomplete + inputMode for smoother email entry (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/287)
+
+- [x] dashboard-ui-shadcn-dashboard-topbar-user-menu-v0 :: DAA dashboard (shadcn): add topbar user menu with email + logout entry (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/288)
+
+- [x] dashboard-ui-shadcn-dashboard-theme-toggle-v0 :: Dashboard: add theme toggle (light/dark) in topbar (shadcn) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/289)
+
+- [x] ui-shadcn-daa-login-keyboard-submit-v0-v2 :: DAA login: keyboard UX (Enter submits + focus management) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/291)
+
+- [x] ui-shadcn-daa-login-submit-loading-v0 :: DAA /daa/login: disable submit + show loading spinner while sending email (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/292)
+
+- [x] dashboard-auth-email-login-return-to-dashboard-v0 :: Auth UX: after email login, return to the originally requested /daa/dashboard page (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/293)
+
+- [x] ui-shadcn-daa-login-error-alert-v0 :: DAA Login: add shadcn Alert for magic-link/submit errors (clear copy + retry) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/294)
+
+- [x] dashboard-ui-shadcn-dashboard-loading-skeleton-v0 :: Dashboard: show shadcn skeleton/loading state while session+data hydrate (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/295)
+
+- [x] ui-shadcn-daa-login-magic-link-helper-text-v0 :: DAA /daa/login: add helper text about magic link delivery + expiry (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/296)
+
+- [x] dashboard-auth-session-expired-toast-v0 :: Dashboard auth: show a shadcn toast on session-expired before redirecting to /daa/login (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/297)
+
+- [x] ui-shadcn-daa-login-email-clear-button-v0 :: Login (shadcn): add clear button to email input for quick correction (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/298)
+
+- [x] dashboard-ui-shadcn-dashboard-unauthorized-empty-state-v0 :: Dashboard (shadcn): friendly unauthorized/empty state with action to re-auth (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/299)
+
+- [x] auth-email-login-resend-cooldown-timer-v0 :: Email login: disable resend and show cooldown timer (shadcn) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/300)
+
+- [x] dashboard-ui-shadcn-dashboard-unauthorized-cta-button-v0 :: Dashboard unauthorized state: add primary Sign in CTA + clearer copy (shadcn) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/301)
+
+- [x] dashboard-ui-shadcn-dashboard-error-boundary-retry-v0 :: Dashboard (shadcn): add page-level error boundary with retry button (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/302)
+
+- [x] auth-email-login-network-offline-ux-v0 :: Auth (email login): improve offline/network-failure UX with clear retry guidance (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/303)
+
+- [x] ui-shadcn-daa-login-passwordless-explainer-copy-v0 :: DAA login: add concise magic-link explainer + security note (shadcn) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/304)
+
+- [x] dashboard-ui-shadcn-dashboard-settings-account-section-v0 :: Dashboard: add Account/Settings section shell with shadcn components (placeholder content) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/305)
+
+- [x] dashboard-ui-shadcn-dashboard-settings-route-v0 :: Dashboard: add /daa/dashboard/settings route + nav item (shadcn placeholder) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/306)
+
+- [x] dashboard-auth-session-refresh-on-focus-v0 :: Dashboard auth: refresh session on tab focus (avoid stale session UX) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/307)
+
+- [x] ui-shadcn-daa-login-email-help-tooltip-v0 :: Login: add shadcn tooltip/help popover explaining magic link (and spam folder tip) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/308)
+
+- [x] dashboard-ui-shadcn-dashboard-settings-security-section-v0 :: Dashboard settings: add Security section (sessions/passwordless copy) with shadcn components (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/309)
+
+- [x] dashboard-auth-bootstrap-no-admin-cta-v0 :: Dashboard bootstrap: if no admin exists yet, show setup CTA instead of generic unauthorized (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/310)
+
+- [x] auth-email-login-change-email-link-v0 :: Email login: add Change email link on link-sent state (back to form) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/311)
+
+- [x] dashboard-ui-shadcn-dashboard-deploy-status-card-v0 :: Dashboard: add Deploy Status card (env + build SHA) for bootstrap visibility (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/313)
+
+- [x] dashboard-auth-email-login-return-to-route-v1 :: Auth: magic-link login should return user to intended dashboard route (not just /daa/dashboard) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/314)
+
+- [x] dashboard-ui-shadcn-dashboard-deploy-status-copy-sha-v0 :: Dashboard: Deploy Status card — add Copy Build SHA action (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/315)
+
+- [x] dashboard-ui-shadcn-dashboard-deploy-status-copy-sha-v0-v2 :: Dashboard: Deploy Status card — add Copy Build SHA action (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/316)
+
+- [x] ui-shadcn-daa-login-magic-link-resend-inline-v0 :: Login: magic-link state — add inline Resend Link action (shadcn) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/317)
+
+- [x] auth-email-login-resend-disabled-reason-v0 :: Email login: show why Resend is disabled (cooldown/help text) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/318)
+
+- [x] dashboard-ui-shadcn-dashboard-deploy-bootstrap-cta-v0 :: Dashboard: deploy bootstrap card CTA when no deployments yet (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/319)
+
+- [x] ui-shadcn-daa-login-magic-link-sent-state-v0 :: Login: magic link sent screen/state (shadcn) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/320)
 ## Log
 
 - 2026-02-15 03:29 PR opened: dashboard-ui-shadcn-audit-log-table-v0-v3 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/252
@@ -334,3 +448,251 @@ Mainline (2026-02-14): UI refactor first — adopt shadcn for /daa/login + /daa/
 - 2026-02-15 10:55 activated dashboard-ui-shadcn-dashboard-toast-notifications-v0
 
 - 2026-02-15 11:05 merged PR#280: DAA dashboard toast notices for auth/session events — https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/280
+
+- 2026-02-15 11:10 activated auth-email-login-spam-folder-tip-v0
+
+- 2026-02-15 11:15 PR created: auth-email-login-spam-folder-tip-v0 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/281
+
+- 2026-02-15 11:16 merged: auth-email-login-spam-folder-tip-v0 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/281
+
+- 2026-02-15 11:31 autofill added dashboard-auth-logout-button-v0
+
+- 2026-02-15 11:31 autofill added dashboard-ui-shadcn-dashboard-refresh-indicator-v0
+
+- 2026-02-15 11:36 activated dashboard-auth-logout-button-v0
+
+- 2026-02-15 11:45 activated dashboard-ui-shadcn-dashboard-refresh-indicator-v0
+
+- 2026-02-15 11:57 merged PR #283 (dashboard refresh indicator)
+
+- 2026-02-15 12:00 autofill added auth-email-login-link-sent-shadcn-ui-v0
+
+- 2026-02-15 12:00 autofill added dashboard-ui-shadcn-daa-dashboard-layout-v0
+
+- 2026-02-15 12:05 activated auth-email-login-link-sent-shadcn-ui-v0
+
+- 2026-02-15 12:20 activated auth-email-login-link-sent-shadcn-ui-v0
+
+- 2026-02-15 12:25 activated auth-email-login-link-sent-shadcn-ui-v0
+
+- 2026-02-15 12:30 DONE: auth-email-login-link-sent-shadcn-ui-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/284
+
+- 2026-02-15 12:30 activated dashboard-ui-shadcn-daa-dashboard-layout-v0
+
+- 2026-02-15 12:31 DONE: dashboard-ui-shadcn-daa-dashboard-layout-v0 already covered by https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/266
+
+- 2026-02-15 12:45 autofill added auth-email-login-redirect-if-authed-v0
+
+- 2026-02-15 12:46 autofill added dashboard-ui-shadcn-dashboard-account-menu-copy-userid-v0
+
+- 2026-02-15 12:50 activated auth-email-login-redirect-if-authed-v0
+
+- 2026-02-15 13:00 activated dashboard-ui-shadcn-dashboard-account-menu-copy-userid-v0
+
+- 2026-02-15 13:11 autofill added ui-shadcn-daa-login-email-autocomplete-v0
+
+- 2026-02-15 13:11 autofill added dashboard-ui-shadcn-dashboard-topbar-user-menu-v0
+
+- 2026-02-15 13:15 activated ui-shadcn-daa-login-email-autocomplete-v0
+
+- 2026-02-15 13:25 pr opened ui-shadcn-daa-login-email-autocomplete-v0: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/287
+
+- 2026-02-15 13:26 DONE: ui-shadcn-daa-login-email-autocomplete-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/287; SoT advanced -> none
+
+- 2026-02-15 13:27 autofill added dashboard-ui-shadcn-dashboard-theme-toggle-v0
+
+- 2026-02-15 13:27 autofill added ui-shadcn-daa-login-keyboard-submit-v0-v2
+
+- 2026-02-15 13:30 activated dashboard-ui-shadcn-dashboard-topbar-user-menu-v0
+
+- 2026-02-15 13:39 Merged dashboard-ui-shadcn-dashboard-topbar-user-menu-v0 (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/288)
+
+- 2026-02-15 13:40 autofill added ui-shadcn-daa-login-submit-loading-v0
+
+- 2026-02-15 13:41 autofill added dashboard-auth-email-login-return-to-dashboard-v0
+
+- 2026-02-15 13:45 activated dashboard-ui-shadcn-dashboard-theme-toggle-v0
+
+- 2026-02-15 13:54 autofill added ui-shadcn-daa-login-error-alert-v0
+
+- 2026-02-15 13:54 autofill added dashboard-ui-shadcn-dashboard-loading-skeleton-v0
+
+- 2026-02-15 13:55 activated ui-shadcn-daa-login-keyboard-submit-v0-v2
+
+- 2026-02-15 14:05 activated ui-shadcn-daa-login-keyboard-submit-v0-v2
+
+- 2026-02-15 14:11 board repair: rename key ui-shadcn-daa-login-keyboard-submit-v0 -> ui-shadcn-daa-login-keyboard-submit-v0-v2 (match SoT)
+
+- 2026-02-15 14:12 PR opened: ui-shadcn-daa-login-keyboard-submit-v0-v2 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/291
+
+- 2026-02-15 14:12 DONE: ui-shadcn-daa-login-keyboard-submit-v0-v2 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/291; SoT advanced -> none
+
+- 2026-02-15 14:15 activated ui-shadcn-daa-login-submit-loading-v0
+
+- 2026-02-15 14:21 autofill added ui-shadcn-daa-login-magic-link-helper-text-v0
+
+- 2026-02-15 14:21 autofill added dashboard-auth-session-expired-toast-v0
+
+- 2026-02-15 14:25 activated dashboard-auth-email-login-return-to-dashboard-v0
+
+- 2026-02-15 14:40 activated dashboard-auth-email-login-return-to-dashboard-v0
+
+- 2026-02-15 14:48 DONE: dashboard-auth-email-login-return-to-dashboard-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/293 (de-dupe; SoT had v0-v2 active)
+
+- 2026-02-15 14:48 activated ui-shadcn-daa-login-error-alert-v0
+
+- 2026-02-15 14:52 DONE: ui-shadcn-daa-login-error-alert-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/294
+
+- 2026-02-15 14:52 activated dashboard-ui-shadcn-dashboard-loading-skeleton-v0
+
+- 2026-02-15 15:03 DONE: dashboard-ui-shadcn-dashboard-loading-skeleton-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/295; SoT advanced -> none
+
+- 2026-02-15 15:05 activated ui-shadcn-daa-login-magic-link-helper-text-v0
+
+- 2026-02-15 15:12 PR opened: ui-shadcn-daa-login-magic-link-helper-text-v0 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/296
+
+- 2026-02-15 15:13 DONE: ui-shadcn-daa-login-magic-link-helper-text-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/296; SoT advanced -> none
+
+- 2026-02-15 15:15 activated dashboard-auth-session-expired-toast-v0
+
+- 2026-02-15 15:27 Merged #297: toast on session-expired before redirect to /daa/login (avoids double-toast on login).
+
+- 2026-02-15 15:28 autofill added ui-shadcn-daa-login-email-clear-button-v0
+
+- 2026-02-15 15:28 autofill added dashboard-ui-shadcn-dashboard-unauthorized-empty-state-v0
+
+- 2026-02-15 15:30 activated ui-shadcn-daa-login-email-clear-button-v0
+
+- 2026-02-15 15:37 merged: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/298
+
+- 2026-02-15 15:39 autofill added auth-email-login-resend-cooldown-timer-v0
+
+- 2026-02-15 15:39 autofill added dashboard-ui-shadcn-dashboard-unauthorized-cta-button-v0
+
+- 2026-02-15 15:40 activated dashboard-ui-shadcn-dashboard-unauthorized-empty-state-v0
+
+- 2026-02-15 15:55 activated auth-email-login-resend-cooldown-timer-v0
+
+- 2026-02-15 16:02 Merged PR #300; completed auth-email-login-resend-cooldown-timer-v0; SoT advanced (no next milestone).
+
+- 2026-02-15 16:05 activated dashboard-ui-shadcn-dashboard-unauthorized-cta-button-v0
+
+- 2026-02-15 16:15 activated dashboard-ui-shadcn-dashboard-unauthorized-cta-button-v0
+
+- 2026-02-15 16:22 DONE: dashboard-ui-shadcn-dashboard-unauthorized-cta-button-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/301 (state repair: cleared duplicate active milestone)
+
+- 2026-02-15 16:23 autofill added dashboard-ui-shadcn-dashboard-error-boundary-retry-v0
+
+- 2026-02-15 16:23 autofill added auth-email-login-network-offline-ux-v0
+
+- 2026-02-15 16:25 activated dashboard-ui-shadcn-dashboard-error-boundary-retry-v0
+
+- 2026-02-15 16:32 dashboard-ui-shadcn-dashboard-error-boundary-retry-v0 merged: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/302
+
+- 2026-02-15 16:35 activated auth-email-login-network-offline-ux-v0
+
+- 2026-02-15 16:44 PR created: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/303
+
+- 2026-02-15 16:46 Merged: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/303
+
+- 2026-02-15 17:01 autofill added ui-shadcn-daa-login-passwordless-explainer-copy-v0
+
+- 2026-02-15 17:01 autofill added dashboard-ui-shadcn-dashboard-settings-account-section-v0
+
+- 2026-02-15 17:05 activated ui-shadcn-daa-login-passwordless-explainer-copy-v0
+
+- 2026-02-15 17:15 activated dashboard-ui-shadcn-dashboard-settings-account-section-v0
+
+- 2026-02-15 17:27 autofill added dashboard-ui-shadcn-dashboard-settings-route-v0
+
+- 2026-02-15 17:27 autofill added dashboard-auth-session-refresh-on-focus-v0
+
+- 2026-02-15 17:30 activated dashboard-ui-shadcn-dashboard-settings-route-v0
+
+- 2026-02-15 17:43 PR created: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/306
+
+- 2026-02-15 17:44 Merged + advanced SoT: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/306
+
+- 2026-02-15 17:45 autofill added ui-shadcn-daa-login-email-help-tooltip-v0
+
+- 2026-02-15 17:45 autofill added dashboard-ui-shadcn-dashboard-settings-security-section-v0
+
+- 2026-02-15 17:50 activated dashboard-auth-session-refresh-on-focus-v0
+
+- 2026-02-15 18:00 dashboard-auth-session-refresh-on-focus-v0 merged: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/307
+
+- 2026-02-15 18:05 activated ui-shadcn-daa-login-email-help-tooltip-v0
+
+- 2026-02-15 18:25 activated ui-shadcn-daa-login-email-help-tooltip-v0
+
+- 2026-02-15 18:32 activated dashboard-ui-shadcn-dashboard-settings-security-section-v0
+
+- 2026-02-15 18:46 autofill added dashboard-auth-bootstrap-no-admin-cta-v0
+
+- 2026-02-15 18:46 autofill added auth-email-login-change-email-link-v0
+
+- 2026-02-15 18:50 activated dashboard-auth-bootstrap-no-admin-cta-v0
+
+- 2026-02-15 19:05 activated auth-email-login-change-email-link-v0
+
+- 2026-02-15 19:11 Merged #311: auth-email-login-change-email-link-v0
+
+- 2026-02-15 19:16 autofill added dashboard-ui-shadcn-dashboard-deploy-status-card-v0
+
+- 2026-02-15 19:16 autofill added dashboard-auth-email-login-return-to-route-v1
+
+- 2026-02-15 19:20 activated dashboard-ui-shadcn-dashboard-deploy-status-card-v0
+
+- 2026-02-15 19:30 activated dashboard-ui-shadcn-dashboard-deploy-status-card-v0
+
+- 2026-02-15 19:34 autofill added dashboard-ui-shadcn-dashboard-deploy-status-copy-sha-v0
+
+- 2026-02-15 19:34 autofill added ui-shadcn-daa-login-magic-link-resend-inline-v0
+
+- 2026-02-15 19:35 activated dashboard-ui-shadcn-dashboard-deploy-status-card-v0
+
+- 2026-02-15 19:44 DONE (repair): dashboard-ui-shadcn-dashboard-deploy-status-card-v0 already merged in #313; preventing duplicate activation
+
+- 2026-02-15 19:44 activated dashboard-auth-email-login-return-to-route-v1
+
+- 2026-02-15 19:46 PR opened: dashboard-auth-email-login-return-to-route-v1 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/314
+
+- 2026-02-15 19:47 DONE: dashboard-auth-email-login-return-to-route-v1 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/314
+
+- 2026-02-15 19:50 activated dashboard-ui-shadcn-dashboard-deploy-status-copy-sha-v0
+
+- 2026-02-15 20:00 activated dashboard-ui-shadcn-dashboard-deploy-status-copy-sha-v0
+
+- 2026-02-15 20:10 PR created: #316 for dashboard-ui-shadcn-dashboard-deploy-status-copy-sha-v0-v2
+
+- 2026-02-15 20:11 MERGED+advanced: #316 done; SoT cleared (no next milestone)
+
+- 2026-02-15 20:12 autofill added auth-email-login-resend-disabled-reason-v0
+
+- 2026-02-15 20:13 autofill added dashboard-ui-shadcn-dashboard-deploy-bootstrap-cta-v0
+
+- 2026-02-15 20:15 activated ui-shadcn-daa-login-magic-link-resend-inline-v0
+
+- 2026-02-15 20:29 autofill added ui-shadcn-daa-login-magic-link-sent-state-v0
+
+- 2026-02-15 20:29 autofill added dashboard-ui-shadcn-dashboard-deploy-bootstrap-docs-link-v0
+
+- 2026-02-15 20:30 activated auth-email-login-resend-disabled-reason-v0
+
+- 2026-02-15 20:39 Opened PR #318 for auth-email-login-resend-disabled-reason-v0
+
+- 2026-02-15 20:40 Merged PR #318; advanced SoT (no next milestone queued)
+
+- 2026-02-15 20:41 autofill added dashboard-ui-shadcn-dashboard-deploy-bootstrap-command-copy-v0
+
+- 2026-02-15 20:41 autofill added auth-email-login-link-already-used-ux-v0
+
+- 2026-02-15 20:45 activated dashboard-ui-shadcn-dashboard-deploy-bootstrap-cta-v0
+
+- 2026-02-15 20:53 merged dashboard-ui-shadcn-dashboard-deploy-bootstrap-cta-v0 (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/319)
+
+- 2026-02-15 20:54 autofill added dashboard-ui-shadcn-dashboard-deploy-bootstrap-prereqs-checklist-v0
+
+- 2026-02-15 20:54 autofill added auth-email-login-open-mail-app-cta-v0
+
+- 2026-02-15 20:55 activated ui-shadcn-daa-login-magic-link-sent-state-v0
