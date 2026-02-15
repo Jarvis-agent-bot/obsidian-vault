@@ -1,7 +1,7 @@
 # DAA Tasks
 
 ## Now
-- [ ] (auto) Nothing active
+- [ ] (auto) NOW: dashboard-ui-shadcn-dashboard-toast-notifications-v0 :: DAA dashboard: shadcn toast notifications for auth/session events
 
 ## Backlog
 
@@ -38,6 +38,10 @@ Mainline (2026-02-14): UI refactor first — adopt shadcn for /daa/login + /daa/
 
 
 
+
+
+
+- [ ] auth-email-login-spam-folder-tip-v0 :: Email login: pending state deliverability tip (check spam, allowlist sender)
 ## Done
 
 - [x] dashboard-ui-shadcn-admin-users-v0 :: Dashboard: refactor Admin Users table/drawer UI to shadcn (search/sort/status filters) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/244)
@@ -109,6 +113,12 @@ Mainline (2026-02-14): UI refactor first — adopt shadcn for /daa/login + /daa/
 - [x] dashboard-ui-shadcn-dashboard-shell-component-v0 :: Dashboard UI (shadcn): extract reusable DashboardShell (sidebar + topbar + content) for /daa/dashboard (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/276)
 
 - [x] auth-email-login-preserve-email-v0 :: Auth UX: preserve entered email across resend/refresh during email login (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/277)
+
+- [x] dashboard-ui-shadcn-dashboard-page-header-v0 :: DAA dashboard: shadcn page header (title + actions slot) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/278)
+
+- [x] auth-email-login-a11y-autofocus-v0 :: Email login: improve accessibility + autofocus + Enter-to-submit (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/279)
+
+- [x] dashboard-ui-shadcn-dashboard-toast-notifications-v0 :: DAA dashboard: shadcn toast notifications for auth/session events (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/280)
 ## Log
 
 - 2026-02-15 03:29 PR opened: dashboard-ui-shadcn-audit-log-table-v0-v3 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/252
@@ -302,3 +312,25 @@ Mainline (2026-02-14): UI refactor first — adopt shadcn for /daa/login + /daa/
 - 2026-02-15 09:55 activated auth-email-login-preserve-email-v0
 
 - 2026-02-15 10:04 opened PR #277
+
+- 2026-02-15 10:15 autofill added dashboard-ui-shadcn-dashboard-page-header-v0
+
+- 2026-02-15 10:15 autofill added auth-email-login-a11y-autofocus-v0
+
+- 2026-02-15 10:20 activated dashboard-ui-shadcn-dashboard-page-header-v0
+
+- 2026-02-15 10:35 PR opened: dashboard-ui-shadcn-dashboard-page-header-v0 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/278
+
+- 2026-02-15 10:36 DONE: dashboard-ui-shadcn-dashboard-page-header-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/278; SoT advanced -> none
+
+- 2026-02-15 10:37 autofill added dashboard-ui-shadcn-dashboard-toast-notifications-v0
+
+- 2026-02-15 10:37 autofill added auth-email-login-spam-folder-tip-v0
+
+- 2026-02-15 10:40 activated auth-email-login-a11y-autofocus-v0
+
+- 2026-02-15 10:49 DONE: auth-email-login-a11y-autofocus-v0 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/279; SoT advanced -> none
+
+- 2026-02-15 10:55 activated dashboard-ui-shadcn-dashboard-toast-notifications-v0
+
+- 2026-02-15 11:05 merged PR#280: DAA dashboard toast notices for auth/session events — https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/280
