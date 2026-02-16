@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) NOW: backend-nextjs-postgres-platform-hardening-v0 :: Backend system A: harden Next.js + Postgres API boundaries, migrations, and failure handling
+- [ ] (auto) NOW: backend-marketdata-provider-adapters-v0 :: Backend system B: stabilize provider adapters for twitter/xueqiu token and quote ingestion
 ## Backlog
 
 Planning note: priority = top to bottom. Keep each task ~1 PR.
@@ -118,15 +118,15 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 
 
 
-- [ ] backend-nextjs-postgres-platform-hardening-v0 :: Backend system A: harden Next.js + Postgres API boundaries, migrations, and failure handling
 
-- [ ] backend-engine-service-contract-hardening-v0 :: Backend system B: harden Python engine contracts, timeouts, and upstream error mapping
 
 - [ ] backend-marketdata-provider-adapters-v0 :: Backend system B: stabilize provider adapters for twitter/xueqiu token and quote ingestion
 
 - [ ] frontend-uiux-dashboard-information-architecture-v0 :: Frontend UIUX: restructure dashboard information hierarchy for faster operator scanning
 
 - [ ] frontend-uiux-component-consistency-shadcn-v0 :: Frontend UIUX: unify table/form/feedback component states under shadcn patterns
+
+- [ ] frontend-uiux-accessibility-feedback-states-v0 :: Frontend UIUX: improve loading/error/empty and keyboard-accessibility behavior on DAA pages
 ## Done
 
 - [x] dashboard-ui-shadcn-admin-users-v0 :: Dashboard: refactor Admin Users table/drawer UI to shadcn (search/sort/status filters) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/244)
@@ -422,6 +422,10 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - [x] qa-hub-deeplink-compat-step-wizard-v0 :: Verify /daa/step/* and /daa/wizard deep-links remain compatible after hub-first flow
 
 - [x] ops-hub-regression-smoke-pack-v0 :: Add smoke checks for funds hub run path, recommendation rendering, and bundle export
+
+- [x] backend-nextjs-postgres-platform-hardening-v0 :: Backend system A: harden Next.js + Postgres API boundaries, migrations, and failure handling
+
+- [x] backend-engine-service-contract-hardening-v0 :: Backend system B: harden Python engine contracts, timeouts, and upstream error mapping
 ## Log
 
 - 2026-02-15 03:29 PR opened: dashboard-ui-shadcn-audit-log-table-v0-v3 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/252
@@ -1265,3 +1269,15 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - 2026-02-17 06:00 backlog-guard completed stale ops-hub-regression-smoke-pack-v0
 
 - 2026-02-17 06:00 activated backend-nextjs-postgres-platform-hardening-v0
+
+- 2026-02-17 06:30 backlog-guard completed stale backend-nextjs-postgres-platform-hardening-v0
+
+- 2026-02-17 06:30 activated backend-engine-service-contract-hardening-v0
+
+- 2026-02-17 06:50 activated backend-engine-service-contract-hardening-v0
+
+- 2026-02-17 07:00 backlog-guard completed stale backend-engine-service-contract-hardening-v0
+
+- 2026-02-17 07:00 backlog-guard added frontend-uiux-accessibility-feedback-states-v0
+
+- 2026-02-17 07:00 activated backend-marketdata-provider-adapters-v0
