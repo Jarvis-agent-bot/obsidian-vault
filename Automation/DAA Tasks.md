@@ -1,7 +1,7 @@
 # DAA Tasks
 
 ## Now
-- [ ] (auto) NOW: arch-next-postgres-email-sender-v0-v2 :: Next: Resend email sender (env checks + no secret leakage)
+- [ ] (auto) NOW: arch-next-postgres-session-cookie-v0 :: Postgres-backed cookie session for magic-link auth (Next.js /api/daa/* only)
 
 ## Backlog
 
@@ -83,10 +83,12 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 
 
 
-- [ ] arch-next-postgres-session-cookie-v0 :: Postgres-backed cookie session for magic-link auth (Next.js /api/daa/* only)
 
 - [ ] backend-postgres-admin-users-v0 :: Postgres admin users: CRUD + authz check for /api/daa/*
 
+- [ ] backend-postgres-runs-store-v0 :: Persist DAA runs in Postgres (schema + insert/query via Next.js /api/daa)
+
+- [ ] backend-postgres-audit-store-v0 :: Persist auth/audit events in Postgres (schema + write path; read via /api/daa for admin)
 ## Done
 
 - [x] dashboard-ui-shadcn-admin-users-v0 :: Dashboard: refactor Admin Users table/drawer UI to shadcn (search/sort/status filters) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/244)
@@ -296,6 +298,8 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - [x] arch-daa-api-auth-magic-link-v0 :: FastAPI: email magic-link auth ( + ) + cookie session (SameSite=Lax) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/343)
 
 - [x] arch-next-postgres-email-sender-v0 :: Next: Resend email sender (env checks + no secret leakage) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/347)
+
+- [x] arch-next-postgres-session-cookie-v0 :: Postgres-backed cookie session for magic-link auth (Next.js /api/daa/* only) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/348)
 ## Log
 
 - 2026-02-15 03:29 PR opened: dashboard-ui-shadcn-audit-log-table-v0-v3 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/252
@@ -873,3 +877,7 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - 2026-02-16 11:26 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/343; advanced SoT
 
 - 2026-02-16 11:27 merged https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/347; advanced SoT
+
+- 2026-02-16 11:29 autofill added backend-postgres-runs-store-v0
+
+- 2026-02-16 11:29 autofill added backend-postgres-audit-store-v0
