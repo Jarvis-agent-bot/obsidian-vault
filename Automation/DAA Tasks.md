@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) NOW: backend-postgres-audit-retention-cleanup-v0 :: Implement retention-safe cleanup for old audit rows and verify admin query paths remain contract-compatible
+- [ ] (auto) Nothing active
 ## Backlog
 
 Planning note: priority = top to bottom. Keep each task ~1 PR.
@@ -107,13 +107,9 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 
 
 
-- [ ] backend-postgres-audit-retention-cleanup-v0 :: Implement retention-safe cleanup for old audit rows and verify admin query paths remain contract-compatible
 
-- [ ] arch-next-postgres-api-daa-store-error-contract-v0 :: Lock /api/daa/store/v0 error status/body contract for Postgres paths via focused regression tests
 
-- [ ] arch-remove-fastapi-route-ownership-smoke-v0 :: Add a route-ownership smoke test proving public /api/daa routes are only served by Next.js
 
-- [ ] arch-next-postgres-daa-api-regression-pack-v0 :: Add a minimal regression pack for auth plus store endpoints on Postgres-backed /api/daa routes
 ## Done
 
 - [x] dashboard-ui-shadcn-admin-users-v0 :: Dashboard: refactor Admin Users table/drawer UI to shadcn (search/sort/status filters) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/244)
@@ -385,6 +381,14 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - [x] backend-postgres-auth-session-cookie-rotation-v0 :: Add session-cookie rotation and stale-cookie invalidation checks for Postgres auth sessions
 
 - [x] backend-postgres-runs-query-filters-v0 :: Add deterministic Postgres filters for /api/daa/store/v0/runs (status/date/source) with stable ordering
+
+- [x] backend-postgres-audit-retention-cleanup-v0 :: Implement retention-safe cleanup for old audit rows and verify admin query paths remain contract-compatible
+
+- [x] arch-next-postgres-api-daa-store-error-contract-v0 :: Lock /api/daa/store/v0 error status/body contract for Postgres paths via focused regression tests
+
+- [x] arch-remove-fastapi-route-ownership-smoke-v0 :: Add a route-ownership smoke test proving public /api/daa routes are only served by Next.js
+
+- [x] arch-next-postgres-daa-api-regression-pack-v0 :: Add a minimal regression pack for auth plus store endpoints on Postgres-backed /api/daa routes
 ## Log
 
 - 2026-02-15 03:29 PR opened: dashboard-ui-shadcn-audit-log-table-v0-v3 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/252
@@ -1154,3 +1158,17 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - 2026-02-16 19:00 backlog-guard completed stale backend-postgres-runs-query-filters-v0
 
 - 2026-02-16 19:00 activated backend-postgres-audit-retention-cleanup-v0
+
+- 2026-02-16 19:50 backlog-guard completed stale backend-postgres-audit-retention-cleanup-v0
+
+- 2026-02-16 19:50 activated arch-next-postgres-api-daa-store-error-contract-v0
+
+- 2026-02-16 20:00 backlog-guard completed stale arch-next-postgres-api-daa-store-error-contract-v0
+
+- 2026-02-16 20:00 activated arch-remove-fastapi-route-ownership-smoke-v0
+
+- 2026-02-16 20:20 backlog-guard completed stale arch-remove-fastapi-route-ownership-smoke-v0
+
+- 2026-02-16 20:20 activated arch-next-postgres-daa-api-regression-pack-v0
+
+- 2026-02-16 20:30 backlog-guard completed stale arch-next-postgres-daa-api-regression-pack-v0
