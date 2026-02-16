@@ -1,7 +1,7 @@
 # DAA Tasks
 
 ## Now
-- [ ] (auto) NOW: arch-next-postgres-session-cookie-v0 :: Postgres-backed cookie session for magic-link auth (Next.js /api/daa/* only)
+- [ ] (auto) NOW: backend-postgres-admin-users-v0 :: Postgres admin users: CRUD + authz check for /api/daa/*
 
 ## Backlog
 
@@ -89,6 +89,12 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - [ ] backend-postgres-runs-store-v0 :: Persist DAA runs in Postgres (schema + insert/query via Next.js /api/daa)
 
 - [ ] backend-postgres-audit-store-v0 :: Persist auth/audit events in Postgres (schema + write path; read via /api/daa for admin)
+
+- [ ] arch-remove-sqljs-dependency-v1 :: Remove sql.js from server runtime dependency graph (Next.js /api/daa)
+
+- [ ] backend-postgres-auth-magiclink-tokens-v0 :: Postgres-backed magic-link tokens table (request + consume) for Resend auth
+
+- [ ] backend-postgres-auth-session-cookie-guard-v0 :: Cookie session guard for /api/daa/* using Postgres-backed auth session
 ## Done
 
 - [x] dashboard-ui-shadcn-admin-users-v0 :: Dashboard: refactor Admin Users table/drawer UI to shadcn (search/sort/status filters) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/244)
@@ -881,3 +887,11 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - 2026-02-16 11:29 autofill added backend-postgres-runs-store-v0
 
 - 2026-02-16 11:29 autofill added backend-postgres-audit-store-v0
+
+- 2026-02-16 11:40 autofill added arch-remove-sqljs-dependency-v1
+
+- 2026-02-16 11:40 autofill added backend-postgres-auth-magiclink-tokens-v0
+
+- 2026-02-16 11:45 activated backend-postgres-admin-users-v0
+
+- 2026-02-16 12:05 autofill added backend-postgres-auth-session-cookie-guard-v0
