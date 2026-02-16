@@ -1,8 +1,8 @@
 # DAA Tasks
 
 ## Now
-- [ ] (auto) NOW: backend-postgres-admin-users-v0 :: Postgres admin users: CRUD + authz check for /api/daa/*
 
+- [ ] (auto) NOW: backend-postgres-auth-magiclink-token-expiry-v0 :: Add Postgres token-expiry cleanup and validation parity for magic-link auth
 ## Backlog
 
 Planning note: priority = top to bottom. Keep each task ~1 PR.
@@ -84,17 +84,25 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 
 
 
-- [ ] backend-postgres-admin-users-v0 :: Postgres admin users: CRUD + authz check for /api/daa/*
 
-- [ ] backend-postgres-runs-store-v0 :: Persist DAA runs in Postgres (schema + insert/query via Next.js /api/daa)
 
-- [ ] backend-postgres-audit-store-v0 :: Persist auth/audit events in Postgres (schema + write path; read via /api/daa for admin)
 
-- [ ] arch-remove-sqljs-dependency-v1 :: Remove sql.js from server runtime dependency graph (Next.js /api/daa)
 
-- [ ] backend-postgres-auth-magiclink-tokens-v0 :: Postgres-backed magic-link tokens table (request + consume) for Resend auth
 
-- [ ] backend-postgres-auth-session-cookie-guard-v0 :: Cookie session guard for /api/daa/* using Postgres-backed auth session
+
+
+
+
+
+
+
+- [ ] backend-postgres-auth-magiclink-token-expiry-v0 :: Add Postgres token-expiry cleanup and validation parity for magic-link auth
+
+- [ ] backend-postgres-auth-session-refresh-v0 :: Implement Postgres session refresh and last-seen update path for /api/daa/auth/me
+
+- [ ] arch-next-postgres-api-daa-store-contract-parity-v0 :: Verify /api/daa/store/v0 payload and status-code parity after Postgres migration
+
+- [ ] arch-next-postgres-prod-smoke-dashboard-engine-v0 :: Add production smoke checks for /daa/dashboard and /api/daa/engine-health
 ## Done
 
 - [x] dashboard-ui-shadcn-admin-users-v0 :: Dashboard: refactor Admin Users table/drawer UI to shadcn (search/sort/status filters) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/244)
@@ -306,6 +314,44 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - [x] arch-next-postgres-email-sender-v0 :: Next: Resend email sender (env checks + no secret leakage) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/347)
 
 - [x] arch-next-postgres-session-cookie-v0 :: Postgres-backed cookie session for magic-link auth (Next.js /api/daa/* only) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/348)
+
+- [x] backend-postgres-admin-users-v0 :: Postgres admin users: CRUD + authz check for /api/daa/* (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/349)
+
+- [x] backend-postgres-runs-store-v0 :: Persist DAA runs in Postgres (schema + insert/query via Next.js /api/daa) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/345)
+
+- [x] backend-postgres-audit-store-v0 :: Persist auth/audit events in Postgres (schema + write path; read via /api/daa for admin) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/352)
+
+- [x] (auto) arch-remove-sqljs-dependency-v1 :: Remove sql.js from server runtime dependency graph (Next.js /api/daa) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/353)
+
+- [x] arch-remove-sqljs-dependency-v1 :: Remove sql.js from server runtime dependency graph (Next.js /api/daa) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/354)
+
+- [x] backend-postgres-auth-magiclink-tokens-v0 :: Postgres-backed magic-link tokens table (request + consume) for Resend auth (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/344)
+
+- [x] backend-postgres-auth-session-cookie-guard-v0 :: Cookie session guard for /api/daa/* using Postgres-backed auth session (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/355)
+
+- [x] backend-postgres-audit-store-v0-v2 :: Persist auth/audit events in Postgres (schema + write path; read via /api/daa for admin) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/351)
+
+- [x] (auto) arch-next-postgres-auth-magic-link-e2e-v1 :: Ship Next.js /api/daa auth magic-link request and consume on Postgres with cookie session (no sqlite fallback) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/355)
+
+- [x] arch-next-postgres-auth-magic-link-e2e-v1-v2 :: Ship Next.js /api/daa auth magic-link request and consume on Postgres with cookie session (no sqlite fallback) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/355)
+
+- [x] arch-next-postgres-auth-magic-link-e2e-v1-v4 :: Ship Next.js /api/daa auth magic-link request and consume on Postgres with cookie session (no sqlite fallback) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/355)
+
+- [x] arch-next-postgres-auth-magic-link-e2e-v1 :: Ship Next.js /api/daa auth magic-link request and consume on Postgres with cookie session (no sqlite fallback)
+
+- [x] arch-remove-sqljs-server-runtime-block-v0 :: Enforce Postgres-only server runtime by hard-failing when sql.js or sqlite runtime is configured (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/356)
+
+- [x] arch-next-postgres-api-daa-runs-read-write-v0 :: Route /api/daa/runs read+write through Next.js Postgres store (no sqlite path) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/357)
+
+- [x] (auto) backend-postgres-auth-magiclink-consume-session-cookie-v0 :: Consume magic-link in Next.js and issue cookie session backed by Postgres (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/348)
+
+- [x] backend-postgres-auth-magiclink-consume-session-cookie-v0 :: Consume magic-link in Next.js and issue cookie session backed by Postgres (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/348)
+
+- [x] arch-next-postgres-api-daa-runs-by-id-v0 :: Migrate /api/daa/store/v0/run/[runId] to Postgres-backed Next.js handlers (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/357)
+
+- [x] arch-next-postgres-api-daa-runs-audit-stream-v0 :: Migrate /api/daa/store/v0/run/[runId]/audit and /audit-events to Postgres paths
+
+- [x] backend-postgres-auth-magiclink-request-resend-v0 :: Move email-login request and resend rate-limit persistence to Postgres (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/344)
 ## Log
 
 - 2026-02-15 03:29 PR opened: dashboard-ui-shadcn-audit-log-table-v0-v3 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/252
@@ -895,3 +941,117 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - 2026-02-16 11:45 activated backend-postgres-admin-users-v0
 
 - 2026-02-16 12:05 autofill added backend-postgres-auth-session-cookie-guard-v0
+
+- 2026-02-16 12:10 activated backend-postgres-admin-users-v0
+
+- 2026-02-16 12:15 activated backend-postgres-admin-users-v0
+
+- 2026-02-16 12:18 backend-postgres-admin-users-v0 merged via PR 349 and SoT advanced
+
+- 2026-02-16 12:20 activated backend-postgres-runs-store-v0
+
+- 2026-02-16 12:24 Merged backend-postgres-runs-store-v0 via PR 345 and advanced SoT
+
+- 2026-02-16 12:25 activated backend-postgres-audit-store-v0
+
+- 2026-02-16 12:35 activated backend-postgres-audit-store-v0
+
+- 2026-02-16 12:50 activated backend-postgres-audit-store-v0
+
+- 2026-02-16 12:58 activated backend-postgres-audit-store-v0
+
+- 2026-02-16 13:02 activated backend-postgres-audit-store-v0
+
+- 2026-02-16 13:03 activated arch-remove-sqljs-dependency-v1
+
+- 2026-02-16 13:10 Opened PR #353 for arch-remove-sqljs-dependency-v1
+
+- 2026-02-16 13:10 Merged arch-remove-sqljs-dependency-v1 via PR 353 and advanced SoT
+
+- 2026-02-16 13:15 activated arch-remove-sqljs-dependency-v1
+
+- 2026-02-16 13:20 activated arch-remove-sqljs-dependency-v1
+
+- 2026-02-16 13:31 Merged arch-remove-sqljs-dependency-v1-v3 (PR #354) + advanced SoT
+
+- 2026-02-16 13:35 activated backend-postgres-auth-magiclink-tokens-v0
+
+- 2026-02-16 13:38 merged backend-postgres-auth-magiclink-tokens-v0 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/344
+
+- 2026-02-16 13:40 activated backend-postgres-auth-session-cookie-guard-v0
+
+- 2026-02-16 13:47 activated backend-postgres-auth-session-cookie-guard-v0
+
+- 2026-02-16 13:48 merged backend-postgres-auth-session-cookie-guard-v0 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/355
+
+- 2026-02-16 13:48 activated backend-postgres-audit-store-v0-v2
+
+- 2026-02-16 14:02 autofill added arch-next-postgres-auth-magic-link-e2e-v1
+
+- 2026-02-16 14:02 autofill added arch-remove-sqljs-server-runtime-block-v0
+
+- 2026-02-16 14:05 activated arch-next-postgres-auth-magic-link-e2e-v1
+
+- 2026-02-16 14:08 DONE: arch-next-postgres-auth-magic-link-e2e-v1 merged via PR #355
+
+- 2026-02-16 14:10 activated arch-next-postgres-auth-magic-link-e2e-v1
+
+- 2026-02-16 14:13 Merged arch-next-postgres-auth-magic-link-e2e-v1-v2 via PR 355 and advanced SoT
+
+- 2026-02-16 14:15 activated arch-next-postgres-auth-magic-link-e2e-v1
+
+- 2026-02-16 14:20 activated arch-next-postgres-auth-magic-link-e2e-v1
+
+- 2026-02-16 14:24 merged arch-next-postgres-auth-magic-link-e2e-v1-v4 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/355
+
+- 2026-02-16 14:30 activated arch-next-postgres-auth-magic-link-e2e-v1
+
+- 2026-02-16 14:33 activated arch-next-postgres-auth-magic-link-e2e-v1
+
+- 2026-02-16 14:34 activated arch-remove-sqljs-server-runtime-block-v0
+
+- 2026-02-16 14:37 PR opened: arch-remove-sqljs-server-runtime-block-v0 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/356
+
+- 2026-02-16 14:38 merged arch-remove-sqljs-server-runtime-block-v0 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/356
+
+- 2026-02-16 14:47 autofill added arch-next-postgres-api-daa-runs-read-write-v0
+
+- 2026-02-16 14:47 autofill added backend-postgres-auth-magiclink-consume-session-cookie-v0
+
+- 2026-02-16 14:50 activated arch-next-postgres-api-daa-runs-read-write-v0
+
+- 2026-02-16 14:57 merged arch-next-postgres-api-daa-runs-read-write-v0 https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/357
+
+- 2026-02-16 15:00 activated backend-postgres-auth-magiclink-consume-session-cookie-v0
+
+- 2026-02-16 15:03 DONE: backend-postgres-auth-magiclink-consume-session-cookie-v0 merged via PR #348
+
+- 2026-02-16 15:05 activated backend-postgres-auth-magiclink-consume-session-cookie-v0
+
+- 2026-02-16 15:08 DONE: backend-postgres-auth-magiclink-consume-session-cookie-v0 (duplicate active v2) adopted merged PR #348 and advanced SoT
+
+- 2026-02-16 15:10 backlog-guard added arch-next-postgres-api-daa-runs-by-id-v0
+
+- 2026-02-16 15:10 backlog-guard added arch-next-postgres-api-daa-runs-audit-stream-v0
+
+- 2026-02-16 15:10 backlog-guard added backend-postgres-auth-magiclink-request-resend-v0
+
+- 2026-02-16 15:10 backlog-guard added backend-postgres-auth-magiclink-token-expiry-v0
+
+- 2026-02-16 15:10 activated arch-next-postgres-api-daa-runs-by-id-v0
+
+- 2026-02-16 15:25 backlog-guard added backend-postgres-auth-session-refresh-v0
+
+- 2026-02-16 15:25 backlog-guard added arch-next-postgres-api-daa-store-contract-parity-v0
+
+- 2026-02-16 15:25 backlog-guard added arch-next-postgres-prod-smoke-dashboard-engine-v0
+
+- 2026-02-16 15:26 activated arch-next-postgres-api-daa-runs-audit-stream-v0
+
+- 2026-02-16 15:48 backlog-guard completed stale arch-next-postgres-api-daa-runs-audit-stream-v0
+
+- 2026-02-16 15:48 activated backend-postgres-auth-magiclink-request-resend-v0
+
+- 2026-02-16 15:53 merged backend-postgres-auth-magiclink-request-resend-v0 https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/344
+
+- 2026-02-16 16:00 activated backend-postgres-auth-magiclink-token-expiry-v0
