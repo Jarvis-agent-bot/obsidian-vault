@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) NOW: product-funds-hub-step-actions-jump-fix-v0 :: Add jump-to-fix actions from hub status cards into the corresponding step screens
+- [ ] (auto) NOW: api-daa-hub-run-refresh-workflow-v0 :: Provide a single Run DAA path in funds hub to refresh steps and generate recommendation
 ## Backlog
 
 Planning note: priority = top to bottom. Keep each task ~1 PR.
@@ -112,15 +112,18 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 
 
 
-- [ ] product-funds-hub-step-actions-jump-fix-v0 :: Add jump-to-fix actions from hub status cards into the corresponding step screens
 
-- [ ] backend-dashboard-bundle-money-plan-schema-v0 :: Extend dashboard bundle schema with Step3 money-plan fields and compatibility guards
 
-- [ ] backend-dashboard-bundle-import-export-hub-v0 :: Support import/export of the DAA dashboard bundle directly from the funds hub UI
 
 - [ ] api-daa-hub-run-refresh-workflow-v0 :: Provide a single Run DAA path in funds hub to refresh steps and generate recommendation
 
 - [ ] qa-hub-deeplink-compat-step-wizard-v0 :: Verify /daa/step/* and /daa/wizard deep-links remain compatible after hub-first flow
+
+- [ ] ops-hub-regression-smoke-pack-v0 :: Add smoke checks for funds hub run path, recommendation rendering, and bundle export
+
+- [ ] backend-nextjs-postgres-platform-hardening-v0 :: Backend system A: harden Next.js + Postgres API boundaries, migrations, and failure handling
+
+- [ ] backend-engine-service-contract-hardening-v0 :: Backend system B: harden Python engine contracts, timeouts, and upstream error mapping
 ## Done
 
 - [x] dashboard-ui-shadcn-admin-users-v0 :: Dashboard: refactor Admin Users table/drawer UI to shadcn (search/sort/status filters) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/244)
@@ -404,6 +407,12 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - [x] product-funds-hub-entry-path-v0 :: Make /daa/market/funds the default DAA hub entry with clear jump-off into run workflow
 
 - [x] product-funds-hub-step-status-panel-v0 :: Show Step1-7 completion status in funds hub with missing-data highlights
+
+- [x] product-funds-hub-step-actions-jump-fix-v0 :: Add jump-to-fix actions from hub status cards into the corresponding step screens
+
+- [x] backend-dashboard-bundle-money-plan-schema-v0 :: Extend dashboard bundle schema with Step3 money-plan fields and compatibility guards
+
+- [x] backend-dashboard-bundle-import-export-hub-v0 :: Support import/export of the DAA dashboard bundle directly from the funds hub UI
 ## Log
 
 - 2026-02-15 03:29 PR opened: dashboard-ui-shadcn-audit-log-table-v0-v3 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/252
@@ -1211,3 +1220,21 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - 2026-02-17 04:10 backlog-guard completed stale product-funds-hub-step-status-panel-v0
 
 - 2026-02-17 04:10 activated product-funds-hub-step-actions-jump-fix-v0
+
+- 2026-02-17 04:30 backlog-guard completed stale product-funds-hub-step-actions-jump-fix-v0
+
+- 2026-02-17 04:30 activated backend-dashboard-bundle-money-plan-schema-v0
+
+- 2026-02-17 04:50 backlog-guard completed stale backend-dashboard-bundle-money-plan-schema-v0
+
+- 2026-02-17 04:50 backlog-guard added ops-hub-regression-smoke-pack-v0
+
+- 2026-02-17 04:50 backlog-guard added backend-nextjs-postgres-platform-hardening-v0
+
+- 2026-02-17 04:50 backlog-guard added backend-engine-service-contract-hardening-v0
+
+- 2026-02-17 04:50 activated backend-dashboard-bundle-import-export-hub-v0
+
+- 2026-02-17 05:00 backlog-guard completed stale backend-dashboard-bundle-import-export-hub-v0
+
+- 2026-02-17 05:00 activated api-daa-hub-run-refresh-workflow-v0
