@@ -21,9 +21,13 @@ Nginx routing
 - `/api/daa/*` -> FastAPI
 
 ## Migration Outline (PR-sized)
-1) Introduce `daa-api` container + Postgres + Alembic; define schemas: accounts, sessions, runs, audit_events, admin_users.
-2) Re-implement auth endpoints in Python: `/api/daa/auth/login|logout|me` with cookie session (SameSite=Lax).
-3) Move store endpoints (runs/audit) from Next to Python; keep response shape compatible to avoid UI churn.
+1) Introduce `daa-api` container + Postgres + Alembic; define schemas: accounts, magic_link_tokens, sessions, runs, audit_events, admin_users.
+2) Implement auth in Python as email magic-link:
+   - `POST /api/daa/auth/request-link` (rate-limited) -> send email
+   - `GET /api/daa/auth/verify?token=...` -> set session cookie (SameSite=Lax)
+   - `POST /api/daa/auth/logout`, `GET /api/daa/auth/me`
+   Provider abstraction: SMTP/Resend-style; dev fallback can log the link (never for public prod).
+3) Move store endpoints (runs/audit/admin users) from Next to Python; keep response shape compatible to avoid UI churn.
 4) Update Next to call Python API; delete Node-side sqlite/sql.js code paths.
 5) Decommission legacy bearer tokens and any bootstrap hacks; keep one clean bootstrap flow for first admin (guarded).
 
