@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) NOW: mainline-dod-sends-email-via-resend-v4 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/request` sends email via Resend.
+- [ ] (auto) NOW: mainline-dod-sets-session-cookie-and-redirects-to-v4 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/consume` sets session cookie and redirects to `/daa/dashboard`.
 ## Backlog
 
 Planning note: priority = top to bottom. Keep each task ~1 PR.
@@ -164,9 +164,8 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 
 
 
-- [ ] mainline-dod-sends-email-via-resend-v4 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/request` sends email via Resend.
 
-- [ ] mainline-dod-sets-session-cookie-and-redirects-to-v4 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/consume` sets session cookie and redirects to `/daa/dashboard`.
+- [ ] mainline-dod-sets-session-cookie-and-redirects-to-v4 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/consume` sets session cookie and redirects to `/daa/dashboard`. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/416)
 
 - [ ] mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v4 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: `/api/daa/store/v0/*` reads/writes Postgres (contract-compatible with current UI).
 
@@ -562,6 +561,8 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - [x] mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v3 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: `/api/daa/store/v0/*` reads/writes Postgres (contract-compatible with current UI).
 
 - [x] mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v4 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline GOAL: Python service becomes optional (engine-only) and must NOT own `/api/daa/*`.
+
+- [x] mainline-dod-sends-email-via-resend-v4 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/request` sends email via Resend. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/415)
 ## Log
 
 - 2026-02-15 03:29 PR opened: dashboard-ui-shadcn-audit-log-table-v0-v3 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/252
@@ -1691,3 +1692,7 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - 2026-02-18 01:30 backlog-guard completed stale mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v4
 
 - 2026-02-18 01:30 activated mainline-dod-sends-email-via-resend-v4
+
+- 2026-02-18 03:17 backlog-guard completed stale mainline-dod-sends-email-via-resend-v4
+
+- 2026-02-18 03:17 activated mainline-dod-sets-session-cookie-and-redirects-to-v4
