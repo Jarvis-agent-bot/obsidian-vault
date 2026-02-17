@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) NOW: frontend-uiux-shadcn-token-consistency-pass-v0 :: Frontend UIUX: align spacing, typography, and color tokens across shadcn components
+- [ ] (auto) Nothing active
 ## Backlog
 
 Planning note: priority = top to bottom. Keep each task ~1 PR.
@@ -132,13 +132,9 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 
 
 
-- [ ] frontend-uiux-shadcn-token-consistency-pass-v0 :: Frontend UIUX: align spacing, typography, and color tokens across shadcn components
 
-- [ ] frontend-uiux-step-flow-cta-copy-pass-v0 :: Frontend UIUX: tighten CTA copy across step flow to reduce decision ambiguity
 
-- [ ] frontend-uiux-accessibility-keyboard-focus-map-v0 :: Frontend UIUX: complete keyboard focus map for dashboard and funds hub interactions
 
-- [ ] frontend-uiux-performance-skeleton-loading-pass-v0 :: Frontend UIUX: refine skeleton and progressive-loading behavior for perceived performance
 ## Done
 
 - [x] dashboard-ui-shadcn-admin-users-v0 :: Dashboard: refactor Admin Users table/drawer UI to shadcn (search/sort/status filters) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/244)
@@ -462,6 +458,14 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - [x] frontend-uiux-funds-hub-form-friction-pass-v0 :: Frontend UIUX: reduce form friction in funds hub with defaults, hints, and validation timing
 
 - [x] frontend-uiux-dashboard-visual-regression-guards-v0 :: Frontend UIUX: add visual-regression guardrails for critical dashboard surfaces
+
+- [x] frontend-uiux-shadcn-token-consistency-pass-v0 :: Frontend UIUX: align spacing, typography, and color tokens across shadcn components
+
+- [x] frontend-uiux-step-flow-cta-copy-pass-v0 :: Frontend UIUX: tighten CTA copy across step flow to reduce decision ambiguity
+
+- [x] frontend-uiux-accessibility-keyboard-focus-map-v0 :: Frontend UIUX: complete keyboard focus map for dashboard and funds hub interactions
+
+- [x] frontend-uiux-performance-skeleton-loading-pass-v0 :: Frontend UIUX: refine skeleton and progressive-loading behavior for perceived performance
 ## Log
 
 - 2026-02-15 03:29 PR opened: dashboard-ui-shadcn-audit-log-table-v0-v3 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/252
@@ -1389,3 +1393,19 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - 2026-02-17 13:00 backlog-guard completed stale frontend-uiux-dashboard-visual-regression-guards-v0
 
 - 2026-02-17 13:00 activated frontend-uiux-shadcn-token-consistency-pass-v0
+
+- 2026-02-17 13:30 activated frontend-uiux-shadcn-token-consistency-pass-v0
+
+- 2026-02-17 13:37 backlog-guard completed stale frontend-uiux-shadcn-token-consistency-pass-v0
+
+- 2026-02-17 13:40 activated frontend-uiux-step-flow-cta-copy-pass-v0
+
+- 2026-02-17 13:50 backlog-guard completed stale frontend-uiux-step-flow-cta-copy-pass-v0
+
+- 2026-02-17 13:50 activated frontend-uiux-accessibility-keyboard-focus-map-v0
+
+- 2026-02-17 14:00 backlog-guard completed stale frontend-uiux-accessibility-keyboard-focus-map-v0
+
+- 2026-02-17 14:00 activated frontend-uiux-performance-skeleton-loading-pass-v0
+
+- 2026-02-17 14:20 backlog-guard completed stale frontend-uiux-performance-skeleton-loading-pass-v0
