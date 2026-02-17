@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) NOW: mainline-dod-sets-session-cookie-and-redirects-to-v0 :: Mainline DOD: `/api/daa/auth/email-login/consume` sets session cookie and redirects to `/daa/dashboard`.
+- [ ] (auto) NOW: mainline-dod-sends-email-via-resend-v4 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/request` sends email via Resend.
 ## Backlog
 
 Planning note: priority = top to bottom. Keep each task ~1 PR.
@@ -141,13 +141,38 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 
 
 
-- [ ] mainline-dod-sets-session-cookie-and-redirects-to-v0 :: Mainline DOD: `/api/daa/auth/email-login/consume` sets session cookie and redirects to `/daa/dashboard`.
 
-- [ ] mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v0 :: Mainline DOD: `/api/daa/store/v0/*` reads/writes Postgres (contract-compatible with current UI).
 
-- [ ] mainline-dod-prod-smoke-200-200-v0 :: Mainline DOD: Prod smoke: `/api/daa/engine-health` 200; `/daa/dashboard` 200.
 
-- [ ] mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v1 :: Follow-up hardening: Mainline GOAL: Remove `sql.js`/SQLite from server runtime (no bundler/strict-mode footguns).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- [ ] mainline-dod-sends-email-via-resend-v4 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/request` sends email via Resend.
+
+- [ ] mainline-dod-sets-session-cookie-and-redirects-to-v4 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/consume` sets session cookie and redirects to `/daa/dashboard`.
+
+- [ ] mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v4 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: `/api/daa/store/v0/*` reads/writes Postgres (contract-compatible with current UI).
+
+- [ ] mainline-dod-prod-smoke-200-200-v4 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: Prod smoke: `/api/daa/engine-health` 200; `/daa/dashboard` 200.
+
+- [ ] mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v5 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline GOAL: Remove `sql.js`/SQLite from server runtime (no bundler/strict-mode footguns).
 ## Done
 
 - [x] dashboard-ui-shadcn-admin-users-v0 :: Dashboard: refactor Admin Users table/drawer UI to shadcn (search/sort/status filters) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/244)
@@ -491,6 +516,52 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - [x] mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v0 :: Mainline GOAL: Python service becomes optional (engine-only) and must NOT own `/api/daa/*`.
 
 - [x] mainline-dod-sends-email-via-resend-v0 :: Mainline DOD: `/api/daa/auth/email-login/request` sends email via Resend.
+
+- [x] mainline-dod-sets-session-cookie-and-redirects-to-v0 :: Mainline DOD: `/api/daa/auth/email-login/consume` sets session cookie and redirects to `/daa/dashboard`.
+
+- [x] mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v0 :: Mainline DOD: `/api/daa/store/v0/*` reads/writes Postgres (contract-compatible with current UI).
+
+- [x] mainline-dod-prod-smoke-200-200-v0 :: Mainline DOD: Prod smoke: `/api/daa/engine-health` 200; `/daa/dashboard` 200.
+
+- [x] mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v1 :: Follow-up hardening: Mainline GOAL: Remove `sql.js`/SQLite from server runtime (no bundler/strict-mode footguns).
+
+- [x] mainline-dod-sets-session-cookie-and-redirects-to-v1 :: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/consume` sets session cookie and redirects to `/daa/dashboard`.
+
+- [x] mainline-dod-sends-email-via-resend-v1 :: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/request` sends email via Resend.
+
+- [x] mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v1 :: Follow-up hardening: Mainline GOAL: Python service becomes optional (engine-only) and must NOT own `/api/daa/*`.
+
+- [x] mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v2 :: Follow-up hardening: Follow-up hardening: Mainline GOAL: Remove `sql.js`/SQLite from server runtime (no bundler/strict-mode footguns).
+
+- [x] mainline-dod-prod-smoke-200-200-v1 :: Follow-up hardening: Mainline DOD: Prod smoke: `/api/daa/engine-health` 200; `/daa/dashboard` 200.
+
+- [x] mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v1 :: Follow-up hardening: Mainline DOD: `/api/daa/store/v0/*` reads/writes Postgres (contract-compatible with current UI).
+
+- [x] mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v2 :: Follow-up hardening: Follow-up hardening: Mainline GOAL: Python service becomes optional (engine-only) and must NOT own `/api/daa/*`.
+
+- [x] mainline-dod-sends-email-via-resend-v2 :: Follow-up hardening: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/request` sends email via Resend.
+
+- [x] mainline-dod-sets-session-cookie-and-redirects-to-v2 :: Follow-up hardening: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/consume` sets session cookie and redirects to `/daa/dashboard`.
+
+- [x] mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v2 :: Follow-up hardening: Follow-up hardening: Mainline DOD: `/api/daa/store/v0/*` reads/writes Postgres (contract-compatible with current UI).
+
+- [x] mainline-dod-prod-smoke-200-200-v2 :: Follow-up hardening: Follow-up hardening: Mainline DOD: Prod smoke: `/api/daa/engine-health` 200; `/daa/dashboard` 200.
+
+- [x] mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v3 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline GOAL: Remove `sql.js`/SQLite from server runtime (no bundler/strict-mode footguns).
+
+- [x] mainline-dod-sets-session-cookie-and-redirects-to-v3 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/consume` sets session cookie and redirects to `/daa/dashboard`.
+
+- [x] mainline-dod-sends-email-via-resend-v3 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/request` sends email via Resend.
+
+- [x] mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v3 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline GOAL: Python service becomes optional (engine-only) and must NOT own `/api/daa/*`.
+
+- [x] mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v4 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline GOAL: Remove `sql.js`/SQLite from server runtime (no bundler/strict-mode footguns).
+
+- [x] mainline-dod-prod-smoke-200-200-v3 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: Prod smoke: `/api/daa/engine-health` 200; `/daa/dashboard` 200.
+
+- [x] mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v3 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: `/api/daa/store/v0/*` reads/writes Postgres (contract-compatible with current UI).
+
+- [x] mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v4 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline GOAL: Python service becomes optional (engine-only) and must NOT own `/api/daa/*`.
 ## Log
 
 - 2026-02-15 03:29 PR opened: dashboard-ui-shadcn-audit-log-table-v0-v3 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/252
@@ -1480,3 +1551,143 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - 2026-02-17 19:00 backlog-guard completed stale mainline-dod-sends-email-via-resend-v0
 
 - 2026-02-17 19:00 activated mainline-dod-sets-session-cookie-and-redirects-to-v0
+
+- 2026-02-17 19:30 backlog-guard completed stale mainline-dod-sets-session-cookie-and-redirects-to-v0
+
+- 2026-02-17 19:30 backlog-guard added mainline-dod-sets-session-cookie-and-redirects-to-v1
+
+- 2026-02-17 19:30 backlog-guard added mainline-dod-sends-email-via-resend-v1
+
+- 2026-02-17 19:30 backlog-guard added mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v1
+
+- 2026-02-17 19:30 activated mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v0
+
+- 2026-02-17 19:50 backlog-guard completed stale mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v0
+
+- 2026-02-17 19:50 activated mainline-dod-prod-smoke-200-200-v0
+
+- 2026-02-17 20:00 backlog-guard completed stale mainline-dod-prod-smoke-200-200-v0
+
+- 2026-02-17 20:00 activated mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v1
+
+- 2026-02-17 20:20 backlog-guard completed stale mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v1
+
+- 2026-02-17 20:20 backlog-guard added mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v2
+
+- 2026-02-17 20:20 backlog-guard added mainline-dod-prod-smoke-200-200-v1
+
+- 2026-02-17 20:20 backlog-guard added mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v1
+
+- 2026-02-17 20:20 activated mainline-dod-sets-session-cookie-and-redirects-to-v1
+
+- 2026-02-17 20:30 backlog-guard completed stale mainline-dod-sets-session-cookie-and-redirects-to-v1
+
+- 2026-02-17 20:30 activated mainline-dod-sends-email-via-resend-v1
+
+- 2026-02-17 20:50 backlog-guard completed stale mainline-dod-sends-email-via-resend-v1
+
+- 2026-02-17 20:50 activated mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v1
+
+- 2026-02-17 21:00 backlog-guard completed stale mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v1
+
+- 2026-02-17 21:00 backlog-guard added mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v2
+
+- 2026-02-17 21:00 backlog-guard added mainline-dod-sends-email-via-resend-v2
+
+- 2026-02-17 21:00 backlog-guard added mainline-dod-sets-session-cookie-and-redirects-to-v2
+
+- 2026-02-17 21:00 activated mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v2
+
+- 2026-02-17 21:20 backlog-guard completed stale mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v2
+
+- 2026-02-17 21:20 activated mainline-dod-prod-smoke-200-200-v1
+
+- 2026-02-17 21:30 backlog-guard completed stale mainline-dod-prod-smoke-200-200-v1
+
+- 2026-02-17 21:30 activated mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v1
+
+- 2026-02-17 21:50 backlog-guard completed stale mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v1
+
+- 2026-02-17 21:50 backlog-guard added mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v2
+
+- 2026-02-17 21:50 backlog-guard added mainline-dod-prod-smoke-200-200-v2
+
+- 2026-02-17 21:50 backlog-guard added mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v3
+
+- 2026-02-17 21:50 activated mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v2
+
+- 2026-02-17 22:00 backlog-guard completed stale mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v2
+
+- 2026-02-17 22:00 activated mainline-dod-sends-email-via-resend-v2
+
+- 2026-02-17 22:20 backlog-guard completed stale mainline-dod-sends-email-via-resend-v2
+
+- 2026-02-17 22:20 activated mainline-dod-sets-session-cookie-and-redirects-to-v2
+
+- 2026-02-17 22:30 backlog-guard completed stale mainline-dod-sets-session-cookie-and-redirects-to-v2
+
+- 2026-02-17 22:30 backlog-guard added mainline-dod-sets-session-cookie-and-redirects-to-v3
+
+- 2026-02-17 22:30 backlog-guard added mainline-dod-sends-email-via-resend-v3
+
+- 2026-02-17 22:30 backlog-guard added mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v3
+
+- 2026-02-17 22:30 activated mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v2
+
+- 2026-02-17 22:50 backlog-guard completed stale mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v2
+
+- 2026-02-17 22:50 activated mainline-dod-prod-smoke-200-200-v2
+
+- 2026-02-17 23:07 backlog-guard completed stale mainline-dod-prod-smoke-200-200-v2
+
+- 2026-02-17 23:10 activated mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v3
+
+- 2026-02-17 23:20 backlog-guard completed stale mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v3
+
+- 2026-02-17 23:20 backlog-guard added mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v4
+
+- 2026-02-17 23:20 backlog-guard added mainline-dod-prod-smoke-200-200-v3
+
+- 2026-02-17 23:20 backlog-guard added mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v3
+
+- 2026-02-17 23:20 activated mainline-dod-sets-session-cookie-and-redirects-to-v3
+
+- 2026-02-17 23:30 backlog-guard completed stale mainline-dod-sets-session-cookie-and-redirects-to-v3
+
+- 2026-02-17 23:30 activated mainline-dod-sends-email-via-resend-v3
+
+- 2026-02-17 23:50 backlog-guard completed stale mainline-dod-sends-email-via-resend-v3
+
+- 2026-02-17 23:50 activated mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v3
+
+- 2026-02-18 00:00 backlog-guard completed stale mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v3
+
+- 2026-02-18 00:00 backlog-guard added mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v4
+
+- 2026-02-18 00:00 backlog-guard added mainline-dod-sends-email-via-resend-v4
+
+- 2026-02-18 00:00 backlog-guard added mainline-dod-sets-session-cookie-and-redirects-to-v4
+
+- 2026-02-18 00:00 activated mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v4
+
+- 2026-02-18 00:20 backlog-guard completed stale mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v4
+
+- 2026-02-18 00:20 activated mainline-dod-prod-smoke-200-200-v3
+
+- 2026-02-18 00:50 backlog-guard completed stale mainline-dod-prod-smoke-200-200-v3
+
+- 2026-02-18 00:50 activated mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v3
+
+- 2026-02-18 01:20 backlog-guard completed stale mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v3
+
+- 2026-02-18 01:20 backlog-guard added mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v4
+
+- 2026-02-18 01:20 backlog-guard added mainline-dod-prod-smoke-200-200-v4
+
+- 2026-02-18 01:20 backlog-guard added mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v5
+
+- 2026-02-18 01:20 activated mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v4
+
+- 2026-02-18 01:30 backlog-guard completed stale mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v4
+
+- 2026-02-18 01:30 activated mainline-dod-sends-email-via-resend-v4
