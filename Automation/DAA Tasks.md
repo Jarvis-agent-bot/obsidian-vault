@@ -120,7 +120,6 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 
 
 
-- [ ] backend-marketdata-provider-adapters-v0 :: Backend system B: stabilize provider adapters for twitter/xueqiu token and quote ingestion
 
 - [ ] frontend-uiux-dashboard-information-architecture-v0 :: Frontend UIUX: restructure dashboard information hierarchy for faster operator scanning
 
@@ -426,6 +425,8 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - [x] backend-nextjs-postgres-platform-hardening-v0 :: Backend system A: harden Next.js + Postgres API boundaries, migrations, and failure handling
 
 - [x] backend-engine-service-contract-hardening-v0 :: Backend system B: harden Python engine contracts, timeouts, and upstream error mapping
+
+- [x] backend-marketdata-provider-adapters-v0 :: Backend system B: stabilize provider adapters for twitter/xueqiu token and quote ingestion
 ## Log
 
 - 2026-02-15 03:29 PR opened: dashboard-ui-shadcn-audit-log-table-v0-v3 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/252
@@ -1281,3 +1282,5 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - 2026-02-17 07:00 backlog-guard added frontend-uiux-accessibility-feedback-states-v0
 
 - 2026-02-17 07:00 activated backend-marketdata-provider-adapters-v0
+
+- 2026-02-17 07:20 backlog-guard completed stale backend-marketdata-provider-adapters-v0
