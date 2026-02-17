@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) Nothing active
+- [ ] (auto) NOW: mainline-dod-sets-session-cookie-and-redirects-to-v0 :: Mainline DOD: `/api/daa/auth/email-login/consume` sets session cookie and redirects to `/daa/dashboard`.
 ## Backlog
 
 Planning note: priority = top to bottom. Keep each task ~1 PR.
@@ -135,6 +135,19 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 
 
 
+
+
+
+
+
+
+- [ ] mainline-dod-sets-session-cookie-and-redirects-to-v0 :: Mainline DOD: `/api/daa/auth/email-login/consume` sets session cookie and redirects to `/daa/dashboard`.
+
+- [ ] mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v0 :: Mainline DOD: `/api/daa/store/v0/*` reads/writes Postgres (contract-compatible with current UI).
+
+- [ ] mainline-dod-prod-smoke-200-200-v0 :: Mainline DOD: Prod smoke: `/api/daa/engine-health` 200; `/daa/dashboard` 200.
+
+- [ ] mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v1 :: Follow-up hardening: Mainline GOAL: Remove `sql.js`/SQLite from server runtime (no bundler/strict-mode footguns).
 ## Done
 
 - [x] dashboard-ui-shadcn-admin-users-v0 :: Dashboard: refactor Admin Users table/drawer UI to shadcn (search/sort/status filters) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/244)
@@ -466,6 +479,18 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - [x] frontend-uiux-accessibility-keyboard-focus-map-v0 :: Frontend UIUX: complete keyboard focus map for dashboard and funds hub interactions
 
 - [x] frontend-uiux-performance-skeleton-loading-pass-v0 :: Frontend UIUX: refine skeleton and progressive-loading behavior for perceived performance
+
+- [x] mainline-goal-next-js-remains-the-only-public-backend-for-no-fastapi-migration-for-v0 :: Mainline GOAL: Next.js remains the ONLY public backend for `/api/daa/*` (no FastAPI migration for the public surface).
+
+- [x] mainline-goal-postgres-is-the-only-persistence-for-auth-runs-audit-admin-users-v0 :: Mainline GOAL: Postgres is the ONLY persistence for auth + runs + audit + admin users.
+
+- [x] mainline-goal-auth-is-email-magic-link-resend-cookie-session-samesite-lax-v0 :: Mainline GOAL: Auth is email magic-link (Resend) + cookie session (SameSite=Lax).
+
+- [x] mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v0 :: Mainline GOAL: Remove `sql.js`/SQLite from server runtime (no bundler/strict-mode footguns).
+
+- [x] mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v0 :: Mainline GOAL: Python service becomes optional (engine-only) and must NOT own `/api/daa/*`.
+
+- [x] mainline-dod-sends-email-via-resend-v0 :: Mainline DOD: `/api/daa/auth/email-login/request` sends email via Resend.
 ## Log
 
 - 2026-02-15 03:29 PR opened: dashboard-ui-shadcn-audit-log-table-v0-v3 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/252
@@ -1409,3 +1434,49 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - 2026-02-17 14:00 activated frontend-uiux-performance-skeleton-loading-pass-v0
 
 - 2026-02-17 14:20 backlog-guard completed stale frontend-uiux-performance-skeleton-loading-pass-v0
+
+- 2026-02-17 17:25 backlog-guard added mainline-goal-next-js-remains-the-only-public-backend-for-no-fastapi-migration-for-v0
+
+- 2026-02-17 17:25 backlog-guard added mainline-goal-postgres-is-the-only-persistence-for-auth-runs-audit-admin-users-v0
+
+- 2026-02-17 17:25 backlog-guard added mainline-goal-auth-is-email-magic-link-resend-cookie-session-samesite-lax-v0
+
+- 2026-02-17 17:25 backlog-guard added mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v0
+
+- 2026-02-17 17:25 activated mainline-goal-next-js-remains-the-only-public-backend-for-no-fastapi-migration-for-v0
+
+- 2026-02-17 17:50 backlog-guard completed stale mainline-goal-next-js-remains-the-only-public-backend-for-no-fastapi-migration-for-v0
+
+- 2026-02-17 17:50 backlog-guard added mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v0
+
+- 2026-02-17 17:50 backlog-guard added mainline-dod-sends-email-via-resend-v0
+
+- 2026-02-17 17:50 backlog-guard added mainline-dod-sets-session-cookie-and-redirects-to-v0
+
+- 2026-02-17 17:50 activated mainline-goal-postgres-is-the-only-persistence-for-auth-runs-audit-admin-users-v0
+
+- 2026-02-17 18:00 backlog-guard completed stale mainline-goal-postgres-is-the-only-persistence-for-auth-runs-audit-admin-users-v0
+
+- 2026-02-17 18:00 activated mainline-goal-auth-is-email-magic-link-resend-cookie-session-samesite-lax-v0
+
+- 2026-02-17 18:20 backlog-guard completed stale mainline-goal-auth-is-email-magic-link-resend-cookie-session-samesite-lax-v0
+
+- 2026-02-17 18:20 activated mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v0
+
+- 2026-02-17 18:30 backlog-guard completed stale mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v0
+
+- 2026-02-17 18:30 backlog-guard added mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v0
+
+- 2026-02-17 18:30 backlog-guard added mainline-dod-prod-smoke-200-200-v0
+
+- 2026-02-17 18:30 backlog-guard added mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v1
+
+- 2026-02-17 18:30 activated mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v0
+
+- 2026-02-17 18:50 backlog-guard completed stale mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v0
+
+- 2026-02-17 18:50 activated mainline-dod-sends-email-via-resend-v0
+
+- 2026-02-17 19:00 backlog-guard completed stale mainline-dod-sends-email-via-resend-v0
+
+- 2026-02-17 19:00 activated mainline-dod-sets-session-cookie-and-redirects-to-v0
