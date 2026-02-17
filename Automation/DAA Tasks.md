@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) NOW: backend-marketdata-provider-adapters-v0 :: Backend system B: stabilize provider adapters for twitter/xueqiu token and quote ingestion
+- [ ] (auto) NOW: frontend-uiux-shadcn-token-consistency-pass-v0 :: Frontend UIUX: align spacing, typography, and color tokens across shadcn components
 ## Backlog
 
 Planning note: priority = top to bottom. Keep each task ~1 PR.
@@ -121,11 +121,24 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 
 
 
-- [ ] frontend-uiux-dashboard-information-architecture-v0 :: Frontend UIUX: restructure dashboard information hierarchy for faster operator scanning
 
-- [ ] frontend-uiux-component-consistency-shadcn-v0 :: Frontend UIUX: unify table/form/feedback component states under shadcn patterns
 
-- [ ] frontend-uiux-accessibility-feedback-states-v0 :: Frontend UIUX: improve loading/error/empty and keyboard-accessibility behavior on DAA pages
+
+
+
+
+
+
+
+
+
+- [ ] frontend-uiux-shadcn-token-consistency-pass-v0 :: Frontend UIUX: align spacing, typography, and color tokens across shadcn components
+
+- [ ] frontend-uiux-step-flow-cta-copy-pass-v0 :: Frontend UIUX: tighten CTA copy across step flow to reduce decision ambiguity
+
+- [ ] frontend-uiux-accessibility-keyboard-focus-map-v0 :: Frontend UIUX: complete keyboard focus map for dashboard and funds hub interactions
+
+- [ ] frontend-uiux-performance-skeleton-loading-pass-v0 :: Frontend UIUX: refine skeleton and progressive-loading behavior for perceived performance
 ## Done
 
 - [x] dashboard-ui-shadcn-admin-users-v0 :: Dashboard: refactor Admin Users table/drawer UI to shadcn (search/sort/status filters) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/244)
@@ -427,6 +440,28 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - [x] backend-engine-service-contract-hardening-v0 :: Backend system B: harden Python engine contracts, timeouts, and upstream error mapping
 
 - [x] backend-marketdata-provider-adapters-v0 :: Backend system B: stabilize provider adapters for twitter/xueqiu token and quote ingestion
+
+- [x] frontend-uiux-dashboard-information-architecture-v0 :: Frontend UIUX: restructure dashboard information hierarchy for faster operator scanning
+
+- [x] frontend-uiux-component-consistency-shadcn-v0 :: Frontend UIUX: unify table/form/feedback component states under shadcn patterns
+
+- [x] frontend-uiux-accessibility-feedback-states-v0 :: Frontend UIUX: improve loading/error/empty and keyboard-accessibility behavior on DAA pages
+
+- [x] frontend-uiux-funds-hub-information-density-v0 :: Frontend UIUX: tune funds hub information density for faster scan and lower scroll cost
+
+- [x] frontend-uiux-funds-hub-step-card-hierarchy-v0 :: Frontend UIUX: establish stronger visual hierarchy for step cards and action priority
+
+- [x] frontend-uiux-dashboard-action-rail-v0 :: Frontend UIUX: add a persistent action rail for high-frequency dashboard operations
+
+- [x] frontend-uiux-dashboard-empty-state-guidance-v0 :: Frontend UIUX: redesign empty and first-run states with clearer next actions
+
+- [x] frontend-uiux-dashboard-error-recovery-v0 :: Frontend UIUX: improve inline error recovery controls and retry affordances
+
+- [x] frontend-uiux-funds-hub-mobile-navigation-v0 :: Frontend UIUX: optimize mobile navigation and sticky actions for funds hub flow
+
+- [x] frontend-uiux-funds-hub-form-friction-pass-v0 :: Frontend UIUX: reduce form friction in funds hub with defaults, hints, and validation timing
+
+- [x] frontend-uiux-dashboard-visual-regression-guards-v0 :: Frontend UIUX: add visual-regression guardrails for critical dashboard surfaces
 ## Log
 
 - 2026-02-15 03:29 PR opened: dashboard-ui-shadcn-audit-log-table-v0-v3 -> https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/252
@@ -1284,3 +1319,73 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - 2026-02-17 07:00 activated backend-marketdata-provider-adapters-v0
 
 - 2026-02-17 07:20 backlog-guard completed stale backend-marketdata-provider-adapters-v0
+
+- 2026-02-17 10:21 backlog-guard added frontend-uiux-funds-hub-information-density-v0
+
+- 2026-02-17 10:21 backlog-guard added frontend-uiux-funds-hub-step-card-hierarchy-v0
+
+- 2026-02-17 10:21 backlog-guard added frontend-uiux-dashboard-action-rail-v0
+
+- 2026-02-17 10:21 activated frontend-uiux-dashboard-information-architecture-v0
+
+- 2026-02-17 10:28 backlog-guard completed stale frontend-uiux-dashboard-information-architecture-v0
+
+- 2026-02-17 10:30 activated frontend-uiux-component-consistency-shadcn-v0
+
+- 2026-02-17 10:50 backlog-guard completed stale frontend-uiux-component-consistency-shadcn-v0
+
+- 2026-02-17 10:50 activated frontend-uiux-accessibility-feedback-states-v0
+
+- 2026-02-17 11:00 backlog-guard completed stale frontend-uiux-accessibility-feedback-states-v0
+
+- 2026-02-17 11:00 backlog-guard added frontend-uiux-dashboard-empty-state-guidance-v0
+
+- 2026-02-17 11:00 backlog-guard added frontend-uiux-dashboard-error-recovery-v0
+
+- 2026-02-17 11:00 backlog-guard added frontend-uiux-funds-hub-mobile-navigation-v0
+
+- 2026-02-17 11:00 activated frontend-uiux-funds-hub-information-density-v0
+
+- 2026-02-17 11:14 backlog-guard completed stale frontend-uiux-funds-hub-information-density-v0
+
+- 2026-02-17 11:20 activated frontend-uiux-funds-hub-step-card-hierarchy-v0
+
+- 2026-02-17 11:30 backlog-guard completed stale frontend-uiux-funds-hub-step-card-hierarchy-v0
+
+- 2026-02-17 11:30 activated frontend-uiux-dashboard-action-rail-v0
+
+- 2026-02-17 11:50 backlog-guard completed stale frontend-uiux-dashboard-action-rail-v0
+
+- 2026-02-17 11:50 backlog-guard added frontend-uiux-funds-hub-form-friction-pass-v0
+
+- 2026-02-17 11:50 backlog-guard added frontend-uiux-dashboard-visual-regression-guards-v0
+
+- 2026-02-17 11:50 backlog-guard added frontend-uiux-shadcn-token-consistency-pass-v0
+
+- 2026-02-17 11:50 activated frontend-uiux-dashboard-empty-state-guidance-v0
+
+- 2026-02-17 12:00 backlog-guard completed stale frontend-uiux-dashboard-empty-state-guidance-v0
+
+- 2026-02-17 12:10 activated frontend-uiux-dashboard-error-recovery-v0
+
+- 2026-02-17 12:20 backlog-guard completed stale frontend-uiux-dashboard-error-recovery-v0
+
+- 2026-02-17 12:20 activated frontend-uiux-funds-hub-mobile-navigation-v0
+
+- 2026-02-17 12:30 backlog-guard completed stale frontend-uiux-funds-hub-mobile-navigation-v0
+
+- 2026-02-17 12:30 backlog-guard added frontend-uiux-step-flow-cta-copy-pass-v0
+
+- 2026-02-17 12:30 backlog-guard added frontend-uiux-accessibility-keyboard-focus-map-v0
+
+- 2026-02-17 12:30 backlog-guard added frontend-uiux-performance-skeleton-loading-pass-v0
+
+- 2026-02-17 12:30 activated frontend-uiux-funds-hub-form-friction-pass-v0
+
+- 2026-02-17 12:50 backlog-guard completed stale frontend-uiux-funds-hub-form-friction-pass-v0
+
+- 2026-02-17 12:50 activated frontend-uiux-dashboard-visual-regression-guards-v0
+
+- 2026-02-17 13:00 backlog-guard completed stale frontend-uiux-dashboard-visual-regression-guards-v0
+
+- 2026-02-17 13:00 activated frontend-uiux-shadcn-token-consistency-pass-v0
