@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) NOW: mainline-dod-prod-smoke-200-200-v4 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: Prod smoke: `/api/daa/engine-health` 200; `/daa/dashboard` 200.
+- [ ] (auto) NOW: mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v5 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline GOAL: Remove `sql.js`/SQLite from server runtime (no bundler/strict-mode footguns).
 ## Backlog
 
 Planning note: priority = top to bottom. Keep each task ~1 PR.
@@ -167,7 +167,6 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 
 
 
-- [ ] mainline-dod-prod-smoke-200-200-v4 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: Prod smoke: `/api/daa/engine-health` 200; `/daa/dashboard` 200.
 
 - [ ] mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v5 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline GOAL: Remove `sql.js`/SQLite from server runtime (no bundler/strict-mode footguns).
 
@@ -197,6 +196,8 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - [x] mainline-dod-sets-session-cookie-and-redirects-to-v4 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/consume` sets session cookie and redirects to `/daa/dashboard`. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/416)
 
 - [x] mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v4 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: `/api/daa/store/v0/*` reads/writes Postgres (contract-compatible with current UI). (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/417)
+
+- [x] mainline-dod-prod-smoke-200-200-v4 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: Prod smoke: `/api/daa/engine-health` 200; `/daa/dashboard` 200.
 ## Log
 
 - 2026-02-17 23:50 backlog-guard completed stale mainline-dod-sends-email-via-resend-v3
@@ -234,3 +235,7 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - 2026-02-18 10:07 backlog-guard completed stale mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v4
 
 - 2026-02-18 10:10 activated mainline-dod-prod-smoke-200-200-v4
+
+- 2026-02-18 11:00 backlog-guard completed stale mainline-dod-prod-smoke-200-200-v4
+
+- 2026-02-18 11:00 activated mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v5
