@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) NOW: mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v6 :: Follow-up hardening: Mainline GOAL: Python service becomes optional (engine-only) and must NOT own `/api/daa/*`.
+- [ ] (auto) NOW: mainline-dod-prod-smoke-200-200-v6 :: Follow-up hardening: Mainline DOD: Prod smoke: `/api/daa/engine-health` 200; `/daa/dashboard` 200.
 ## Backlog
 
 Planning note: priority = top to bottom. Keep each task ~1 PR.
@@ -175,17 +175,19 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 
 
 
-- [ ] mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v6 :: Follow-up hardening: Mainline GOAL: Python service becomes optional (engine-only) and must NOT own `/api/daa/*`.
 
-- [ ] mainline-dod-sends-email-via-resend-v6 :: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/request` sends email via Resend.
 
-- [ ] mainline-dod-sets-session-cookie-and-redirects-to-v6 :: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/consume` sets session cookie and redirects to `/daa/dashboard`.
 
-- [ ] mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v6 :: Follow-up hardening: Mainline DOD: `/api/daa/store/v0/*` reads/writes Postgres (contract-compatible with current UI).
 
 - [ ] mainline-dod-prod-smoke-200-200-v6 :: Follow-up hardening: Mainline DOD: Prod smoke: `/api/daa/engine-health` 200; `/daa/dashboard` 200.
 
 - [ ] mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v7 :: Follow-up hardening: Mainline GOAL: Remove `sql.js`/SQLite from server runtime (no bundler/strict-mode footguns).
+
+- [ ] mainline-dod-sets-session-cookie-and-redirects-to-v7 :: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/consume` sets session cookie and redirects to `/daa/dashboard`.
+
+- [ ] mainline-dod-sends-email-via-resend-v7 :: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/request` sends email via Resend.
+
+- [ ] mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v7 :: Follow-up hardening: Mainline GOAL: Python service becomes optional (engine-only) and must NOT own `/api/daa/*`.
 ## Done
 
 - [x] mainline-dod-sets-session-cookie-and-redirects-to-v3 :: Follow-up hardening: Follow-up hardening: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/consume` sets session cookie and redirects to `/daa/dashboard`.
@@ -223,6 +225,14 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - [x] mainline-dod-prod-smoke-200-200-v5 :: Follow-up hardening: Mainline DOD: Prod smoke: `/api/daa/engine-health` 200; `/daa/dashboard` 200. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/424)
 
 - [x] mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v5 :: Follow-up hardening: Mainline DOD: `/api/daa/store/v0/*` reads/writes Postgres (contract-compatible with current UI). (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/425)
+
+- [x] mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v6 :: Follow-up hardening: Mainline GOAL: Python service becomes optional (engine-only) and must NOT own `/api/daa/*`. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/426)
+
+- [x] mainline-dod-sends-email-via-resend-v6 :: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/request` sends email via Resend. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/427)
+
+- [x] mainline-dod-sets-session-cookie-and-redirects-to-v6 :: Follow-up hardening: Mainline DOD: `/api/daa/auth/email-login/consume` sets session cookie and redirects to `/daa/dashboard`. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/428)
+
+- [x] mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v6 :: Follow-up hardening: Mainline DOD: `/api/daa/store/v0/*` reads/writes Postgres (contract-compatible with current UI). (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/429)
 ## Log
 
 - 2026-02-17 23:50 backlog-guard completed stale mainline-dod-sends-email-via-resend-v3
@@ -310,3 +320,25 @@ Mainline (2026-02-16): Architecture refactor first — keep Next.js as the ONLY 
 - 2026-02-18 12:01 backlog-guard added mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v7
 
 - 2026-02-18 12:01 activated mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v6
+
+- 2026-02-18 12:16 backlog-guard completed stale mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v6
+
+- 2026-02-18 12:16 activated mainline-dod-sends-email-via-resend-v6
+
+- 2026-02-18 12:31 backlog-guard completed stale mainline-dod-sends-email-via-resend-v6
+
+- 2026-02-18 12:31 activated mainline-dod-sets-session-cookie-and-redirects-to-v6
+
+- 2026-02-18 12:46 backlog-guard completed stale mainline-dod-sets-session-cookie-and-redirects-to-v6
+
+- 2026-02-18 12:46 backlog-guard added mainline-dod-sets-session-cookie-and-redirects-to-v7
+
+- 2026-02-18 12:46 backlog-guard added mainline-dod-sends-email-via-resend-v7
+
+- 2026-02-18 12:46 backlog-guard added mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v7
+
+- 2026-02-18 12:46 activated mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v6
+
+- 2026-02-18 13:01 backlog-guard completed stale mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v6
+
+- 2026-02-18 13:01 activated mainline-dod-prod-smoke-200-200-v6
