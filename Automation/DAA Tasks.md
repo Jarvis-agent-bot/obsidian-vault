@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) NOW: mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v10 :: Follow-up hardening: Mainline DOD: `/api/daa/store/v0/*` reads/writes Postgres (contract-compatible with current UI).
+- [ ] (auto) NOW: mainline-dod-prod-smoke-200-200-v11 :: Follow-up hardening: Mainline DOD: Prod smoke: `/api/daa/engine-health` 200; `/daa/dashboard` 200.
 
 ## Backlog
 
@@ -38,10 +38,20 @@ Planning note: priority = top to bottom. Keep each task ~= 1 PR.
 
 - [ ] mainline-dod-sends-email-via-resend-v9 :: Follow-up hardening: Mainline DOD: /api/daa/auth/email-login/request sends email via Resend. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/445)
 
-- [ ] mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v10 :: Follow-up hardening: Mainline DOD: `/api/daa/store/v0/*` reads/writes Postgres (contract-compatible with current UI).
+- [ ] mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v10 :: Follow-up hardening: Mainline DOD: `/api/daa/store/v0/*` reads/writes Postgres (contract-compatible with current UI). (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/450)
 
-- [ ] mainline-dod-prod-smoke-200-200-v10 :: Follow-up hardening: Mainline DOD: Prod smoke: `/api/daa/engine-health` 200; `/daa/dashboard` 200.
+- [ ] mainline-dod-prod-smoke-200-200-v10 :: Follow-up hardening: Mainline DOD: Prod smoke: `/api/daa/engine-health` 200; `/daa/dashboard` 200. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/451)
 
-- [ ] mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v10 :: Follow-up hardening: Mainline GOAL: Python service becomes optional (engine-only) and must NOT own `/api/daa/*`.
+- [ ] mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v10 :: Follow-up hardening: Mainline GOAL: Python service becomes optional (engine-only) and must NOT own `/api/daa/*`. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/452)
 
-- [ ] mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v11 :: Follow-up hardening: Mainline GOAL: Remove `sql.js`/SQLite from server runtime (no bundler/strict-mode footguns).
+- [ ] mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v11 :: Follow-up hardening: Mainline GOAL: Remove `sql.js`/SQLite from server runtime (no bundler/strict-mode footguns). (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/453)
+
+- [ ] mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v11 :: Follow-up hardening: Mainline DOD: `/api/daa/store/v0/*` reads/writes Postgres (contract-compatible with current UI). (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/454)
+
+- [ ] mainline-dod-prod-smoke-200-200-v11 :: Follow-up hardening: Mainline DOD: Prod smoke: `/api/daa/engine-health` 200; `/daa/dashboard` 200.
+
+- [ ] mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v11 :: Follow-up hardening: Mainline GOAL: Python service becomes optional (engine-only) and must NOT own `/api/daa/*`.
+
+- [ ] mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v12 :: Follow-up hardening: Mainline GOAL: Remove `sql.js`/SQLite from server runtime (no bundler/strict-mode footguns).
+
+- [ ] mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v12 :: Follow-up hardening: Mainline DOD: `/api/daa/store/v0/*` reads/writes Postgres (contract-compatible with current UI).
