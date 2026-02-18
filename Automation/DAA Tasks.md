@@ -2,20 +2,26 @@
 
 ## Now
 
-- [ ] (auto) NOW: frontend-uiux-funds-hub-step-card-hierarchy-v1 :: Frontend UIUX follow-up: complete funds hub step-card hierarchy and action priority polish
+- [ ] (auto) NOW: backend-engine-service-contract-hardening-v2 :: Follow-up hardening: Backend system B follow-up: finish Python engine contract timeout/error mapping hardening
 
 ## Backlog
 
 Planning note: priority = top to bottom. Keep each task ~= 1 PR.
 Planning override (2026-02-19): architecture-first; avoid repetitive hardening loops unless blocking.
 
-- [ ] frontend-uiux-funds-hub-step-card-hierarchy-v1 :: Frontend UIUX follow-up: complete funds hub step-card hierarchy and action priority polish
 
-- [ ] backend-nextjs-postgres-platform-hardening-v2 :: Follow-up hardening: Backend system A follow-up: close remaining Next.js + Postgres API boundary and migration gaps
 
-- [ ] mainline-dod-prod-smoke-200-200-v19 :: Follow-up hardening: Mainline DOD: Prod smoke: `/api/daa/engine-health` 200; `/daa/dashboard` 200.
 
-- [ ] mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v19 :: Follow-up hardening: Mainline DOD: `/api/daa/store/v0/*` reads/writes Postgres (contract-compatible with current UI).
+
+
+
+- [ ] backend-engine-service-contract-hardening-v2 :: Follow-up hardening: Backend system B follow-up: finish Python engine contract timeout/error mapping hardening
+
+- [ ] mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v20 :: Follow-up hardening: Mainline DOD: `/api/daa/store/v0/*` reads/writes Postgres (contract-compatible with current UI).
+
+- [ ] mainline-dod-prod-smoke-200-200-v20 :: Follow-up hardening: Mainline DOD: Prod smoke: `/api/daa/engine-health` 200; `/daa/dashboard` 200.
+
+- [ ] backend-nextjs-postgres-platform-hardening-v3 :: Follow-up hardening: Backend system A follow-up: close remaining Next.js + Postgres API boundary and migration gaps
 ## Done (Recent)
 
 - [x] mainline-goal-python-service-becomes-optional-engine-only-and-must-not-own-v8 :: Follow-up hardening: Mainline GOAL: Python service becomes optional (engine-only) and must NOT own `/api/daa/*`. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/438)
@@ -39,6 +45,18 @@ Planning override (2026-02-19): architecture-first; avoid repetitive hardening l
 - [x] backend-engine-service-contract-hardening-v1 :: Backend system B follow-up: finish Python engine contract timeout/error mapping hardening (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/485)
 
 - [x] frontend-uiux-dashboard-information-architecture-v1 :: Frontend UIUX follow-up: complete dashboard information architecture and operator scan flow (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/486)
+
+- [x] frontend-uiux-funds-hub-step-card-hierarchy-v1 :: Frontend UIUX follow-up: complete funds hub step-card hierarchy and action priority polish (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/487)
+
+- [x] backend-nextjs-postgres-platform-hardening-v2 :: Follow-up hardening: Backend system A follow-up: close remaining Next.js + Postgres API boundary and migration gaps (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/488)
+
+- [x] mainline-dod-prod-smoke-200-200-v19 :: Follow-up hardening: Mainline DOD: Prod smoke: `/api/daa/engine-health` 200; `/daa/dashboard` 200. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/489)
+
+- [x] mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v19 :: Follow-up hardening: Mainline DOD: `/api/daa/store/v0/*` reads/writes Postgres (contract-compatible with current UI). (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/490)
+
+- [x] frontend-uiux-funds-hub-step-card-hierarchy-v2 :: Follow-up hardening: Frontend UIUX follow-up: complete funds hub step-card hierarchy and action priority polish (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/491)
+
+- [x] frontend-uiux-dashboard-information-architecture-v2 :: Follow-up hardening: Frontend UIUX follow-up: complete dashboard information architecture and operator scan flow (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/492)
 ## Log (Recent)
 
 - 2026-02-18 16:16 backlog-guard added mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v10
@@ -69,3 +87,27 @@ Planning override (2026-02-19): architecture-first; avoid repetitive hardening l
 - 2026-02-19 04:01 activated frontend-uiux-dashboard-information-architecture-v1
 
 - 2026-02-19 04:11 activated frontend-uiux-funds-hub-step-card-hierarchy-v1
+
+- 2026-02-19 04:21 backlog-guard added frontend-uiux-funds-hub-step-card-hierarchy-v2
+
+- 2026-02-19 04:21 backlog-guard added frontend-uiux-dashboard-information-architecture-v2
+
+- 2026-02-19 04:21 backlog-guard added backend-engine-service-contract-hardening-v2
+
+- 2026-02-19 04:21 activated backend-nextjs-postgres-platform-hardening-v2
+
+- 2026-02-19 04:31 activated mainline-dod-prod-smoke-200-200-v19
+
+- 2026-02-19 04:41 activated mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v19 (lane fallback)
+
+- 2026-02-19 04:51 backlog-guard added mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v20
+
+- 2026-02-19 04:51 backlog-guard added mainline-dod-prod-smoke-200-200-v20
+
+- 2026-02-19 04:51 backlog-guard added backend-nextjs-postgres-platform-hardening-v3
+
+- 2026-02-19 04:51 activated frontend-uiux-funds-hub-step-card-hierarchy-v2 (lane fallback)
+
+- 2026-02-19 05:01 activated frontend-uiux-dashboard-information-architecture-v2 (lane fallback)
+
+- 2026-02-19 05:11 activated backend-engine-service-contract-hardening-v2 (lane fallback)
