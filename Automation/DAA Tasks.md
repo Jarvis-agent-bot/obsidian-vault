@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) NOW: feature-dashboard-ops-alert-center-v0 :: Feature sprint: add dashboard alert center with grouped warnings and suggested next actions
+- [ ] (auto) Nothing active
 
 ## Backlog
 
@@ -29,7 +29,6 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 
 
 
-- [ ] feature-dashboard-ops-alert-center-v0 :: Feature sprint: add dashboard alert center with grouped warnings and suggested next actions
 ## Done (Recent)
 
 - [x] backend-nextjs-postgres-platform-hardening-v4 :: Follow-up hardening: Backend system A follow-up: close remaining Next.js + Postgres API boundary and migration gaps (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/500)
@@ -135,6 +134,8 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - [x] feature-funds-hub-smart-defaults-v0 :: Feature sprint: add smart defaults and inline hints to speed up funds hub input completion (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/550)
 
 - [x] feature-run-history-anomaly-highlights-v0 :: Feature sprint: highlight anomalies in run history and surface likely root-cause signals (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/551)
+
+- [x] feature-dashboard-ops-alert-center-v0 :: Feature sprint: add dashboard alert center with grouped warnings and suggested next actions (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/552)
 ## Log (Recent)
 
 - 2026-02-19 07:51 activated backend-engine-service-contract-hardening-v5 (lane fallback)
