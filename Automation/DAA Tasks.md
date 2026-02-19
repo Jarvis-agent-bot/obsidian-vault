@@ -29,6 +29,25 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 
 
 
+- [ ] feature-cross-market-ledger-risk-view-v0 :: Feature sprint: add cross-market A/H/US ledger risk view with unified base-ccy exposure
+
+- [ ] feature-human-factor-scoreboard-v0 :: Feature sprint: add analyst/manager human-factor scoreboard (elite/neutral/incompetent) with transparent score breakdown
+
+- [ ] feature-analyst-logic-consistency-alerts-v0 :: Feature sprint: add logic-consistency alerts when analyst thesis and environment regime diverge
+
+- [ ] feature-qat-weight-adjusted-targets-v0 :: Feature sprint: implement quality-adjusted target weights (W_qat) with operator-visible factor trace
+
+- [ ] feature-rebalance-scenario-a-b-gates-v0 :: Feature sprint: add scenario A/B decision gates (strong-hold vs value-trap) for rebalance routing
+
+- [ ] feature-risk-tag-maxin-lock-center-v0 :: Feature sprint: add tag-based risk control center with physical MaxIn lock for isolated assets
+
+- [ ] feature-liquidity-settlement-pretrade-gate-v0 :: Feature sprint: add pre-trade liquidity and T+N settlement gate with cash-gap forecast
+
+- [ ] feature-monthly-attribution-evolution-report-v0 :: Feature sprint: add monthly attribution report splitting rebalance alpha vs human-factor alpha vs avoided loss
+
+- [ ] feature-black-swan-consensus-warning-v0 :: Feature sprint: add black-swan consensus warning when elite cohort shifts to defense
+
+- [ ] feature-analyst-correlation-diversity-check-v0 :: Feature sprint: add analyst-style correlation diversity check to prevent hidden concentration
 ## Done (Recent)
 
 - [x] backend-nextjs-postgres-platform-hardening-v4 :: Follow-up hardening: Backend system A follow-up: close remaining Next.js + Postgres API boundary and migration gaps (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/500)
@@ -148,6 +167,10 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - [x] feature-watchlist-signal-inbox-v0 :: Feature sprint: add watchlist signal inbox that groups market events by urgency and symbol (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/557)
 
 - [x] feature-step-readiness-score-v0 :: Feature sprint: add step readiness scorecard to show blockers before execution (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/558)
+
+- [x] feature-execution-cost-preview-v0 :: Feature sprint: add execution cost preview with estimated slippage and fee ranges (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/559)
+
+- [x] feature-operator-shift-handover-v0 :: Feature sprint: add operator handover summary for next shift continuity (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/560)
 ## Log (Recent)
 
 - 2026-02-19 07:51 activated backend-engine-service-contract-hardening-v5 (lane fallback)
@@ -285,3 +308,11 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - 2026-02-19 20:10 backlog-guard added feature-step-readiness-score-v0
 
 - 2026-02-19 20:10 activated feature-step-readiness-score-v0
+
+- 2026-02-19 20:20 backlog-guard added feature-execution-cost-preview-v0
+
+- 2026-02-19 20:20 activated feature-execution-cost-preview-v0
+
+- 2026-02-19 20:30 backlog-guard added feature-operator-shift-handover-v0
+
+- 2026-02-19 20:30 activated feature-operator-shift-handover-v0
