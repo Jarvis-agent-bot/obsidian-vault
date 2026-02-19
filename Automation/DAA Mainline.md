@@ -1,33 +1,31 @@
 # DAA Mainline
 
 ## Epoch
-Arch refactor (Next.js backend + Postgres; remove sql.js)
+Feature acceleration (UI/UX + operator workflow) on top of the stable Next.js + Postgres baseline.
 
 ## Goal (what "done" looks like)
-- Next.js remains the ONLY public backend for `/api/daa/*` (no FastAPI migration for the public surface).
-- Postgres is the ONLY persistence for auth + runs + audit + admin users.
-- Auth is email magic-link (Resend) + cookie session (SameSite=Lax).
-- Remove `sql.js`/SQLite from server runtime (no bundler/strict-mode footguns).
-- Python service becomes optional (engine-only) and must NOT own `/api/daa/*`.
+- Keep Next.js as the ONLY public backend for `/api/daa/*` with Postgres persistence.
+- Increase user-visible delivery: UI polish, interaction flow, and practical operator features.
+- Keep DAA workflow reliable while improving speed-to-action for daily operations.
 
 ## DoD (verifiable)
-- `/api/daa/auth/email-login/request` sends email via Resend.
-- `/api/daa/auth/email-login/consume` sets session cookie and redirects to `/daa/dashboard`.
-- `/api/daa/store/v0/*` reads/writes Postgres (contract-compatible with current UI).
-- Prod smoke: `/api/daa/engine-health` 200; `/daa/dashboard` 200.
+- Each active milestone PR includes at least one user-visible functional change (not only test hardening).
+- `/daa/dashboard` and `/daa/market/funds` both improve operator efficiency for the targeted scenario.
+- Backend/API changes preserve contract compatibility and pass CI (build/test/typecheck).
+- Prod smoke remains green: `/api/daa/engine-health` 200; `/daa/dashboard` 200.
 
 ## Avoid (low ROI during this epoch)
-- UI micro-polish unless it is required to finish auth migration.
-- Migrating the entire `/api/daa/*` surface to FastAPI (too much rework; focus on Postgres + magic link first).
-- New product features (Funds Hub / E2E execution) until persistence + auth is stable.
+- Repetitive test-only hardening loops with no user-visible improvement.
+- Tiny PRs that only add assertion wording checks unless they unblock a real feature.
+- Large architectural rewrites unrelated to current feature delivery.
 
 ## Execution Rules
-- 1 milestone = 1 PR.
+- 1 milestone = 1 PR (vertical slice, user-visible outcome).
 - WIP: at most 1 open PR.
-- Every milestone must include a minimal smoke/verification step.
+- Backlog stays tight (small, high-signal, feature-first).
+- Every milestone must include minimal verification/smoke evidence.
 
 ## Config (email)
 - RESEND_API_KEY
 - DAA_AUTH_EMAIL_FROM
 - DAA_PUBLIC_ORIGIN
-
