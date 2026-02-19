@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) Nothing active
+- [ ] (auto) NOW: feature-dashboard-ops-alert-center-v0 :: Feature sprint: add dashboard alert center with grouped warnings and suggested next actions
 
 ## Backlog
 
@@ -24,6 +24,12 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 
 
 
+
+
+
+
+
+- [ ] feature-dashboard-ops-alert-center-v0 :: Feature sprint: add dashboard alert center with grouped warnings and suggested next actions
 ## Done (Recent)
 
 - [x] backend-nextjs-postgres-platform-hardening-v4 :: Follow-up hardening: Backend system A follow-up: close remaining Next.js + Postgres API boundary and migration gaps (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/500)
@@ -117,6 +123,18 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - [x] mainline-dod-backend-api-changes-preserve-contract-compatibility-and-pass-ci-build-test-typecheck-v0 :: Mainline DOD: Backend/API changes preserve contract compatibility and pass CI (build/test/typecheck). (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/544)
 
 - [x] mainline-dod-prod-smoke-remains-green-200-200-v0 :: Mainline DOD: Prod smoke remains green: `/api/daa/engine-health` 200; `/daa/dashboard` 200. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/545)
+
+- [x] feature-live-execution-timeline-v0 :: Feature sprint: add a live execution timeline so operators can watch each automation step in real time (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/546)
+
+- [x] feature-self-serve-run-debugger-v0 :: Feature sprint: add run debugger panel with one-click diagnostics and guided recovery actions (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/547)
+
+- [x] feature-inline-detection-review-workspace-v0 :: Feature sprint: add inline detection review workspace with quick approve/reject actions (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/548)
+
+- [x] feature-daa-command-palette-v0 :: Feature sprint: add command palette for fast jump and action execution across DAA modules (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/549)
+
+- [x] feature-funds-hub-smart-defaults-v0 :: Feature sprint: add smart defaults and inline hints to speed up funds hub input completion (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/550)
+
+- [x] feature-run-history-anomaly-highlights-v0 :: Feature sprint: highlight anomalies in run history and surface likely root-cause signals (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/551)
 ## Log (Recent)
 
 - 2026-02-19 07:51 activated backend-engine-service-contract-hardening-v5 (lane fallback)
@@ -202,3 +220,31 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - 2026-02-19 14:51 activated mainline-dod-backend-api-changes-preserve-contract-compatibility-and-pass-ci-build-test-typecheck-v0 (lane fallback)
 
 - 2026-02-19 15:01 activated mainline-dod-prod-smoke-remains-green-200-200-v0 (lane fallback)
+
+- 2026-02-19 17:32 backlog-guard added feature-live-execution-timeline-v0
+
+- 2026-02-19 17:32 activated feature-live-execution-timeline-v0
+
+- 2026-02-19 17:34 backlog-guard added feature-self-serve-run-debugger-v0
+
+- 2026-02-19 17:34 activated feature-self-serve-run-debugger-v0
+
+- 2026-02-19 17:34 backlog-guard added feature-inline-detection-review-workspace-v0
+
+- 2026-02-19 17:36 activated feature-inline-detection-review-workspace-v0
+
+- 2026-02-19 17:40 backlog-guard added feature-daa-command-palette-v0
+
+- 2026-02-19 17:43 activated feature-daa-command-palette-v0
+
+- 2026-02-19 17:50 backlog-guard added feature-funds-hub-smart-defaults-v0
+
+- 2026-02-19 17:52 activated feature-funds-hub-smart-defaults-v0
+
+- 2026-02-19 18:00 backlog-guard added feature-run-history-anomaly-highlights-v0
+
+- 2026-02-19 18:02 activated feature-run-history-anomaly-highlights-v0
+
+- 2026-02-19 18:10 backlog-guard added feature-dashboard-ops-alert-center-v0
+
+- 2026-02-19 18:12 activated feature-dashboard-ops-alert-center-v0
