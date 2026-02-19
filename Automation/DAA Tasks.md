@@ -181,6 +181,8 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - [x] feature-black-swan-consensus-warning-v0 :: Feature sprint: add black-swan consensus warning when elite cohort shifts to defense (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/569)
 
 - [x] feature-analyst-correlation-diversity-check-v0 :: Feature sprint: add analyst-style correlation diversity check to prevent hidden concentration (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/570)
+
+- [x] mainline-goal-deliver-a-usable-w-qat-decision-flow-v0 :: Mainline GOAL: Deliver a usable W_qat decision flow: (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/571)
 ## Log (Recent)
 
 - 2026-02-19 07:51 activated backend-engine-service-contract-hardening-v5 (lane fallback)
@@ -346,3 +348,7 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - 2026-02-19 22:01 activated feature-black-swan-consensus-warning-v0
 
 - 2026-02-19 22:11 activated feature-analyst-correlation-diversity-check-v0
+
+- 2026-02-20 00:10 backlog-guard added mainline-goal-deliver-a-usable-w-qat-decision-flow-v0
+
+- 2026-02-20 00:10 activated mainline-goal-deliver-a-usable-w-qat-decision-flow-v0
