@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) NOW: feature-rebalance-scenario-a-b-gates-v0 :: Feature sprint: add scenario A/B decision gates (strong-hold vs value-trap) for rebalance routing
+- [ ] (auto) NOW: feature-analyst-correlation-diversity-check-v0 :: Feature sprint: add analyst-style correlation diversity check to prevent hidden concentration
 
 ## Backlog
 
@@ -33,15 +33,10 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 
 
 
-- [ ] feature-rebalance-scenario-a-b-gates-v0 :: Feature sprint: add scenario A/B decision gates (strong-hold vs value-trap) for rebalance routing
 
-- [ ] feature-risk-tag-maxin-lock-center-v0 :: Feature sprint: add tag-based risk control center with physical MaxIn lock for isolated assets
 
-- [ ] feature-liquidity-settlement-pretrade-gate-v0 :: Feature sprint: add pre-trade liquidity and T+N settlement gate with cash-gap forecast
 
-- [ ] feature-monthly-attribution-evolution-report-v0 :: Feature sprint: add monthly attribution report splitting rebalance alpha vs human-factor alpha vs avoided loss
 
-- [ ] feature-black-swan-consensus-warning-v0 :: Feature sprint: add black-swan consensus warning when elite cohort shifts to defense
 
 - [ ] feature-analyst-correlation-diversity-check-v0 :: Feature sprint: add analyst-style correlation diversity check to prevent hidden concentration
 ## Done (Recent)
@@ -175,6 +170,16 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - [x] feature-analyst-logic-consistency-alerts-v0 :: Feature sprint: add logic-consistency alerts when analyst thesis and environment regime diverge (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/563)
 
 - [x] feature-qat-weight-adjusted-targets-v0 :: Feature sprint: implement quality-adjusted target weights (W_qat) with operator-visible factor trace (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/564)
+
+- [x] feature-rebalance-scenario-a-b-gates-v0 :: Feature sprint: add scenario A/B decision gates (strong-hold vs value-trap) for rebalance routing (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/565)
+
+- [x] feature-risk-tag-maxin-lock-center-v0 :: Feature sprint: add tag-based risk control center with physical MaxIn lock for isolated assets (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/566)
+
+- [x] feature-liquidity-settlement-pretrade-gate-v0 :: Feature sprint: add pre-trade liquidity and T+N settlement gate with cash-gap forecast (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/567)
+
+- [x] feature-monthly-attribution-evolution-report-v0 :: Feature sprint: add monthly attribution report splitting rebalance alpha vs human-factor alpha vs avoided loss (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/568)
+
+- [x] feature-black-swan-consensus-warning-v0 :: Feature sprint: add black-swan consensus warning when elite cohort shifts to defense (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/569)
 ## Log (Recent)
 
 - 2026-02-19 07:51 activated backend-engine-service-contract-hardening-v5 (lane fallback)
@@ -330,3 +335,13 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - 2026-02-19 21:01 activated feature-qat-weight-adjusted-targets-v0
 
 - 2026-02-19 21:11 activated feature-rebalance-scenario-a-b-gates-v0
+
+- 2026-02-19 21:21 activated feature-risk-tag-maxin-lock-center-v0
+
+- 2026-02-19 21:31 activated feature-liquidity-settlement-pretrade-gate-v0
+
+- 2026-02-19 21:52 activated feature-monthly-attribution-evolution-report-v0
+
+- 2026-02-19 22:01 activated feature-black-swan-consensus-warning-v0
+
+- 2026-02-19 22:11 activated feature-analyst-correlation-diversity-check-v0
