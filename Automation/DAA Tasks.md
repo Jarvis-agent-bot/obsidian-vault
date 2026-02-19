@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) NOW: backend-engine-service-contract-hardening-v7 :: Follow-up hardening: Backend system B follow-up: finish Python engine contract timeout/error mapping hardening
+- [ ] (auto) NOW: frontend-uiux-dashboard-information-architecture-v7 :: Follow-up hardening: Frontend UIUX follow-up: complete dashboard information architecture and operator scan flow
 
 ## Backlog
 
@@ -43,7 +43,6 @@ Planning override (2026-02-19): architecture-first; avoid repetitive hardening l
 
 
 
-- [ ] backend-engine-service-contract-hardening-v7 :: Follow-up hardening: Backend system B follow-up: finish Python engine contract timeout/error mapping hardening
 
 - [ ] frontend-uiux-dashboard-information-architecture-v7 :: Follow-up hardening: Frontend UIUX follow-up: complete dashboard information architecture and operator scan flow
 
@@ -145,6 +144,8 @@ Planning override (2026-02-19): architecture-first; avoid repetitive hardening l
 - [x] mainline-dod-prod-smoke-200-200-v24 :: Follow-up hardening: Mainline DOD: Prod smoke: `/api/daa/engine-health` 200; `/daa/dashboard` 200. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/519)
 
 - [x] backend-nextjs-postgres-platform-hardening-v7 :: Follow-up hardening: Backend system A follow-up: close remaining Next.js + Postgres API boundary and migration gaps (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/520)
+
+- [x] backend-engine-service-contract-hardening-v7 :: Follow-up hardening: Backend system B follow-up: finish Python engine contract timeout/error mapping hardening (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/521)
 ## Log (Recent)
 
 - 2026-02-18 16:16 backlog-guard added mainline-goal-remove-sqlite-from-server-runtime-no-bundler-strict-mode-footguns-v10
@@ -315,3 +316,5 @@ Planning override (2026-02-19): architecture-first; avoid repetitive hardening l
 - 2026-02-19 11:05 backlog-guard added mainline-dod-reads-writes-postgres-contract-compatible-with-current-ui-v25
 
 - 2026-02-19 11:05 activated backend-engine-service-contract-hardening-v7 (lane fallback)
+
+- 2026-02-19 11:11 activated frontend-uiux-dashboard-information-architecture-v7 (lane fallback)
