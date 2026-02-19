@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) NOW: mainline-goal-increase-user-visible-delivery-ui-polish-interaction-flow-and-practical-operator-features-v0 :: Mainline GOAL: Increase user-visible delivery: UI polish, interaction flow, and practical operator features.
+- [ ] (auto) Nothing active
 
 ## Backlog
 
@@ -19,9 +19,11 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 
 
 
-- [ ] mainline-goal-increase-user-visible-delivery-ui-polish-interaction-flow-and-practical-operator-features-v0 :: Mainline GOAL: Increase user-visible delivery: UI polish, interaction flow, and practical operator features.
 
-- [ ] mainline-goal-keep-daa-workflow-reliable-while-improving-speed-to-action-for-daily-operations-v0 :: Mainline GOAL: Keep DAA workflow reliable while improving speed-to-action for daily operations.
+
+
+
+
 ## Done (Recent)
 
 - [x] backend-nextjs-postgres-platform-hardening-v4 :: Follow-up hardening: Backend system A follow-up: close remaining Next.js + Postgres API boundary and migration gaps (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/500)
@@ -103,6 +105,18 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - [x] feature-interaction-keyboard-shortcuts-v0 :: Interaction v0: add keyboard shortcuts for high-frequency dashboard/funds hub actions (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/538)
 
 - [x] mainline-goal-keep-next-js-as-the-only-public-backend-for-with-postgres-persistence-v0 :: Mainline GOAL: Keep Next.js as the ONLY public backend for `/api/daa/*` with Postgres persistence. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/539)
+
+- [x] mainline-goal-increase-user-visible-delivery-ui-polish-interaction-flow-and-practical-operator-features-v0 :: Mainline GOAL: Increase user-visible delivery: UI polish, interaction flow, and practical operator features. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/540)
+
+- [x] mainline-goal-keep-daa-workflow-reliable-while-improving-speed-to-action-for-daily-operations-v0 :: Mainline GOAL: Keep DAA workflow reliable while improving speed-to-action for daily operations. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/541)
+
+- [x] mainline-dod-each-active-milestone-pr-includes-at-least-one-user-visible-functional-change-v0 :: Mainline DOD: Each active milestone PR includes at least one user-visible functional change (not only test hardening). (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/542)
+
+- [x] mainline-dod-and-both-improve-operator-efficiency-for-the-targeted-scenario-v0 :: Mainline DOD: `/daa/dashboard` and `/daa/market/funds` both improve operator efficiency for the targeted scenario. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/543)
+
+- [x] mainline-dod-backend-api-changes-preserve-contract-compatibility-and-pass-ci-build-test-typecheck-v0 :: Mainline DOD: Backend/API changes preserve contract compatibility and pass CI (build/test/typecheck). (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/544)
+
+- [x] mainline-dod-prod-smoke-remains-green-200-200-v0 :: Mainline DOD: Prod smoke remains green: `/api/daa/engine-health` 200; `/daa/dashboard` 200. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/545)
 ## Log (Recent)
 
 - 2026-02-19 07:51 activated backend-engine-service-contract-hardening-v5 (lane fallback)
@@ -170,3 +184,21 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - 2026-02-19 14:11 backlog-guard added mainline-goal-keep-daa-workflow-reliable-while-improving-speed-to-action-for-daily-operations-v0
 
 - 2026-02-19 14:11 activated mainline-goal-increase-user-visible-delivery-ui-polish-interaction-flow-and-practical-operator-features-v0 (lane fallback)
+
+- 2026-02-19 14:21 backlog-guard added mainline-dod-each-active-milestone-pr-includes-at-least-one-user-visible-functional-change-v0
+
+- 2026-02-19 14:21 activated mainline-goal-keep-daa-workflow-reliable-while-improving-speed-to-action-for-daily-operations-v0 (lane fallback)
+
+- 2026-02-19 14:31 backlog-guard added mainline-dod-and-both-improve-operator-efficiency-for-the-targeted-scenario-v0
+
+- 2026-02-19 14:31 activated mainline-dod-each-active-milestone-pr-includes-at-least-one-user-visible-functional-change-v0 (lane fallback)
+
+- 2026-02-19 14:41 backlog-guard added mainline-dod-backend-api-changes-preserve-contract-compatibility-and-pass-ci-build-test-typecheck-v0
+
+- 2026-02-19 14:41 activated mainline-dod-and-both-improve-operator-efficiency-for-the-targeted-scenario-v0 (lane fallback)
+
+- 2026-02-19 14:51 backlog-guard added mainline-dod-prod-smoke-remains-green-200-200-v0
+
+- 2026-02-19 14:51 activated mainline-dod-backend-api-changes-preserve-contract-compatibility-and-pass-ci-build-test-typecheck-v0 (lane fallback)
+
+- 2026-02-19 15:01 activated mainline-dod-prod-smoke-remains-green-200-200-v0 (lane fallback)
