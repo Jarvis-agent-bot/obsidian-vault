@@ -136,6 +136,18 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - [x] feature-run-history-anomaly-highlights-v0 :: Feature sprint: highlight anomalies in run history and surface likely root-cause signals (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/551)
 
 - [x] feature-dashboard-ops-alert-center-v0 :: Feature sprint: add dashboard alert center with grouped warnings and suggested next actions (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/552)
+
+- [x] feature-policy-impact-simulator-v0 :: Feature sprint: add policy impact simulator to preview allocation and risk changes before confirm (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/553)
+
+- [x] feature-portfolio-drift-alerts-v0 :: Feature sprint: add portfolio drift alerts with threshold-based action suggestions (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/554)
+
+- [x] feature-rebalance-whatif-lab-v0 :: Feature sprint: add what-if lab to compare rebalance scenarios side by side (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/555)
+
+- [x] feature-run-incident-playbooks-v0 :: Feature sprint: add incident playbooks with step-by-step recovery flows for failed runs (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/556)
+
+- [x] feature-watchlist-signal-inbox-v0 :: Feature sprint: add watchlist signal inbox that groups market events by urgency and symbol (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/557)
+
+- [x] feature-step-readiness-score-v0 :: Feature sprint: add step readiness scorecard to show blockers before execution (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/558)
 ## Log (Recent)
 
 - 2026-02-19 07:51 activated backend-engine-service-contract-hardening-v5 (lane fallback)
@@ -249,3 +261,27 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - 2026-02-19 18:10 backlog-guard added feature-dashboard-ops-alert-center-v0
 
 - 2026-02-19 18:12 activated feature-dashboard-ops-alert-center-v0
+
+- 2026-02-19 19:20 backlog-guard added feature-policy-impact-simulator-v0
+
+- 2026-02-19 19:20 activated feature-policy-impact-simulator-v0
+
+- 2026-02-19 19:30 backlog-guard added feature-portfolio-drift-alerts-v0
+
+- 2026-02-19 19:30 activated feature-portfolio-drift-alerts-v0
+
+- 2026-02-19 19:40 backlog-guard added feature-rebalance-whatif-lab-v0
+
+- 2026-02-19 19:40 activated feature-rebalance-whatif-lab-v0
+
+- 2026-02-19 19:50 backlog-guard added feature-run-incident-playbooks-v0
+
+- 2026-02-19 19:50 activated feature-run-incident-playbooks-v0
+
+- 2026-02-19 20:00 backlog-guard added feature-watchlist-signal-inbox-v0
+
+- 2026-02-19 20:00 activated feature-watchlist-signal-inbox-v0
+
+- 2026-02-19 20:10 backlog-guard added feature-step-readiness-score-v0
+
+- 2026-02-19 20:10 activated feature-step-readiness-score-v0
