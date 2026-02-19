@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) Nothing active
+- [ ] (auto) NOW: feature-rebalance-scenario-a-b-gates-v0 :: Feature sprint: add scenario A/B decision gates (strong-hold vs value-trap) for rebalance routing
 
 ## Backlog
 
@@ -29,13 +29,9 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 
 
 
-- [ ] feature-cross-market-ledger-risk-view-v0 :: Feature sprint: add cross-market A/H/US ledger risk view with unified base-ccy exposure
 
-- [ ] feature-human-factor-scoreboard-v0 :: Feature sprint: add analyst/manager human-factor scoreboard (elite/neutral/incompetent) with transparent score breakdown
 
-- [ ] feature-analyst-logic-consistency-alerts-v0 :: Feature sprint: add logic-consistency alerts when analyst thesis and environment regime diverge
 
-- [ ] feature-qat-weight-adjusted-targets-v0 :: Feature sprint: implement quality-adjusted target weights (W_qat) with operator-visible factor trace
 
 - [ ] feature-rebalance-scenario-a-b-gates-v0 :: Feature sprint: add scenario A/B decision gates (strong-hold vs value-trap) for rebalance routing
 
@@ -171,6 +167,14 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - [x] feature-execution-cost-preview-v0 :: Feature sprint: add execution cost preview with estimated slippage and fee ranges (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/559)
 
 - [x] feature-operator-shift-handover-v0 :: Feature sprint: add operator handover summary for next shift continuity (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/560)
+
+- [x] feature-cross-market-ledger-risk-view-v0 :: Feature sprint: add cross-market A/H/US ledger risk view with unified base-ccy exposure (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/561)
+
+- [x] feature-human-factor-scoreboard-v0 :: Feature sprint: add analyst/manager human-factor scoreboard (elite/neutral/incompetent) with transparent score breakdown (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/562)
+
+- [x] feature-analyst-logic-consistency-alerts-v0 :: Feature sprint: add logic-consistency alerts when analyst thesis and environment regime diverge (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/563)
+
+- [x] feature-qat-weight-adjusted-targets-v0 :: Feature sprint: implement quality-adjusted target weights (W_qat) with operator-visible factor trace (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/564)
 ## Log (Recent)
 
 - 2026-02-19 07:51 activated backend-engine-service-contract-hardening-v5 (lane fallback)
@@ -316,3 +320,13 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - 2026-02-19 20:30 backlog-guard added feature-operator-shift-handover-v0
 
 - 2026-02-19 20:30 activated feature-operator-shift-handover-v0
+
+- 2026-02-19 20:40 activated feature-cross-market-ledger-risk-view-v0
+
+- 2026-02-19 20:43 activated feature-human-factor-scoreboard-v0
+
+- 2026-02-19 20:52 activated feature-analyst-logic-consistency-alerts-v0
+
+- 2026-02-19 21:01 activated feature-qat-weight-adjusted-targets-v0
+
+- 2026-02-19 21:11 activated feature-rebalance-scenario-a-b-gates-v0
