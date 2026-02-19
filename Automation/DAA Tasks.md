@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) NOW: feature-backend-run-list-search-sort-v0 :: Feature sprint: run list search/sort optimization for faster retrieval
+- [ ] (auto) NOW: mainline-goal-increase-user-visible-delivery-ui-polish-interaction-flow-and-practical-operator-features-v0 :: Mainline GOAL: Increase user-visible delivery: UI polish, interaction flow, and practical operator features.
 
 ## Backlog
 
@@ -14,11 +14,14 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 
 
 
-- [ ] feature-backend-run-list-search-sort-v0 :: Feature sprint: run list search/sort optimization for faster retrieval
 
-- [ ] feature-dashboard-guided-empty-state-v0 :: Dashboard v0: guided first-run empty state with progressive CTA path
 
-- [ ] feature-funds-hub-trade-execution-checklist-v0 :: Feature sprint: funds hub pre-trade execution checklist with blocker-aware next actions
+
+
+
+- [ ] mainline-goal-increase-user-visible-delivery-ui-polish-interaction-flow-and-practical-operator-features-v0 :: Mainline GOAL: Increase user-visible delivery: UI polish, interaction flow, and practical operator features.
+
+- [ ] mainline-goal-keep-daa-workflow-reliable-while-improving-speed-to-action-for-daily-operations-v0 :: Mainline GOAL: Keep DAA workflow reliable while improving speed-to-action for daily operations.
 ## Done (Recent)
 
 - [x] backend-nextjs-postgres-platform-hardening-v4 :: Follow-up hardening: Backend system A follow-up: close remaining Next.js + Postgres API boundary and migration gaps (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/500)
@@ -90,6 +93,16 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - [x] feature-run-history-compare-view-v0 :: Feature sprint: compare two runs and highlight trade/metric deltas (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/532)
 
 - [x] feature-backend-run-tagging-notes-v0 :: Feature sprint: add run tags + notes for operator annotations (API + UI) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/533)
+
+- [x] feature-backend-run-list-search-sort-v0 :: Feature sprint: run list search/sort optimization for faster retrieval (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/534)
+
+- [x] feature-dashboard-guided-empty-state-v0 :: Dashboard v0: guided first-run empty state with progressive CTA path (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/536)
+
+- [x] feature-funds-hub-trade-execution-checklist-v0 :: Feature sprint: funds hub pre-trade execution checklist with blocker-aware next actions (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/537)
+
+- [x] feature-interaction-keyboard-shortcuts-v0 :: Interaction v0: add keyboard shortcuts for high-frequency dashboard/funds hub actions (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/538)
+
+- [x] mainline-goal-keep-next-js-as-the-only-public-backend-for-with-postgres-persistence-v0 :: Mainline GOAL: Keep Next.js as the ONLY public backend for `/api/daa/*` with Postgres persistence. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/539)
 ## Log (Recent)
 
 - 2026-02-19 07:51 activated backend-engine-service-contract-hardening-v5 (lane fallback)
@@ -139,3 +152,21 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - 2026-02-19 13:03 backlog-guard added feature-dashboard-guided-empty-state-v0
 
 - 2026-02-19 13:10 llm-autofill added feature-funds-hub-trade-execution-checklist-v0
+
+- 2026-02-19 13:31 activated feature-dashboard-guided-empty-state-v0
+
+- 2026-02-19 13:41 backlog-guard added feature-interaction-keyboard-shortcuts-v0
+
+- 2026-02-19 13:41 activated feature-funds-hub-trade-execution-checklist-v0
+
+- 2026-02-19 13:51 backlog-guard added mainline-goal-keep-next-js-as-the-only-public-backend-for-with-postgres-persistence-v0
+
+- 2026-02-19 13:51 activated feature-interaction-keyboard-shortcuts-v0
+
+- 2026-02-19 14:01 backlog-guard added mainline-goal-increase-user-visible-delivery-ui-polish-interaction-flow-and-practical-operator-features-v0
+
+- 2026-02-19 14:01 activated mainline-goal-keep-next-js-as-the-only-public-backend-for-with-postgres-persistence-v0
+
+- 2026-02-19 14:11 backlog-guard added mainline-goal-keep-daa-workflow-reliable-while-improving-speed-to-action-for-daily-operations-v0
+
+- 2026-02-19 14:11 activated mainline-goal-increase-user-visible-delivery-ui-polish-interaction-flow-and-practical-operator-features-v0 (lane fallback)
