@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) NOW: feature-analyst-correlation-diversity-check-v0 :: Feature sprint: add analyst-style correlation diversity check to prevent hidden concentration
+- [ ] (auto) Nothing active
 
 ## Backlog
 
@@ -38,7 +38,6 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 
 
 
-- [ ] feature-analyst-correlation-diversity-check-v0 :: Feature sprint: add analyst-style correlation diversity check to prevent hidden concentration
 ## Done (Recent)
 
 - [x] backend-nextjs-postgres-platform-hardening-v4 :: Follow-up hardening: Backend system A follow-up: close remaining Next.js + Postgres API boundary and migration gaps (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/500)
@@ -180,6 +179,8 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - [x] feature-monthly-attribution-evolution-report-v0 :: Feature sprint: add monthly attribution report splitting rebalance alpha vs human-factor alpha vs avoided loss (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/568)
 
 - [x] feature-black-swan-consensus-warning-v0 :: Feature sprint: add black-swan consensus warning when elite cohort shifts to defense (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/569)
+
+- [x] feature-analyst-correlation-diversity-check-v0 :: Feature sprint: add analyst-style correlation diversity check to prevent hidden concentration (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/570)
 ## Log (Recent)
 
 - 2026-02-19 07:51 activated backend-engine-service-contract-hardening-v5 (lane fallback)
