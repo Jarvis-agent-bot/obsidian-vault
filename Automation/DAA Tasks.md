@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) NOW: mainline-dod-each-milestone-pr-includes-at-least-one-user-visible-functional-change-not-v0 :: Mainline DOD: Each milestone PR includes at least one user-visible functional change (not test-only).
+- [ ] (auto) NOW: mainline-dod-shows-decision-transparency-for-targeted-slice-inputs-gates-and-rationale-v0 :: Mainline DOD: `/daa/market/funds` shows decision transparency for targeted slice (inputs, gates, and rationale).
 
 ## Backlog
 
@@ -43,22 +43,13 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 
 
 
-- [ ] mainline-dod-each-milestone-pr-includes-at-least-one-user-visible-functional-change-not-v0 :: Mainline DOD: Each milestone PR includes at least one user-visible functional change (not test-only).
 
 - [ ] mainline-dod-shows-decision-transparency-for-targeted-slice-inputs-gates-and-rationale-v0 :: Mainline DOD: `/daa/market/funds` shows decision transparency for targeted slice (inputs, gates, and rationale).
+
+- [ ] mainline-dod-scenario-routing-is-explicit-and-testable-v0 :: Mainline DOD: Scenario routing is explicit and testable:
+
+- [ ] mainline-dod-shows-decision--maint-refactor-cb29a7-v0 :: Refactor oversized files touched by mainline-dod-shows-decision-transparency-for-targeted-slice-inputs-gates-and-rationale-v0: split app/daa/market/funds/_components/DaaRebalancePanel.tsx:6659 into focused modules with tests
 ## Done (Recent)
-
-- [x] feature-black-swan-consensus-warning-v0 :: Feature sprint: add black-swan consensus warning when elite cohort shifts to defense (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/569)
-
-- [x] feature-analyst-correlation-diversity-check-v0 :: Feature sprint: add analyst-style correlation diversity check to prevent hidden concentration (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/570)
-
-- [x] mainline-goal-deliver-a-usable-w-qat-decision-flow-v0 :: Mainline GOAL: Deliver a usable W_qat decision flow: (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/571)
-
-- [x] mainline-goal-task-v0 :: Mainline GOAL: `W_qat = W_base * H_multiplier * AI_bias` (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/572)
-
-- [x] mainline-goal-operator-visible-factor-trace-for-every-recommendation-v0 :: Mainline GOAL: operator-visible factor trace for every recommendation. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/573)
-
-- [x] mainline-goal-build-human-factor-evaluation-and-logic-consistency-loop-v0 :: Mainline GOAL: Build human-factor evaluation and logic-consistency loop: (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/574)
 
 - [x] mainline-goal-analyst-manager-tiering-elite-neutral-incompetent-v0 :: Mainline GOAL: analyst/manager tiering (elite/neutral/incompetent) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/575)
 
@@ -73,21 +64,11 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - [x] mainline-goal-t-n-settlement-and-cash-gap-gating-v0 :: Mainline GOAL: T+N settlement and cash-gap gating. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/581)
 
 - [x] mainline-goal-keep-ai-as-recommender-only-no-auto-trade-execution-v0 :: Mainline GOAL: Keep AI as recommender only (no auto trade execution). (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/582)
+
+- [x] mainline-dod-each-milestone-pr-includes-at-least-one-user-visible-functional-change-not-v0 :: Mainline DOD: Each milestone PR includes at least one user-visible functional change (not test-only). (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/583)
+
 ## Log (Recent)
 
-- 2026-02-19 21:21 activated feature-risk-tag-maxin-lock-center-v0
-- 2026-02-19 21:31 activated feature-liquidity-settlement-pretrade-gate-v0
-- 2026-02-19 21:52 activated feature-monthly-attribution-evolution-report-v0
-- 2026-02-19 22:01 activated feature-black-swan-consensus-warning-v0
-- 2026-02-19 22:11 activated feature-analyst-correlation-diversity-check-v0
-- 2026-02-20 00:10 backlog-guard added mainline-goal-deliver-a-usable-w-qat-decision-flow-v0
-- 2026-02-20 00:10 activated mainline-goal-deliver-a-usable-w-qat-decision-flow-v0
-- 2026-02-20 00:20 backlog-guard added mainline-goal-task-v0
-- 2026-02-20 00:20 activated mainline-goal-task-v0 (lane fallback)
-- 2026-02-20 00:30 backlog-guard added mainline-goal-operator-visible-factor-trace-for-every-recommendation-v0
-- 2026-02-20 00:30 activated mainline-goal-operator-visible-factor-trace-for-every-recommendation-v0 (lane fallback)
-- 2026-02-20 00:40 backlog-guard added mainline-goal-build-human-factor-evaluation-and-logic-consistency-loop-v0
-- 2026-02-20 00:40 activated mainline-goal-build-human-factor-evaluation-and-logic-consistency-loop-v0 (lane fallback)
 - 2026-02-20 00:50 backlog-guard added mainline-goal-analyst-manager-tiering-elite-neutral-incompetent-v0
 - 2026-02-20 00:50 activated mainline-goal-analyst-manager-tiering-elite-neutral-incompetent-v0 (lane fallback)
 - 2026-02-20 01:00 backlog-guard added mainline-goal-thesis-regime-drift-alerts-and-controlled-down-weighting-v0
@@ -95,24 +76,25 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - 2026-02-20 01:10 backlog-guard added mainline-goal-enforce-guardrail-first-execution-v0
 - 2026-02-20 01:10 activated mainline-goal-enforce-guardrail-first-execution-v0 (lane fallback)
 - 2026-02-20 01:30 backlog-guard added mainline-goal-maxin-maxout-limits-v0
-
-
 - 2026-02-20 13:05 activated mainline-goal-maxin-maxout-limits-v0 (lane fallback)
-
 - 2026-02-20 13:10 backlog-guard added mainline-goal-liquidity-caps-v0
-
 - 2026-02-20 13:11 activated mainline-goal-liquidity-caps-v0 (lane fallback)
-
 - 2026-02-20 13:30 backlog-guard added mainline-goal-t-n-settlement-and-cash-gap-gating-v0
-
 - 2026-02-21 02:32 activated mainline-goal-t-n-settlement-and-cash-gap-gating-v0 (lane fallback)
-
 - 2026-02-21 02:40 backlog-guard added mainline-goal-keep-ai-as-recommender-only-no-auto-trade-execution-v0
-
 - 2026-02-21 02:50 activated mainline-goal-keep-ai-as-recommender-only-no-auto-trade-execution-v0 (lane fallback)
-
 - 2026-02-21 03:00 backlog-guard added mainline-dod-each-milestone-pr-includes-at-least-one-user-visible-functional-change-not-v0
-
 - 2026-02-21 03:02 activated mainline-dod-each-milestone-pr-includes-at-least-one-user-visible-functional-change-not-v0 (lane fallback)
-
 - 2026-02-21 03:10 backlog-guard added mainline-dod-shows-decision-transparency-for-targeted-slice-inputs-gates-and-rationale-v0
+- 2026-02-21 03:20 activated mainline-dod-shows-decision-transparency-for-targeted-slice-inputs-gates-and-rationale-v0 (lane fallback)
+- 2026-02-21 03:30 backlog-guard added mainline-dod-scenario-routing-is-explicit-and-testable-v0
+- 2026-02-21 03:32 maint-gate blocked mainline-dod-shows-decision-transparency-for-targeted-slice-inputs-gates-and-rationale-v0: app/daa/market/funds/_components/DaaRebalancePanel.tsx:6659
+
+
+- 2026-02-21 03:40 maint-gate blocked mainline-dod-shows-decision-transparency-for-targeted-slice-inputs-gates-and-rationale-v0: app/daa/market/funds/_components/DaaRebalancePanel.tsx:6659
+
+- 2026-02-21 03:50 maint-gate blocked mainline-dod-shows-decision-transparency-for-targeted-slice-inputs-gates-and-rationale-v0: app/daa/market/funds/_components/DaaRebalancePanel.tsx:6659
+
+- 2026-02-21 04:00 maint-gate blocked mainline-dod-shows-decision-transparency-for-targeted-slice-inputs-gates-and-rationale-v0: app/daa/market/funds/_components/DaaRebalancePanel.tsx:6659
+
+- 2026-02-21 04:10 maint-gate blocked mainline-dod-shows-decision-transparency-for-targeted-slice-inputs-gates-and-rationale-v0: app/daa/market/funds/_components/DaaRebalancePanel.tsx:6659

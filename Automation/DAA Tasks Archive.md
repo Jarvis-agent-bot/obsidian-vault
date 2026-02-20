@@ -877,6 +877,18 @@
 - [x] feature-liquidity-settlement-pretrade-gate-v0 :: Feature sprint: add pre-trade liquidity and T+N settlement gate with cash-gap forecast (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/567)
 
 - [x] feature-monthly-attribution-evolution-report-v0 :: Feature sprint: add monthly attribution report splitting rebalance alpha vs human-factor alpha vs avoided loss (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/568)
+
+- [x] feature-black-swan-consensus-warning-v0 :: Feature sprint: add black-swan consensus warning when elite cohort shifts to defense (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/569)
+
+- [x] feature-analyst-correlation-diversity-check-v0 :: Feature sprint: add analyst-style correlation diversity check to prevent hidden concentration (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/570)
+
+- [x] mainline-goal-deliver-a-usable-w-qat-decision-flow-v0 :: Mainline GOAL: Deliver a usable W_qat decision flow: (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/571)
+
+- [x] mainline-goal-task-v0 :: Mainline GOAL: `W_qat = W_base * H_multiplier * AI_bias` (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/572)
+
+- [x] mainline-goal-operator-visible-factor-trace-for-every-recommendation-v0 :: Mainline GOAL: operator-visible factor trace for every recommendation. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/573)
+
+- [x] mainline-goal-build-human-factor-evaluation-and-logic-consistency-loop-v0 :: Mainline GOAL: Build human-factor evaluation and logic-consistency loop: (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/574)
 ## Log
 
 - 2026-02-12 13:25 DONE rebalance-engine-core-v0 → merged PR #105: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/105
@@ -2099,3 +2111,17 @@
 - 2026-02-19 20:52 activated feature-analyst-logic-consistency-alerts-v0
 - 2026-02-19 21:01 activated feature-qat-weight-adjusted-targets-v0
 - 2026-02-19 21:11 activated feature-rebalance-scenario-a-b-gates-v0
+
+- 2026-02-19 21:21 activated feature-risk-tag-maxin-lock-center-v0
+- 2026-02-19 21:31 activated feature-liquidity-settlement-pretrade-gate-v0
+- 2026-02-19 21:52 activated feature-monthly-attribution-evolution-report-v0
+- 2026-02-19 22:01 activated feature-black-swan-consensus-warning-v0
+- 2026-02-19 22:11 activated feature-analyst-correlation-diversity-check-v0
+- 2026-02-20 00:10 backlog-guard added mainline-goal-deliver-a-usable-w-qat-decision-flow-v0
+- 2026-02-20 00:10 activated mainline-goal-deliver-a-usable-w-qat-decision-flow-v0
+- 2026-02-20 00:20 backlog-guard added mainline-goal-task-v0
+- 2026-02-20 00:20 activated mainline-goal-task-v0 (lane fallback)
+- 2026-02-20 00:30 backlog-guard added mainline-goal-operator-visible-factor-trace-for-every-recommendation-v0
+- 2026-02-20 00:30 activated mainline-goal-operator-visible-factor-trace-for-every-recommendation-v0 (lane fallback)
+- 2026-02-20 00:40 backlog-guard added mainline-goal-build-human-factor-evaluation-and-logic-consistency-loop-v0
+- 2026-02-20 00:40 activated mainline-goal-build-human-factor-evaluation-and-logic-consistency-loop-v0 (lane fallback)
