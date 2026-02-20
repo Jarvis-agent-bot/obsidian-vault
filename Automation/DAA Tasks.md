@@ -110,3 +110,15 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - 2026-02-21 05:00 maint-gate blocked mainline-dod-shows-decision-transparency-for-targeted-slice-inputs-gates-and-rationale-v0: app/daa/market/funds/_components/DaaRebalancePanel.tsx:6659
 
 - 2026-02-21 05:10 maint-gate blocked mainline-dod-shows-decision-transparency-for-targeted-slice-inputs-gates-and-rationale-v0: app/daa/market/funds/_components/DaaRebalancePanel.tsx:6659
+
+- 2026-02-21 05:20 maint-gate blocked mainline-dod-shows-decision-transparency-for-targeted-slice-inputs-gates-and-rationale-v0: app/daa/market/funds/_components/DaaRebalancePanel.tsx:6659
+
+- 2026-02-21 05:30 maint-gate blocked mainline-dod-shows-decision-transparency-for-targeted-slice-inputs-gates-and-rationale-v0: app/daa/market/funds/_components/DaaRebalancePanel.tsx:6659
+
+- 2026-02-21 05:40 maint-gate blocked mainline-dod-shows-decision-transparency-for-targeted-slice-inputs-gates-and-rationale-v0: app/daa/market/funds/_components/DaaRebalancePanel.tsx:6659
+
+- 2026-02-21 05:50 maint-gate blocked mainline-dod-shows-decision-transparency-for-targeted-slice-inputs-gates-and-rationale-v0: app/daa/market/funds/_components/DaaRebalancePanel.tsx:6659
+
+- 2026-02-21 06:00 maint-gate blocked mainline-dod-shows-decision-transparency-for-targeted-slice-inputs-gates-and-rationale-v0: app/daa/market/funds/_components/DaaRebalancePanel.tsx:6659
+
+- 2026-02-21 06:10 maint-gate blocked mainline-dod-shows-decision-transparency-for-targeted-slice-inputs-gates-and-rationale-v0: app/daa/market/funds/_components/DaaRebalancePanel.tsx:6659
