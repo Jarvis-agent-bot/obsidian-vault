@@ -41,6 +41,8 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 
 
 - [ ] mainline-goal-liquidity-caps-v0 :: Mainline GOAL: liquidity caps
+
+- [ ] mainline-goal-t-n-settlement-and-cash-gap-gating-v0 :: Mainline GOAL: T+N settlement and cash-gap gating.
 ## Done (Recent)
 
 - [x] feature-black-swan-consensus-warning-v0 :: Feature sprint: add black-swan consensus warning when elite cohort shifts to defense (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/569)
@@ -91,3 +93,5 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - 2026-02-20 13:10 backlog-guard added mainline-goal-liquidity-caps-v0
 
 - 2026-02-20 13:11 activated mainline-goal-liquidity-caps-v0 (lane fallback)
+
+- 2026-02-20 13:30 backlog-guard added mainline-goal-t-n-settlement-and-cash-gap-gating-v0
