@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) NOW: mainline-goal-liquidity-caps-v0 :: Mainline GOAL: liquidity caps
+- [ ] (auto) NOW: mainline-dod-each-milestone-pr-includes-at-least-one-user-visible-functional-change-not-v0 :: Mainline DOD: Each milestone PR includes at least one user-visible functional change (not test-only).
 
 ## Backlog
 
@@ -40,9 +40,12 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 
 
 
-- [ ] mainline-goal-liquidity-caps-v0 :: Mainline GOAL: liquidity caps
 
-- [ ] mainline-goal-t-n-settlement-and-cash-gap-gating-v0 :: Mainline GOAL: T+N settlement and cash-gap gating.
+
+
+- [ ] mainline-dod-each-milestone-pr-includes-at-least-one-user-visible-functional-change-not-v0 :: Mainline DOD: Each milestone PR includes at least one user-visible functional change (not test-only).
+
+- [ ] mainline-dod-shows-decision-transparency-for-targeted-slice-inputs-gates-and-rationale-v0 :: Mainline DOD: `/daa/market/funds` shows decision transparency for targeted slice (inputs, gates, and rationale).
 ## Done (Recent)
 
 - [x] feature-black-swan-consensus-warning-v0 :: Feature sprint: add black-swan consensus warning when elite cohort shifts to defense (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/569)
@@ -64,6 +67,12 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - [x] mainline-goal-enforce-guardrail-first-execution-v0 :: Mainline GOAL: Enforce guardrail-first execution: (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/577)
 
 - [x] mainline-goal-maxin-maxout-limits-v0 :: Mainline GOAL: MaxIn/MaxOut limits (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/578)
+
+- [x] mainline-goal-liquidity-caps-v0 :: Mainline GOAL: liquidity caps (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/580)
+
+- [x] mainline-goal-t-n-settlement-and-cash-gap-gating-v0 :: Mainline GOAL: T+N settlement and cash-gap gating. (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/581)
+
+- [x] mainline-goal-keep-ai-as-recommender-only-no-auto-trade-execution-v0 :: Mainline GOAL: Keep AI as recommender only (no auto trade execution). (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/582)
 ## Log (Recent)
 
 - 2026-02-19 21:21 activated feature-risk-tag-maxin-lock-center-v0
@@ -95,3 +104,15 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - 2026-02-20 13:11 activated mainline-goal-liquidity-caps-v0 (lane fallback)
 
 - 2026-02-20 13:30 backlog-guard added mainline-goal-t-n-settlement-and-cash-gap-gating-v0
+
+- 2026-02-21 02:32 activated mainline-goal-t-n-settlement-and-cash-gap-gating-v0 (lane fallback)
+
+- 2026-02-21 02:40 backlog-guard added mainline-goal-keep-ai-as-recommender-only-no-auto-trade-execution-v0
+
+- 2026-02-21 02:50 activated mainline-goal-keep-ai-as-recommender-only-no-auto-trade-execution-v0 (lane fallback)
+
+- 2026-02-21 03:00 backlog-guard added mainline-dod-each-milestone-pr-includes-at-least-one-user-visible-functional-change-not-v0
+
+- 2026-02-21 03:02 activated mainline-dod-each-milestone-pr-includes-at-least-one-user-visible-functional-change-not-v0 (lane fallback)
+
+- 2026-02-21 03:10 backlog-guard added mainline-dod-shows-decision-transparency-for-targeted-slice-inputs-gates-and-rationale-v0
