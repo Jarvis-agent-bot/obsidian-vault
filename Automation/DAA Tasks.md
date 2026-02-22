@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) Nothing active
+- [ ] (auto) NOW: fix-analyst-correlation-dive-maint-refactor-a4bb36-v14 :: Follow-up hardening: Refactor oversized files touched by fix-analyst-correlation-dive-maint-refactor-947acf-v0: split app/daa/market/funds/_components/DaaRebalancePanel.tsx:1940 into focused modules with tests
 
 ## Backlog
 
@@ -66,6 +66,8 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 
 
 
+
+- [ ] fix-analyst-correlation-dive-maint-refactor-a4bb36-v14 :: Follow-up hardening: Refactor oversized files touched by fix-analyst-correlation-dive-maint-refactor-947acf-v0: split app/daa/market/funds/_components/DaaRebalancePanel.tsx:1940 into focused modules with tests
 ## Done (Recent)
 
 - [x] mainline-goal-analyst-manager-tiering-elite-neutral-incompetent-v0 :: Mainline GOAL: analyst/manager tiering (elite/neutral/incompetent) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/575)
@@ -153,6 +155,12 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - [x] fix-analyst-correlation-dive-maint-refactor-a4bb36-v9 :: Follow-up hardening: Refactor oversized files touched by fix-analyst-correlation-dive-maint-refactor-947acf-v0: split app/daa/market/funds/_components/DaaRebalancePanel.tsx:1940 into focused modules with tests (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/617)
 
 - [x] fix-analyst-correlation-dive-maint-refactor-a4bb36-v10 :: Follow-up hardening: Refactor oversized files touched by fix-analyst-correlation-dive-maint-refactor-947acf-v0: split app/daa/market/funds/_components/DaaRebalancePanel.tsx:1940 into focused modules with tests (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/618)
+
+- [x] fix-analyst-correlation-dive-maint-refactor-a4bb36-v11 :: Follow-up hardening: Refactor oversized files touched by fix-analyst-correlation-dive-maint-refactor-947acf-v0: split app/daa/market/funds/_components/DaaRebalancePanel.tsx:1940 into focused modules with tests (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/619)
+
+- [x] fix-analyst-correlation-dive-maint-refactor-a4bb36-v12 :: Follow-up hardening: Refactor oversized files touched by fix-analyst-correlation-dive-maint-refactor-947acf-v0: split app/daa/market/funds/_components/DaaRebalancePanel.tsx:1940 into focused modules with tests (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/620)
+
+- [x] fix-analyst-correlation-dive-maint-refactor-a4bb36-v13 :: Follow-up hardening: Refactor oversized files touched by fix-analyst-correlation-dive-maint-refactor-947acf-v0: split app/daa/market/funds/_components/DaaRebalancePanel.tsx:1940 into focused modules with tests (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/621)
 ## Log (Recent)
 
 - 2026-02-20 00:50 backlog-guard added mainline-goal-analyst-manager-tiering-elite-neutral-incompetent-v0
@@ -402,3 +410,19 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - 2026-02-22 23:00 backlog-guard added fix-analyst-correlation-dive-maint-refactor-a4bb36-v10
 
 - 2026-02-22 23:00 activated fix-analyst-correlation-dive-maint-refactor-a4bb36-v10 (lane fallback)
+
+- 2026-02-22 23:15 backlog-guard added fix-analyst-correlation-dive-maint-refactor-a4bb36-v11
+
+- 2026-02-22 23:15 activated fix-analyst-correlation-dive-maint-refactor-a4bb36-v11 (lane fallback)
+
+- 2026-02-22 23:30 backlog-guard added fix-analyst-correlation-dive-maint-refactor-a4bb36-v12
+
+- 2026-02-22 23:30 activated fix-analyst-correlation-dive-maint-refactor-a4bb36-v12 (lane fallback)
+
+- 2026-02-22 23:45 backlog-guard added fix-analyst-correlation-dive-maint-refactor-a4bb36-v13
+
+- 2026-02-22 23:45 activated fix-analyst-correlation-dive-maint-refactor-a4bb36-v13 (lane fallback)
+
+- 2026-02-23 00:00 backlog-guard added fix-analyst-correlation-dive-maint-refactor-a4bb36-v14
+
+- 2026-02-23 00:01 activated fix-analyst-correlation-dive-maint-refactor-a4bb36-v14 (lane fallback)
