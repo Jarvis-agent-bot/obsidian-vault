@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) NOW: fix-analyst-correlation-dive-maint-refactor-a4bb36-v16 :: Follow-up hardening: Refactor oversized files touched by fix-analyst-correlation-dive-maint-refactor-947acf-v0: split app/daa/market/funds/_components/DaaRebalancePanel.tsx:1940 into focused modules with tests
+- [ ] (auto) NOW: backend-qat-decision-matrix-engine-v0 :: 后端能力：W_qat 决策矩阵引擎（H_multiplier + AI_bias + 再平衡阈值联动）
 
 ## Backlog
 
@@ -69,17 +69,13 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 
 
 
-- [ ] fix-analyst-correlation-dive-maint-refactor-a4bb36-v16 :: Follow-up hardening: Refactor oversized files touched by fix-analyst-correlation-dive-maint-refactor-947acf-v0: split app/daa/market/funds/_components/DaaRebalancePanel.tsx:1940 into focused modules with tests
 
-- [ ] feature-real-data-cross-market-ledger-v0 :: 真实数据主线：打通 A/H/US 统一估值账本（汇率折算+仓位快照+可审计来源）
 
-- [ ] backend-humanfactor-logic-consistency-scoring-v0 :: 后端能力：人因评分与逻辑一致性引擎（结论-依据-结果闭环打分）
 
 - [ ] backend-qat-decision-matrix-engine-v0 :: 后端能力：W_qat 决策矩阵引擎（H_multiplier + AI_bias + 再平衡阈值联动）
 
 - [ ] uiux-daa-integrated-decision-workbench-v0 :: UIUX：DAA 决策工作台（人因标签/阈值/建议买卖/风控约束同屏）
 
-- [ ] feature-monthly-attribution-self-evolution-v0 :: 主线闭环：月度归因与自我进化报告（收益来源拆分+W_base 调整建议）
 ## Done (Recent)
 
 - [x] mainline-goal-analyst-manager-tiering-elite-neutral-incompetent-v0 :: Mainline GOAL: analyst/manager tiering (elite/neutral/incompetent) (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/575)
@@ -177,6 +173,14 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - [x] fix-analyst-correlation-dive-maint-refactor-a4bb36-v14 :: Follow-up hardening: Refactor oversized files touched by fix-analyst-correlation-dive-maint-refactor-947acf-v0: split app/daa/market/funds/_components/DaaRebalancePanel.tsx:1940 into focused modules with tests (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/622)
 
 - [x] fix-analyst-correlation-dive-maint-refactor-a4bb36-v15 :: Follow-up hardening: Refactor oversized files touched by fix-analyst-correlation-dive-maint-refactor-947acf-v0: split app/daa/market/funds/_components/DaaRebalancePanel.tsx:1940 into focused modules with tests (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/623)
+
+- [x] fix-analyst-correlation-dive-maint-refactor-a4bb36-v16 :: Follow-up hardening: Refactor oversized files touched by fix-analyst-correlation-dive-maint-refactor-947acf-v0: split app/daa/market/funds/_components/DaaRebalancePanel.tsx:1940 into focused modules with tests (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/624)
+
+- [x] feature-real-data-cross-market-ledger-v0 :: 真实数据主线：打通 A/H/US 统一估值账本（汇率折算+仓位快照+可审计来源） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/625)
+
+- [x] backend-humanfactor-logic-consistency-scoring-v0 :: 后端能力：人因评分与逻辑一致性引擎（结论-依据-结果闭环打分） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/626)
+
+- [x] feature-monthly-attribution-self-evolution-v0 :: 主线闭环：月度归因与自我进化报告（收益来源拆分+W_base 调整建议） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/627)
 ## Log (Recent)
 
 - 2026-02-20 00:50 backlog-guard added mainline-goal-analyst-manager-tiering-elite-neutral-incompetent-v0
@@ -452,3 +456,11 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - 2026-02-23 00:31 activated fix-analyst-correlation-dive-maint-refactor-a4bb36-v16 (lane fallback)
 
 - 2026-02-23 02:11 seeded backlog from new DAA architecture guide: real-data + uiux + backend capability
+
+- 2026-02-23 02:18 activated feature-real-data-cross-market-ledger-v0
+
+- 2026-02-23 02:33 activated backend-humanfactor-logic-consistency-scoring-v0
+
+- 2026-02-23 02:49 activated feature-monthly-attribution-self-evolution-v0
+
+- 2026-02-23 03:03 activated backend-qat-decision-matrix-engine-v0
