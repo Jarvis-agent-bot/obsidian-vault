@@ -133,6 +133,10 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - [x] fix-analyst-correlation-dive-maint-refactor-a4bb36-v0 :: Refactor oversized files touched by fix-analyst-correlation-dive-maint-refactor-947acf-v0: split app/daa/market/funds/_components/DaaRebalancePanel.tsx:1940 into focused modules with tests (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/607)
 
 - [x] fix-analyst-correlation-dive-maint-refactor-0f7c29-v0 :: Refactor oversized files touched by fix-analyst-correlation-dive-maint-refactor-947acf-v0: split app/daa/market/funds/_components/DaaRebalancePanel.tsx:1939 into focused modules with tests (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/608)
+
+- [x] fix-analyst-correlation-dive-maint-refactor-a4bb36-v1 :: Follow-up hardening: Refactor oversized files touched by fix-analyst-correlation-dive-maint-refactor-947acf-v0: split app/daa/market/funds/_components/DaaRebalancePanel.tsx:1940 into focused modules with tests (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/609)
+
+- [x] fix-analyst-correlation-dive-maint-refactor-a4bb36-v2 :: Follow-up hardening: Refactor oversized files touched by fix-analyst-correlation-dive-maint-refactor-947acf-v0: split app/daa/market/funds/_components/DaaRebalancePanel.tsx:1940 into focused modules with tests (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/610)
 ## Log (Recent)
 
 - 2026-02-20 00:50 backlog-guard added mainline-goal-analyst-manager-tiering-elite-neutral-incompetent-v0
@@ -342,3 +346,11 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - 2026-02-22 19:01 activated fix-analyst-correlation-dive-maint-refactor-a4bb36-v0 (lane fallback)
 
 - 2026-02-22 19:30 activated fix-analyst-correlation-dive-maint-refactor-0f7c29-v0 (lane fallback)
+
+- 2026-02-22 20:45 backlog-guard added fix-analyst-correlation-dive-maint-refactor-a4bb36-v1
+
+- 2026-02-22 20:45 activated fix-analyst-correlation-dive-maint-refactor-a4bb36-v1 (lane fallback)
+
+- 2026-02-22 21:00 backlog-guard added fix-analyst-correlation-dive-maint-refactor-a4bb36-v2
+
+- 2026-02-22 21:00 activated fix-analyst-correlation-dive-maint-refactor-a4bb36-v2 (lane fallback)
