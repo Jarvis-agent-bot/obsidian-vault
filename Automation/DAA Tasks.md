@@ -93,6 +93,8 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - [x] backend-qat-decision-matrix-engine-v0 :: 后端能力：W_qat 决策矩阵引擎（H_multiplier + AI_bias + 再平衡阈值联动） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/628)
 
 - [x] uiux-daa-integrated-decision-workbench-v0 :: UIUX：DAA 决策工作台（人因标签/阈值/建议买卖/风控约束同屏） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/629)
+
+- [x] uiux-daa-integrated-decision-workbench-v1 :: Follow-up hardening: UIUX：DAA 决策工作台（人因标签/阈值/建议买卖/风控约束同屏） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/630)
 ## Log (Recent)
 
 - 2026-02-22 23:00 backlog-guard added fix-analyst-correlation-dive-maint-refactor-a4bb36-v10
@@ -116,3 +118,7 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - 2026-02-23 03:03 activated backend-qat-decision-matrix-engine-v0
 - 2026-02-23 03:20 activated uiux-daa-integrated-decision-workbench-v0 (lane fallback)
 
+
+- 2026-02-23 07:32 backlog-guard added uiux-daa-integrated-decision-workbench-v1
+
+- 2026-02-23 07:33 activated uiux-daa-integrated-decision-workbench-v1 (lane fallback)
