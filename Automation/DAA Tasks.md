@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) NOW: backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v4 :: Bugfix auto-detected from cycle failures: E_DELEGATE_NO_PR repeatedly hit on mainline-dod-sends-email-via-resend-v4 (count=8); close root cause and add regression guard
+- [ ] (auto) NOW: backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v7 :: Bugfix auto-detected from cycle failures: E_DELEGATE_NO_PR repeatedly hit on mainline-dod-sends-email-via-resend-v4 (count=8); close root cause and add regression guard
 
 ## Backlog
 
@@ -77,7 +77,10 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 
 
 
-- [ ] backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v4 :: Bugfix auto-detected from cycle failures: E_DELEGATE_NO_PR repeatedly hit on mainline-dod-sends-email-via-resend-v4 (count=8); close root cause and add regression guard
+
+
+
+- [ ] backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v7 :: Bugfix auto-detected from cycle failures: E_DELEGATE_NO_PR repeatedly hit on mainline-dod-sends-email-via-resend-v4 (count=8); close root cause and add regression guard
 ## Done (Recent)
 
 - [x] fix-analyst-correlation-dive-maint-refactor-a4bb36-v13 :: Follow-up hardening: Refactor oversized files touched by fix-analyst-correlation-dive-maint-refactor-947acf-v0: split app/daa/market/funds/_components/DaaRebalancePanel.tsx:1940 into focused modules with tests (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/621)
@@ -105,6 +108,12 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - [x] backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v2 :: Bugfix auto-detected from cycle failures: E_DELEGATE_NO_PR repeatedly hit on mainline-dod-sends-email-via-resend-v4 (count=8); close root cause and add regression guard (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/632)
 
 - [x] backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v3 :: Bugfix auto-detected from cycle failures: E_DELEGATE_NO_PR repeatedly hit on mainline-dod-sends-email-via-resend-v4 (count=8); close root cause and add regression guard (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/633)
+
+- [x] backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v4 :: Bugfix auto-detected from cycle failures: E_DELEGATE_NO_PR repeatedly hit on mainline-dod-sends-email-via-resend-v4 (count=8); close root cause and add regression guard (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/634)
+
+- [x] backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v5 :: Bugfix auto-detected from cycle failures: E_DELEGATE_NO_PR repeatedly hit on mainline-dod-sends-email-via-resend-v4 (count=8); close root cause and add regression guard (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/635)
+
+- [x] backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v6 :: Bugfix auto-detected from cycle failures: E_DELEGATE_NO_PR repeatedly hit on mainline-dod-sends-email-via-resend-v4 (count=8); close root cause and add regression guard (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/636)
 ## Log (Recent)
 
 - 2026-02-22 23:00 backlog-guard added fix-analyst-correlation-dive-maint-refactor-a4bb36-v10
@@ -148,3 +157,15 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - 2026-02-23 09:00 backlog-guard added backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v4
 
 - 2026-02-23 09:03 activated backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v4 (lane fallback)
+
+- 2026-02-23 09:15 backlog-guard added backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v5
+
+- 2026-02-23 09:18 activated backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v5 (lane fallback)
+
+- 2026-02-23 09:30 backlog-guard added backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v6
+
+- 2026-02-23 09:34 activated backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v6 (lane fallback)
+
+- 2026-02-23 09:45 backlog-guard added backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v7
+
+- 2026-02-23 10:02 activated backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v7 (lane fallback)
