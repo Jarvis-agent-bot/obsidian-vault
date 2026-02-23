@@ -2,7 +2,7 @@
 
 ## Now
 
-- [ ] (auto) Nothing active
+- [ ] (auto) NOW: backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v4 :: Bugfix auto-detected from cycle failures: E_DELEGATE_NO_PR repeatedly hit on mainline-dod-sends-email-via-resend-v4 (count=8); close root cause and add regression guard
 
 ## Backlog
 
@@ -74,6 +74,10 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 
 
 
+
+
+
+- [ ] backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v4 :: Bugfix auto-detected from cycle failures: E_DELEGATE_NO_PR repeatedly hit on mainline-dod-sends-email-via-resend-v4 (count=8); close root cause and add regression guard
 ## Done (Recent)
 
 - [x] fix-analyst-correlation-dive-maint-refactor-a4bb36-v13 :: Follow-up hardening: Refactor oversized files touched by fix-analyst-correlation-dive-maint-refactor-947acf-v0: split app/daa/market/funds/_components/DaaRebalancePanel.tsx:1940 into focused modules with tests (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/621)
@@ -95,6 +99,12 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - [x] uiux-daa-integrated-decision-workbench-v0 :: UIUX：DAA 决策工作台（人因标签/阈值/建议买卖/风控约束同屏） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/629)
 
 - [x] uiux-daa-integrated-decision-workbench-v1 :: Follow-up hardening: UIUX：DAA 决策工作台（人因标签/阈值/建议买卖/风控约束同屏） (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/630)
+
+- [x] backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v1 :: Bugfix auto-detected from cycle failures: E_DELEGATE_NO_PR repeatedly hit on mainline-dod-sends-email-via-resend-v4 (count=7); close root cause and add regression guard (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/631)
+
+- [x] backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v2 :: Bugfix auto-detected from cycle failures: E_DELEGATE_NO_PR repeatedly hit on mainline-dod-sends-email-via-resend-v4 (count=8); close root cause and add regression guard (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/632)
+
+- [x] backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v3 :: Bugfix auto-detected from cycle failures: E_DELEGATE_NO_PR repeatedly hit on mainline-dod-sends-email-via-resend-v4 (count=8); close root cause and add regression guard (PR: https://github.com/Jarvis-agent-bot/Dynamic-Asset-Allocation/pull/633)
 ## Log (Recent)
 
 - 2026-02-22 23:00 backlog-guard added fix-analyst-correlation-dive-maint-refactor-a4bb36-v10
@@ -122,3 +132,19 @@ Planning override (2026-02-19): feature-first, user-visible outcome required, ba
 - 2026-02-23 07:32 backlog-guard added uiux-daa-integrated-decision-workbench-v1
 
 - 2026-02-23 07:33 activated uiux-daa-integrated-decision-workbench-v1 (lane fallback)
+
+- 2026-02-23 08:22 backlog-guard added backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v1
+
+- 2026-02-23 08:22 activated backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v1 (lane fallback)
+
+- 2026-02-23 08:30 backlog-guard added backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v2
+
+- 2026-02-23 08:35 activated backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v2 (lane fallback)
+
+- 2026-02-23 08:45 backlog-guard added backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v3
+
+- 2026-02-23 08:49 activated backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v3 (lane fallback)
+
+- 2026-02-23 09:00 backlog-guard added backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v4
+
+- 2026-02-23 09:03 activated backend-auto-mainline-dod-sends-email-via-resend-v4-e-delegate-no-pr-recovery-v4 (lane fallback)
